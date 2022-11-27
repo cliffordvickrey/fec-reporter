@@ -80,7 +80,7 @@ if (null !== $totalType) {
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-6">
-                                        <button class="btn btn-secondary" id="fec-clear">Clear</button>
+                                        <button class="btn btn-secondary mt-3 mt-lg-0" id="fec-clear">Clear</button>
                                     </div>
                                 </div>
                                 <?php if ('' !== $candidate->id) { ?>
