@@ -1,0 +1,452 @@
+{
+    "howe": {
+        "id": "howe",
+        "name": "Alan Howe",
+        "homeState": "PA",
+        "fecCandidateId": "P00008565",
+        "fecCommitteeId": "C00690842",
+        "fecFilingDate": "2018-11-01",
+        "withdrawalDate": null
+    },
+    "horowitz": {
+        "id": "horowitz",
+        "name": "Ami Horowitz",
+        "homeState": "MT",
+        "fecCandidateId": "P00011791",
+        "fecCommitteeId": "C00705095",
+        "fecFilingDate": "2019-05-02",
+        "withdrawalDate": null
+    },
+    "klobuchar": {
+        "id": "klobuchar",
+        "name": "Amy J. Klobuchar",
+        "homeState": "MN",
+        "fecCandidateId": "P80006117",
+        "fecCommitteeId": "C00696419",
+        "fecFilingDate": "2019-02-11",
+        "withdrawalDate": "2020-03-02"
+    },
+    "yang": {
+        "id": "yang",
+        "name": "Andrew Yang",
+        "homeState": "NY",
+        "fecCandidateId": "P00006486",
+        "fecCommitteeId": "C00659938",
+        "fecFilingDate": "2017-11-06",
+        "withdrawalDate": "2020-02-11"
+    },
+    "gleiberman": {
+        "id": "gleiberman",
+        "name": "Ben Gleiberman",
+        "homeState": "CA",
+        "fecCandidateId": "P00011726",
+        "fecCommitteeId": "C00704627",
+        "fecFilingDate": "2019-04-30",
+        "withdrawalDate": null
+    },
+    "sanders": {
+        "id": "sanders",
+        "name": "Bernard Sanders",
+        "homeState": "VT",
+        "fecCandidateId": "P60007168",
+        "fecCommitteeId": "C00696948",
+        "fecFilingDate": "2019-02-19",
+        "withdrawalDate": "2020-04-08"
+    },
+    "de_blasio": {
+        "id": "de_blasio",
+        "name": "Bill De Blasio",
+        "homeState": "NY",
+        "fecCandidateId": "P00012054",
+        "fecCommitteeId": "C00706697",
+        "fecFilingDate": "2019-05-16",
+        "withdrawalDate": "2019-09-20"
+    },
+    "mcinnis": {
+        "id": "mcinnis",
+        "name": "Charleta McInnis",
+        "homeState": "MI",
+        "fecCandidateId": "P00012427",
+        "fecCommitteeId": "C00711812",
+        "fecFilingDate": "2019-07-10",
+        "withdrawalDate": null
+    },
+    "powers": {
+        "id": "powers",
+        "name": "Christin Noel Powers",
+        "homeState": "FL",
+        "fecCandidateId": "P00008946",
+        "fecCommitteeId": "C00695429",
+        "fecFilingDate": "2019-01-31",
+        "withdrawalDate": null
+    },
+    "booker": {
+        "id": "booker",
+        "name": "Cory A. Booker",
+        "homeState": "NJ",
+        "fecCandidateId": "P00009795",
+        "fecCommitteeId": "C00695510",
+        "fecFilingDate": "2019-02-01",
+        "withdrawalDate": "2020-01-13"
+    },
+    "bradford": {
+        "id": "bradford",
+        "name": "Daphne Denise Bradford",
+        "homeState": "CA",
+        "fecCandidateId": "S0CA00496",
+        "fecCommitteeId": "C00689885",
+        "fecFilingDate": "2018-10-18",
+        "withdrawalDate": null
+    },
+    "patrick": {
+        "id": "patrick",
+        "name": "Deval Patrick",
+        "homeState": "MA",
+        "fecCandidateId": "P00014407",
+        "fecCommitteeId": "C00727156",
+        "fecFilingDate": "2019-11-14",
+        "withdrawalDate": "2020-02-12"
+    },
+    "shreffler": {
+        "id": "shreffler",
+        "name": "Doug Shreffler",
+        "homeState": "WA",
+        "fecCandidateId": "P20005229",
+        "fecCommitteeId": "C00532663",
+        "fecFilingDate": "2012-10-16",
+        "withdrawalDate": null
+    },
+    "warren": {
+        "id": "warren",
+        "name": "Elizabeth Warren",
+        "homeState": "MA",
+        "fecCandidateId": "P00009621",
+        "fecCommitteeId": "C00693234",
+        "fecFilingDate": "2018-12-31",
+        "withdrawalDate": "2020-03-05"
+    },
+    "hall": {
+        "id": "hall",
+        "name": "Ella Ree Hall",
+        "homeState": "SC",
+        "fecCandidateId": "P00015669",
+        "fecCommitteeId": "C00741389",
+        "fecFilingDate": "2020-03-05",
+        "withdrawalDate": null
+    },
+    "swalwell": {
+        "id": "swalwell",
+        "name": "Eric Michael Swalwell",
+        "homeState": "CA",
+        "fecCandidateId": "P00011312",
+        "fecCommitteeId": "C00701698",
+        "fecFilingDate": "2019-04-08",
+        "withdrawalDate": "2019-07-08"
+    },
+    "wiand": {
+        "id": "wiand",
+        "name": "Fred Wiand",
+        "homeState": "ME",
+        "fecCandidateId": "P00005942",
+        "fecCommitteeId": "C00641100",
+        "fecFilingDate": "2017-05-22",
+        "withdrawalDate": null
+    },
+    "cunningham": {
+        "id": "cunningham",
+        "name": "Hart P. Cunningham",
+        "homeState": "MA",
+        "fecCandidateId": "P00006825",
+        "fecCommitteeId": "C00664086",
+        "fecFilingDate": "2017-12-26",
+        "withdrawalDate": null
+    },
+    "hewes": {
+        "id": "hewes",
+        "name": "Henry Hewes",
+        "homeState": "NY",
+        "fecCandidateId": "P80004765",
+        "fecCommitteeId": "C00697227",
+        "fecFilingDate": "2019-02-21",
+        "withdrawalDate": null
+    },
+    "inslee": {
+        "id": "inslee",
+        "name": "Jay R. Inslee",
+        "homeState": "WA",
+        "fecCandidateId": "P00010454",
+        "fecCommitteeId": "C00698050",
+        "fecFilingDate": "2019-03-01",
+        "withdrawalDate": "2019-08-21"
+    },
+    "vogel_walcutt": {
+        "id": "vogel_walcutt",
+        "name": "Jennifer Vogel-Walcutt",
+        "homeState": "FL",
+        "fecCandidateId": "P00011759",
+        "fecCommitteeId": "C00704551",
+        "fecFilingDate": "2019-04-30",
+        "withdrawalDate": null
+    },
+    "delaney": {
+        "id": "delaney",
+        "name": "John K. Delaney",
+        "homeState": "MD",
+        "fecCandidateId": "P00006213",
+        "fecCommitteeId": "C00508416",
+        "fecFilingDate": "2011-12-28",
+        "withdrawalDate": "2020-01-31"
+    },
+    "hickenlooper": {
+        "id": "hickenlooper",
+        "name": "John W. Hickenlooper",
+        "homeState": "CO",
+        "fecCandidateId": "P00010520",
+        "fecCommitteeId": "C00698258",
+        "fecFilingDate": "2019-03-04",
+        "withdrawalDate": "2019-08-15"
+    },
+    "sestak": {
+        "id": "sestak",
+        "name": "Joseph A. Sestak, Jr.",
+        "homeState": "PA",
+        "fecCandidateId": "P00012567",
+        "fecCommitteeId": "C00710574",
+        "fecFilingDate": "2019-07-01",
+        "withdrawalDate": "2019-12-01"
+    },
+    "biden": {
+        "id": "biden",
+        "name": "Joseph R. Biden, Jr.",
+        "homeState": "DE",
+        "fecCandidateId": "P80000722",
+        "fecCommitteeId": "C00703975",
+        "fecFilingDate": "2019-04-25",
+        "withdrawalDate": null
+    },
+    "castro": {
+        "id": "castro",
+        "name": "Julian Castro",
+        "homeState": "TX",
+        "fecCandidateId": "P00009092",
+        "fecCommitteeId": "C00693044",
+        "fecFilingDate": "2018-12-21",
+        "withdrawalDate": "2020-01-02"
+    },
+    "harris": {
+        "id": "harris",
+        "name": "Kamala D. Harris",
+        "homeState": "CA",
+        "fecCandidateId": "P00009423",
+        "fecCommitteeId": "C00694455",
+        "fecFilingDate": "2019-01-21",
+        "withdrawalDate": "2019-12-03"
+    },
+    "nwadike": {
+        "id": "nwadike",
+        "name": "Kenneth Nwadike, Jr.",
+        "homeState": "CA",
+        "fecCandidateId": "P00006403",
+        "fecCommitteeId": "C00658914",
+        "fecFilingDate": "2017-10-21",
+        "withdrawalDate": null
+    },
+    "gillibrand": {
+        "id": "gillibrand",
+        "name": "Kirsten Gillibrand",
+        "homeState": "NY",
+        "fecCandidateId": "P00009290",
+        "fecCommitteeId": "C00694018",
+        "fecFilingDate": "2019-01-15",
+        "withdrawalDate": "2019-08-28"
+    },
+    "williamson": {
+        "id": "williamson",
+        "name": "Marianne Williamson",
+        "homeState": "CA",
+        "fecCandidateId": "P00009910",
+        "fecCommitteeId": "C00696054",
+        "fecFilingDate": "2019-01-28",
+        "withdrawalDate": "2020-01-10"
+    },
+    "pierce": {
+        "id": "pierce",
+        "name": "Mark Allan Pierce",
+        "homeState": "CA",
+        "fecCandidateId": "P00010587",
+        "fecCommitteeId": "C00693788",
+        "fecFilingDate": "2019-01-13",
+        "withdrawalDate": null
+    },
+    "gravel": {
+        "id": "gravel",
+        "name": "Maurice Robert Gravel",
+        "homeState": "AK",
+        "fecCandidateId": "P00011254",
+        "fecCommitteeId": "C00700609",
+        "fecFilingDate": "2019-03-29",
+        "withdrawalDate": "2019-08-16"
+    },
+    "bennet": {
+        "id": "bennet",
+        "name": "Michael F. Bennet",
+        "homeState": "CO",
+        "fecCandidateId": "P00011833",
+        "fecCommitteeId": "C00705186",
+        "fecFilingDate": "2019-05-04",
+        "withdrawalDate": "2020-02-11"
+    },
+    "bloomberg": {
+        "id": "bloomberg",
+        "name": "Michael R. Bloomberg",
+        "homeState": "NY",
+        "fecCandidateId": "P00014530",
+        "fecCommitteeId": "C00728154",
+        "fecFilingDate": "2019-11-21",
+        "withdrawalDate": "2020-03-04"
+    },
+    "boyd": {
+        "id": "boyd",
+        "name": "Mosemarie (Mosie) Dora Boyd",
+        "homeState": "AR",
+        "fecCandidateId": "P00013201",
+        "fecCommitteeId": "C00716431",
+        "fecFilingDate": "2019-08-20",
+        "withdrawalDate": null
+    },
+    "anthony": {
+        "id": "anthony",
+        "name": "Nakia Lacquers Anthony",
+        "homeState": "OH",
+        "fecCandidateId": "P00006296",
+        "fecCommitteeId": "C00654673",
+        "fecFilingDate": "2017-09-05",
+        "withdrawalDate": null
+    },
+    "buttigieg": {
+        "id": "buttigieg",
+        "name": "Pete Buttigieg",
+        "homeState": "IN",
+        "fecCandidateId": "P00010298",
+        "fecCommitteeId": "C00697441",
+        "fecFilingDate": "2019-02-22",
+        "withdrawalDate": "2020-03-01"
+    },
+    "ojeda": {
+        "id": "ojeda",
+        "name": "Richard Neece Ojeda, II",
+        "homeState": "WV",
+        "fecCandidateId": "P00008763",
+        "fecCommitteeId": "C00691444",
+        "fecFilingDate": "2018-11-11",
+        "withdrawalDate": "2019-01-25"
+    },
+    "orourke": {
+        "id": "orourke",
+        "name": "Robert (Beto) O'Rourke",
+        "homeState": "TX",
+        "fecCandidateId": "P00010793",
+        "fecCommitteeId": "C00699090",
+        "fecFilingDate": "2019-03-14",
+        "withdrawalDate": "2019-11-01"
+    },
+    "wells": {
+        "id": "wells",
+        "name": "Robert Carr Wells, Jr.",
+        "homeState": "GA",
+        "fecCandidateId": "P00007641",
+        "fecCommitteeId": "C00678953",
+        "fecFilingDate": "2018-05-17",
+        "withdrawalDate": null
+    },
+    "de_la_fuente": {
+        "id": "de_la_fuente",
+        "name": "Roque De La Fuente, III",
+        "homeState": "CA",
+        "fecCandidateId": "P00014613",
+        "fecCommitteeId": "C00727776",
+        "fecFilingDate": "2019-11-19",
+        "withdrawalDate": null
+    },
+    "farber": {
+        "id": "farber",
+        "name": "Ryan Andrew Farber",
+        "homeState": "CA",
+        "fecCandidateId": "P00006981",
+        "fecCommitteeId": "C00671610",
+        "fecFilingDate": "2017-06-13",
+        "withdrawalDate": null
+    },
+    "moulton": {
+        "id": "moulton",
+        "name": "Seth Moulton",
+        "homeState": "MA",
+        "fecCandidateId": "P00011866",
+        "fecCommitteeId": "C00704510",
+        "fecFilingDate": "2019-04-29",
+        "withdrawalDate": "2019-08-23"
+    },
+    "smith": {
+        "id": "smith",
+        "name": "Sharmin Lynn Smith",
+        "homeState": "FL",
+        "fecCandidateId": "P00008003",
+        "fecCommitteeId": "C00683631",
+        "fecFilingDate": "2018-07-25",
+        "withdrawalDate": null
+    },
+    "bullock": {
+        "id": "bullock",
+        "name": "Steve Bullock",
+        "homeState": "MT",
+        "fecCandidateId": "P00011999",
+        "fecCommitteeId": "C00706416",
+        "fecFilingDate": "2019-05-14",
+        "withdrawalDate": "2020-12-02"
+    },
+    "ryan": {
+        "id": "ryan",
+        "name": "Timothy J. Ryan",
+        "homeState": "OH",
+        "fecCandidateId": "P00011338",
+        "fecCommitteeId": "C00701979",
+        "fecFilingDate": "2019-04-11",
+        "withdrawalDate": "2019-10-24"
+    },
+    "steyer": {
+        "id": "steyer",
+        "name": "Tom Steyer",
+        "homeState": "CA",
+        "fecCandidateId": "P00012716",
+        "fecCommitteeId": "C00711614",
+        "fecFilingDate": "2019-07-09",
+        "withdrawalDate": "2020-02-29"
+    },
+    "gabbard": {
+        "id": "gabbard",
+        "name": "Tulsi Gabbard",
+        "homeState": "HI",
+        "fecCandidateId": "",
+        "fecCommitteeId": "C00693713",
+        "fecFilingDate": "2019-01-24",
+        "withdrawalDate": "2020-03-19"
+    },
+    "messam": {
+        "id": "messam",
+        "name": "Wayne Martin Messam",
+        "homeState": "FL",
+        "fecCandidateId": "P00010827",
+        "fecCommitteeId": "C00699280",
+        "fecFilingDate": "2019-03-15",
+        "withdrawalDate": "2019-11-20"
+    },
+    "carter": {
+        "id": "carter",
+        "name": "Willie Felix Carter",
+        "homeState": "TX",
+        "fecCandidateId": "P80000268",
+        "fecCommitteeId": "C00202176",
+        "fecFilingDate": "1986-02-05",
+        "withdrawalDate": null
+    }
+}

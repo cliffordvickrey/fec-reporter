@@ -1,0 +1,31 @@
+{
+  "name": "cliffordvickrey/fec-reporter",
+  "description": "Simple front-end of FEC data for 2020 presidential primaries",
+  "type": "project",
+  "require-dev": {
+    "phpstan/phpstan": "^1.9",
+    "phpunit/phpunit": "^9.5",
+    "squizlabs/php_codesniffer": "^3.7",
+    "jetbrains/phpstorm-attributes": "^1.0"
+  },
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "CliffordVickrey\\FecReporter\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Clifford Vickrey"
+    }
+  ],
+  "require": {
+    "ext-intl": "*"
+  },
+  "scripts": {
+    "analyse": "vendor/bin/phpstan analyse",
+    "baseline": "vendor/bin/phpstan analyse --generate-baseline",
+    "phpcs": "vendor/bin/phpcs",
+    "phpcbf": "vendor/bin/phpcbf"
+  }
+}
