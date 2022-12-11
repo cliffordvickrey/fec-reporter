@@ -6,8 +6,9 @@ namespace CliffordVickrey\FecReporter\App\Controller;
 
 use CliffordVickrey\FecReporter\App\Request\Request;
 use CliffordVickrey\FecReporter\App\Response\Response;
+use CliffordVickrey\FecReporter\Domain\Collection\CandidateCollection;
 use CliffordVickrey\FecReporter\Domain\Enum\TotalType;
-use CliffordVickrey\FecReporter\Domain\Repository\CandidateCollectionRepositoryInterface;
+use CliffordVickrey\FecReporter\Domain\Repository\ObjectRepositoryInterface;
 use CliffordVickrey\FecReporter\Exception\FecInvalidArgumentException;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\CastingUtilities;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\FileUtilities;
@@ -21,9 +22,9 @@ final class DownloadController implements ControllerInterface
     public const ATTRIBUTE_FILENAME = 'filename';
 
     /**
-     * @param CandidateCollectionRepositoryInterface $candidateCollectionRepository
+     * @param ObjectRepositoryInterface $objectRepository
      */
-    public function __construct(private CandidateCollectionRepositoryInterface $candidateCollectionRepository)
+    public function __construct(private ObjectRepositoryInterface $objectRepository)
     {
     }
 
@@ -39,7 +40,7 @@ final class DownloadController implements ControllerInterface
             throw new FecInvalidArgumentException('No candidate ID passed');
         }
 
-        $candidateCollection = $this->candidateCollectionRepository->getCandidateCollection();
+        $candidateCollection = $this->objectRepository->getObject(CandidateCollection::class);
 
         if (!$candidateCollection->offsetExists($candidateId)) {
             $msg = sprintf('Candidate ID "%d" is invalid', $candidateId);

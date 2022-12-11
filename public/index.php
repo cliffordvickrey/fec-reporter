@@ -9,9 +9,7 @@ use CliffordVickrey\FecReporter\App\Controller\IndexController;
 use CliffordVickrey\FecReporter\App\Request\Request;
 use CliffordVickrey\FecReporter\App\Response\Response;
 use CliffordVickrey\FecReporter\App\View\View;
-use CliffordVickrey\FecReporter\Domain\Repository\CandidateCollectionRepository;
-use CliffordVickrey\FecReporter\Domain\Repository\CandidateSummaryRepository;
-use CliffordVickrey\FecReporter\Domain\Repository\TotalCollectionRepository;
+use CliffordVickrey\FecReporter\Domain\Repository\ObjectRepository;
 use CliffordVickrey\FecReporter\Exception\FecRuntimeException;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\CastingUtilities;
 
@@ -31,13 +29,9 @@ try {
     $request = Request::fromSuperGlobals();
 
     if ($request->get(DownloadController::PARAM_DOWNLOAD_TYPE)) {
-        $controller = new DownloadController(new CandidateCollectionRepository());
+        $controller = new DownloadController(new ObjectRepository());
     } else {
-        $controller = new IndexController(
-            new CandidateCollectionRepository(),
-            new CandidateSummaryRepository(),
-            new TotalCollectionRepository(),
-        );
+        $controller = new IndexController(new ObjectRepository());
     }
 
     $response = $controller->dispatch($request);

@@ -76,7 +76,7 @@ if (null !== $totalType) {
                                                     '' === $candidate->name
                                                     ? ''
                                                     : sprintf(' value="%s"', $view->htmlEncode($candidate->name));
-                                                    ?>>
+                                                    ?> autocomplete="off">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-6">

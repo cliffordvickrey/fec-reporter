@@ -71,7 +71,7 @@ abstract class AbstractGrid extends AbstractCollection
             $formattedRow = $template;
 
             if (!is_iterable($row)) {
-                throw new FecUnexpectedValueException('Expected associate array or array of associated arrays');
+                throw new FecUnexpectedValueException('Expected associative array or array of associative arrays');
             }
 
             foreach ($row as $k => $v) {
