@@ -8,7 +8,7 @@ header('Content-Type: text/html; charset=UTF-8');
 
 $response = $response ?? new Response();
 
-$content = $response->getAttribute('content', '');
+$content = $response->getAttribute(Response::ATTR_CONTENT, '');
 $js = $response->getAttribute(Response::ATTR_JS, false);
 
 ?>

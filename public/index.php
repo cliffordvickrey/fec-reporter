@@ -74,7 +74,7 @@ try {
 
 if (null !== $content) {
     echo $view->partial('layout', [
-        'content' => $content,
+        Response::ATTR_CONTENT => $content,
         Response::ATTR_JS => $response->getAttribute(Response::ATTR_JS, false)
     ]);
 }
