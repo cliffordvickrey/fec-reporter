@@ -20,7 +20,7 @@ final class CandidateCollection extends AbstractCollection implements JsonSerial
 {
     /**
      * @param array<string, mixed> $data
-     * @return static
+     * @return self
      */
     public static function fromArray(array $data): self
     {

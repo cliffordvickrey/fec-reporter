@@ -1,0 +1,555 @@
+{
+    "all": {
+        "allred_house": {
+            "pre": {
+                "donors": 4393,
+                "receipts": 7484,
+                "amt": 374269.73
+            },
+            "post": {
+                "donors": 2353,
+                "receipts": 5844,
+                "amt": 322192.54
+            },
+            "all": {
+                "donors": 6070,
+                "receipts": 13328,
+                "amt": 696462.27
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 117,
+                "receipts": 347,
+                "amt": 75945.13
+            },
+            "post": {
+                "donors": 242,
+                "receipts": 552,
+                "amt": 17809.05
+            },
+            "all": {
+                "donors": 333,
+                "receipts": 899,
+                "amt": 93754.18
+            }
+        },
+        "gonzalez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            }
+        }
+    },
+    "unfaithful": {
+        "allred_house": {
+            "pre": {
+                "donors": 4251,
+                "receipts": 7287,
+                "amt": 359003.77
+            },
+            "post": {
+                "donors": 2298,
+                "receipts": 5748,
+                "amt": 309206.2
+            },
+            "all": {
+                "donors": 5889,
+                "receipts": 13035,
+                "amt": 668209.97
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 93,
+                "receipts": 297,
+                "amt": 18200.56
+            },
+            "post": {
+                "donors": 235,
+                "receipts": 545,
+                "amt": 13369.05
+            },
+            "all": {
+                "donors": 305,
+                "receipts": 842,
+                "amt": 31569.61
+            }
+        }
+    },
+    "elite": {
+        "allred_house": {
+            "pre": {
+                "donors": 4286,
+                "receipts": 7338,
+                "amt": 372268.34
+            },
+            "post": {
+                "donors": 2324,
+                "receipts": 5800,
+                "amt": 321550.4
+            },
+            "all": {
+                "donors": 5941,
+                "receipts": 13138,
+                "amt": 693818.74
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 115,
+                "receipts": 343,
+                "amt": 71545.13
+            },
+            "post": {
+                "donors": 242,
+                "receipts": 552,
+                "amt": 17809.05
+            },
+            "all": {
+                "donors": 331,
+                "receipts": 895,
+                "amt": 89354.18
+            }
+        },
+        "gonzalez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            }
+        }
+    },
+    "elitePac": {
+        "allred_house": {
+            "pre": {
+                "donors": 4235,
+                "receipts": 7265,
+                "amt": 371209.66
+            },
+            "post": {
+                "donors": 2303,
+                "receipts": 5779,
+                "amt": 321136.99
+            },
+            "all": {
+                "donors": 5872,
+                "receipts": 13044,
+                "amt": 692346.65
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 115,
+                "receipts": 343,
+                "amt": 71545.13
+            },
+            "post": {
+                "donors": 242,
+                "receipts": 552,
+                "amt": 17809.05
+            },
+            "all": {
+                "donors": 331,
+                "receipts": 895,
+                "amt": 89354.18
+            }
+        },
+        "gonzalez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            }
+        }
+    },
+    "eliteParty": {
+        "allred_house": {
+            "pre": {
+                "donors": 3845,
+                "receipts": 6592,
+                "amt": 318978.31
+            },
+            "post": {
+                "donors": 2119,
+                "receipts": 5392,
+                "amt": 276631.07
+            },
+            "all": {
+                "donors": 5347,
+                "receipts": 11984,
+                "amt": 595609.38
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 90,
+                "receipts": 292,
+                "amt": 13084.13
+            },
+            "post": {
+                "donors": 234,
+                "receipts": 541,
+                "amt": 12448.05
+            },
+            "all": {
+                "donors": 301,
+                "receipts": 833,
+                "amt": 25532.18
+            }
+        },
+        "gonzalez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            }
+        }
+    },
+    "endorsement": {
+        "allred_house": {
+            "pre": {
+                "donors": 4393,
+                "receipts": 7484,
+                "amt": 374269.73
+            },
+            "post": {
+                "donors": 2353,
+                "receipts": 5844,
+                "amt": 322192.54
+            },
+            "all": {
+                "donors": 6070,
+                "receipts": 13328,
+                "amt": 696462.27
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 117,
+                "receipts": 347,
+                "amt": 75945.13
+            },
+            "post": {
+                "donors": 242,
+                "receipts": 552,
+                "amt": 17809.05
+            },
+            "all": {
+                "donors": 333,
+                "receipts": 899,
+                "amt": 93754.18
+            }
+        },
+        "gonzalez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            }
+        }
+    },
+    "donor2016": {
+        "allred_house": {
+            "pre": {
+                "donors": 1250,
+                "receipts": 2133,
+                "amt": 60480.53
+            },
+            "post": {
+                "donors": 625,
+                "receipts": 1662,
+                "amt": 40231.43
+            },
+            "all": {
+                "donors": 1674,
+                "receipts": 3795,
+                "amt": 100711.96
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 47,
+                "receipts": 124,
+                "amt": 6296.47
+            },
+            "post": {
+                "donors": 79,
+                "receipts": 177,
+                "amt": 1548.4
+            },
+            "all": {
+                "donors": 118,
+                "receipts": 301,
+                "amt": 7844.87
+            }
+        }
+    },
+    "sanders2016": {
+        "allred_house": {
+            "pre": {
+                "donors": 1250,
+                "receipts": 2133,
+                "amt": 60480.53
+            },
+            "post": {
+                "donors": 625,
+                "receipts": 1662,
+                "amt": 40231.43
+            },
+            "all": {
+                "donors": 1674,
+                "receipts": 3795,
+                "amt": 100711.96
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 47,
+                "receipts": 124,
+                "amt": 6296.47
+            },
+            "post": {
+                "donors": 79,
+                "receipts": 177,
+                "amt": 1548.4
+            },
+            "all": {
+                "donors": 118,
+                "receipts": 301,
+                "amt": 7844.87
+            }
+        }
+    },
+    "loyal": {
+        "allred_house": {
+            "pre": {
+                "donors": 142,
+                "receipts": 197,
+                "amt": 15265.96
+            },
+            "post": {
+                "donors": 55,
+                "receipts": 96,
+                "amt": 12986.34
+            },
+            "all": {
+                "donors": 181,
+                "receipts": 293,
+                "amt": 28252.3
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 24,
+                "receipts": 50,
+                "amt": 57744.57
+            },
+            "post": {
+                "donors": 7,
+                "receipts": 7,
+                "amt": 4440
+            },
+            "all": {
+                "donors": 28,
+                "receipts": 57,
+                "amt": 62184.57
+            }
+        },
+        "gonzalez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            }
+        }
+    },
+    "prior": {
+        "allred_house": {
+            "pre": {
+                "donors": 63,
+                "receipts": 176,
+                "amt": 5247.09
+            },
+            "post": {
+                "donors": 36,
+                "receipts": 141,
+                "amt": 21989.47
+            },
+            "all": {
+                "donors": 77,
+                "receipts": 317,
+                "amt": 27236.56
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 10,
+                "receipts": 22,
+                "amt": 15392.57
+            },
+            "post": {
+                "donors": 9,
+                "receipts": 19,
+                "amt": 146
+            },
+            "all": {
+                "donors": 16,
+                "receipts": 41,
+                "amt": 15538.57
+            }
+        }
+    },
+    "priorLeadershipPac": {
+        "allred_house": {
+            "pre": {
+                "donors": 63,
+                "receipts": 176,
+                "amt": 5247.09
+            },
+            "post": {
+                "donors": 36,
+                "receipts": 141,
+                "amt": 21989.47
+            },
+            "all": {
+                "donors": 77,
+                "receipts": 317,
+                "amt": 27236.56
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 10,
+                "receipts": 22,
+                "amt": 15392.57
+            },
+            "post": {
+                "donors": 9,
+                "receipts": 19,
+                "amt": 146
+            },
+            "all": {
+                "donors": 16,
+                "receipts": 41,
+                "amt": 15538.57
+            }
+        }
+    },
+    "weekOneLaunch": {
+        "allred_house": {
+            "pre": {
+                "donors": 16,
+                "receipts": 87,
+                "amt": 7067.56
+            },
+            "post": {
+                "donors": 11,
+                "receipts": 40,
+                "amt": 8169.66
+            },
+            "all": {
+                "donors": 22,
+                "receipts": 127,
+                "amt": 15237.22
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 3,
+                "amt": 3
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 3,
+                "amt": 3
+            }
+        }
+    },
+    "dayOneLaunch": {
+        "allred_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 262
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 5,
+                "amt": 3062
+            }
+        }
+    }
+}

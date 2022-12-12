@@ -6,6 +6,7 @@ namespace CliffordVickrey\FecReporter\Infrastructure\Grid;
 
 class GridColumn
 {
+    public ?string $class = null;
     public GridColumnFormat $format;
     public string $id = '';
     public ?GridColumnMeta $meta = null;
@@ -25,6 +26,10 @@ class GridColumn
      */
     public function getClass(): string
     {
+        if (null !== $this->class) {
+            return $this->class;
+        }
+
         if (GridColumnFormat::FORMAT_NONE === (string)$this->format) {
             return 'text-left';
         }

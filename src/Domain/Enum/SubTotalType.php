@@ -31,9 +31,16 @@ final class SubTotalType extends AbstractEnum
     public const SUB_TYPE_IN_STATE = 'inState';
     public const SUB_TYPE_PRIOR = 'prior';
     public const SUB_TYPE_LOYAL = 'loyal';
+    public const SUB_TYPE_DONOR_2016 = 'donor2016';
     public const SUB_TYPE_CLINTON_2016 = 'clinton2016';
     public const SUB_TYPE_SANDERS_2016 = 'sanders2016';
     public const SUB_TYPE_ELITE = 'elite';
+    public const SUB_TYPE_PARTY = 'party';
+    public const SUB_TYPE_NATIONAL_PARTY = 'nationalParty';
+    public const SUB_TYPE_STATE_PARTY = 'stateParty';
+    public const SUB_TYPE_LOCAL_PARTY = 'localParty';
+    public const SUB_TYPE_COMPETITOR_ENDORSEMENT = 'competitorEndorsement';
+    public const SUB_TYPE_CONGRESSIONAL_ENDORSEMENT = 'congressionalEndorsement';
     public const SUB_TYPE_SENATE_ENDORSEMENT = 'senateEndorsement';
     public const SUB_TYPE_HOUSE_ENDORSEMENT = 'houseEndorsement';
 
@@ -55,20 +62,29 @@ final class SubTotalType extends AbstractEnum
             self::SUB_TYPE_Q3_2019 => '2019 Quarter 3 (July 1 - September 30)',
             self::SUB_TYPE_Q4_2019 => '2019 Quarter 4 (October 1 - December 31)',
             self::SUB_TYPE_Q1_2020 => '2020 Quarter 1 (January 1 - March 31)',
-            self::SUB_TYPE_DEBATE1 => 'Debate 1 (November 6, 2016 - June 12, 2019)',
-            self::SUB_TYPE_DEBATE2 => 'Debate 2 (November 6, 2016 - July 16, 2019)',
-            self::SUB_TYPE_DEBATE3 => 'Debate 3 (November 6, 2016 - August 28, 2019)',
-            self::SUB_TYPE_DEBATE4 => 'Debate 4 (November 6, 2016 - October 1, 2019)',
-            self::SUB_TYPE_DEBATE5 => 'Debate 5 (November 6, 2016 - November 13, 2019)',
-            self::SUB_TYPE_DEBATE6 => 'Debate 6 (November 6, 2016 - December 13, 2019)',
-            self::SUB_TYPE_DEBATE7 => 'Debate 7 (November 6, 2016 - January 11, 2019)',
+            self::SUB_TYPE_DEBATE1 => 'Debate 1 (January 1, 2019 - June 12, 2019)',
+            self::SUB_TYPE_DEBATE2 => 'Debate 2 (June 13, 2019 - July 16, 2019)',
+            self::SUB_TYPE_DEBATE3 => 'Debate 3 (July 17, 2019 - August 28, 2019)',
+            self::SUB_TYPE_DEBATE4 => 'Debate 4 (August 29, 2019 - October 1, 2019)',
+            self::SUB_TYPE_DEBATE5 => 'Debate 5 (October 2, 2019 - November 13, 2019)',
+            self::SUB_TYPE_DEBATE6 => 'Debate 6 (November 14, 2019 - December 13, 2019)',
+            self::SUB_TYPE_DEBATE7 => 'Debate 7 (December 14, 2019 - January 11, 2019)',
             self::SUB_TYPE_OUT_OF_STATE => 'Out-of-State (Donors from different state as candidate)',
             self::SUB_TYPE_IN_STATE => 'In-State (Donors from same state as candidate)',
             self::SUB_TYPE_PRIOR => 'Prior Donors',
             self::SUB_TYPE_LOYAL => 'Loyal Donors',
+            self::SUB_TYPE_DONOR_2016 => '2016 Democratic Presidential Donors',
             self::SUB_TYPE_CLINTON_2016 => 'Clinton Donors',
             self::SUB_TYPE_SANDERS_2016 => 'Sanders Donors',
             self::SUB_TYPE_ELITE => 'Elite Donors',
+            self::SUB_TYPE_PARTY => 'Party Committee Donors',
+            self::SUB_TYPE_NATIONAL_PARTY => 'National Party Committee Donors',
+            self::SUB_TYPE_STATE_PARTY => 'State Party Committee Donors',
+            self::SUB_TYPE_LOCAL_PARTY => 'Local Party Committee Donors',
+            self::SUB_TYPE_COMPETITOR_ENDORSEMENT => 'Competitor Endorsement Donors (Donors who gave to other'
+                . ' presidential endorser)',
+            self::SUB_TYPE_CONGRESSIONAL_ENDORSEMENT => 'Competitor Endorsement Donors (Donors who gave an endoser'
+                . ' in Congress)',
             self::SUB_TYPE_SENATE_ENDORSEMENT => 'Senate Endorsement Donors (Donors who gave to Senate endorser)',
             self::SUB_TYPE_HOUSE_ENDORSEMENT => 'House Endorsement Donors (Donors who gave to House endorser)'
         ];

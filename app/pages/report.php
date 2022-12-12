@@ -5,6 +5,7 @@ declare(strict_types=1);
 use CliffordVickrey\FecReporter\App\Grids\CandidateGrid;
 use CliffordVickrey\FecReporter\App\Grids\CandidateSubTotalsGrid;
 use CliffordVickrey\FecReporter\App\Grids\CandidateSummaryGrid;
+use CliffordVickrey\FecReporter\App\Grids\FecHistoryGrid;
 use CliffordVickrey\FecReporter\App\Response\Response;
 use CliffordVickrey\FecReporter\App\View\View;
 use CliffordVickrey\FecReporter\Domain\Collection\CandidateCollection;
@@ -22,18 +23,24 @@ $candidatesJson = $view->htmlEncode(json_encode($candidates));
 $candidate = $response->getObject(Candidate::class);
 
 $candidateGrid = null;
+$endorsers = [];
 $summaryGrid = null;
+$historyGrid = null;
 $totalType = null;
 
 if ($candidate->id !== '') {
     $candidateGrid = $response->getObject(CandidateGrid::class);
     $summaryGrid = $response->getObject(CandidateSummaryGrid::class);
+    $historyGrid = $response->getObject(FecHistoryGrid::class);
     $totalType = $response->getObjectNullable(TotalType::class);
 }
 
+$endorserId = null;
 $subTotalsGrid = null;
 
 if (null !== $totalType) {
+    $endorserId = $response->getAttributeNullable('endorserId', '');
+    $endorsers = $response->getAttribute('endorsers', []);
     $subTotalsGrid = $response->getObject(CandidateSubTotalsGrid::class);
 }
 
@@ -71,16 +78,31 @@ if (null !== $totalType) {
             <?php } ?>
             <!-- /candidate details -->
 
-            <!-- candidate FEC summary -->
+            <!-- candidate imputed summary -->
             <?php if (null !== $summaryGrid) { ?>
                 <div class="row">
                     <div class="col-12">
-                        <h5 class="text-info">Aggregate totals for <strong>
+                        <h5 class="text-info">Imputed totals for <strong>
                                 <?= $view->htmlEncode($candidate->name); ?>
                             </strong></h5>
                     </div>
                     <div class="col-12">
                         <?= $view->dataGrid($summaryGrid); ?>
+                    </div>
+                </div>
+            <?php } ?>
+            <!-- /candidate imputed summary -->
+
+            <!-- candidate FEC summary -->
+            <?php if (null !== $historyGrid) { ?>
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-info">FEC report history for <strong>
+                                <?= $view->htmlEncode($candidate->name); ?>
+                            </strong></h5>
+                    </div>
+                    <div class="col-12">
+                        <?= $view->dataGrid($historyGrid); ?>
                     </div>
                 </div>
             <?php } ?>
@@ -118,6 +140,34 @@ if (null !== $totalType) {
                     </div>
                 </div>
                 <?= $view->downloadLink($candidate->id, $totalType); ?>
+
+                <!-- endorsers -->
+
+                <hr/>
+
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-info">Endorsers
+                            (<?= $view->htmlEncode($totalType->getDownloadDescription()); ?>)
+                            of <strong><?= $view->htmlEncode($candidate->name); ?></strong></h5>
+                    </div>
+                    <?php if (0 === count($endorsers)) { ?>
+                        <div class="col-12">
+                            <p class="text-muted">This candidate didn't have any endorsers</p>
+                        </div>
+                    <?php } else { ?>
+                        <div class="col-12 col-lg-6">
+                            <?= $view->select(
+                                'fec-endorser',
+                                'endorserId',
+                                'Endorser',
+                                $endorsers,
+                                (string)$endorserId
+                            ); ?>
+                        </div>
+                    <?php } ?>
+                </div>
+                <!-- /endorsers -->
             <?php } ?>
             <!-- /donor type selected -->
         <?php } ?>

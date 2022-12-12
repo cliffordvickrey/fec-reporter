@@ -50,11 +50,13 @@ $values = $grid->getValues();
         </thead>
         <tbody>
         <?php if (0 === count($values)) { ?>
-            <td class="text-muted text-center"<?= count($grid) > 1
-                ? sprintf(' colspan="%d"', count($grid))
-                : '';
-            ?>>There is no data to display.
-            </td>
+            <tr>
+                <td class="text-muted text-center"<?= count($grid) > 1
+                    ? sprintf(' colspan="%d"', count($grid))
+                    : '';
+                ?>>There is no data to display.
+                </td>
+            </tr>
         <?php } else { ?>
             <?php foreach ($values as $row) { ?>
                 <tr>
