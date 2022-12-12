@@ -12,14 +12,20 @@ $id = $response->getAttribute('id', '');
 $name = $response->getAttribute('name', '');
 $label = $response->getAttribute('label', '');
 $options = ['' => ''] + $response->getAttribute('options', []);
-$value = $response->getAttributeNullable('value', '') ?? '';
+$value = isset($response['value']) ? $response['value'] : null;
+
+if (is_scalar($value)) {
+    $value = (string)$value;
+} else {
+    $value = '';
+}
 
 ?>
 <div class="input-group">
     <span class="input-group-text" id="<?= $view->htmlEncode($id); ?>-addon"><?= $view->htmlEncode($label); ?></span>
     <select id="<?= $view->htmlEncode($id); ?>" class="form-select" autocomplete="off"
             aria-label="<?= $view->htmlEncode($label); ?>" aria-describedby="<?= $view->htmlEncode($id); ?>-addon"
-            name="<?= $view->htmlEncode($name); ?>">
+            name="<?= $view->htmlEncode($name); ?>" data-dropdown="1">
         <?php foreach ($options as $k => $v) {
             $selected = $k === $value ? ' selected="selected"' : '';
             ?>

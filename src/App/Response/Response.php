@@ -15,7 +15,17 @@ use function is_object;
  */
 final class Response extends AbstractCollection
 {
+    public const ATTR_JS = 'js';
+    public const ATTR_LAYOUT = 'layout';
     public const ATTR_PAGE = 'page';
+
+    /**
+     *
+     */
+    public function __construct()
+    {
+        $this->data = [self::ATTR_JS => false, self::ATTR_LAYOUT => true];
+    }
 
     /**
      * @template T

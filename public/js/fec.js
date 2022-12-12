@@ -1,41 +1,47 @@
 window.addEventListener("DOMContentLoaded", () => {
-    const form = document.getElementById("fec-form");
-    const elDownloadType = document.getElementById("fec-download-type");
+    const reportForm = document.getElementById("fec-form");
+    const downloadForm = document.getElementById("fec-download-form");
 
-    // candidate search
-    const elCandidateId = document.getElementById("fec-candidate-id");
-    const elCandidateSearch = document.getElementById("fec-candidate-search");
-    const candidatesJson = elCandidateSearch.getAttribute("data-candidates");
-    const candidatesData = JSON.parse(candidatesJson);
+    // autocompletes
+    const autocompletes = document.querySelectorAll("input[data-autocomplete='1']");
 
-    new Autocomplete(elCandidateSearch, {
-        data: candidatesData,
-        maximumItems: 5,
-        threshold: 1,
-        onSelectItem: candidate => {
-            elCandidateId.value = candidate.value;
-            elDownloadType.value = "";
-            form.submit();
-        }
-    });
+    for (let i = 0; i < autocompletes.length; i++) {
+        const autocomplete = autocompletes.item(i);
 
-    // clear button
-    const elClearButton = document.getElementById("fec-clear");
-    elClearButton.addEventListener("click", e => {
-        elCandidateId.value = "";
-        elDownloadType.value = "";
-        form.submit();
-        e.stopPropagation();
-        e.preventDefault();
-        return false;
-    });
+        new Autocomplete(autocomplete, {
+            data: JSON.parse(autocomplete.getAttribute("data-payload")),
+            maximumItems: 5,
+            threshold: 1,
+            onSelectItem: selected => {
+                const boundTo = autocomplete.getAttribute("data-bound-to");
+                document.getElementById(boundTo).value = selected.value;
+                reportForm.submit();
+            }
+        });
+    }
 
-    // total type dropdown
-    const elTotalType = document.getElementById("fec-total-type");
-    elTotalType.addEventListener("change", () => {
-        elDownloadType.value = "";
-        form.submit();
-    });
+    // clear buttons
+    const clearButtons = document.querySelectorAll("button[data-clear='1']");
+
+    for (let i = 0; i < clearButtons.length; i++) {
+        const clearButton = clearButtons.item(i);
+
+        clearButton.addEventListener("click", e => {
+            const boundTo = clearButton.getAttribute("data-bound-to");
+            document.getElementById(boundTo).value = "";
+            reportForm.submit();
+            e.stopPropagation();
+            e.preventDefault();
+            return false;
+        });
+    }
+
+    // dropdowns
+    const dropdowns = document.querySelectorAll("select[data-dropdown='1']");
+
+    for (let i = 0; i < dropdowns.length; i++) {
+        dropdowns.item(i).addEventListener("change", () => reportForm.submit());
+    }
 
     // download links
     const downloadLinks = document.querySelectorAll("a[data-download='1']");
@@ -43,8 +49,8 @@ window.addEventListener("DOMContentLoaded", () => {
     for (let i = 0; i < downloadLinks.length; i++) {
         const downloadLink = downloadLinks.item(i);
         downloadLink.addEventListener("click", e => {
-            elDownloadType.value = downloadLink.getAttribute("data-download-type");
-            form.submit();
+            document.getElementById("fec-download-type").value = downloadLink.getAttribute("data-download-type");
+            downloadForm.submit();
             e.stopPropagation();
             e.preventDefault();
             return false;

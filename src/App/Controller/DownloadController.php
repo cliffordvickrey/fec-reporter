@@ -51,6 +51,7 @@ final class DownloadController implements ControllerInterface
 
         $response = new Response();
         $filename = self::getZipFilename($candidateId, $type, true);
+        $response[Response::ATTR_LAYOUT] = false;
         $response[Response::ATTR_PAGE] = 'download';
         $response[self::ATTRIBUTE_FILENAME] = $filename;
         return $response;

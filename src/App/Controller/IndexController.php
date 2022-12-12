@@ -37,6 +37,7 @@ final class IndexController implements ControllerInterface
     {
         $response = new Response();
 
+        $response[Response::ATTR_JS] = true;
         $response[Response::ATTR_PAGE] = 'report';
 
         $candidates = $this->objectRepository->getObject(CandidateCollection::class);

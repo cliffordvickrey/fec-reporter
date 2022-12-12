@@ -35,12 +35,21 @@ try {
     }
 
     $response = $controller->dispatch($request);
-} catch (Throwable) {
+} catch (Throwable $ex) {
+    error_log((string)$ex);
     $response = new Response();
     $response[Response::ATTR_PAGE] = 'error';
 }
 
-call_user_func(static function (Response $response, View $view): void {
+$content = null;
+
+$layout = $response->getAttribute(Response::ATTR_LAYOUT, false);
+
+if ($layout) {
+    ob_start();
+}
+
+try {
     $page = CastingUtilities::toString($response[Response::ATTR_PAGE]);
 
     if ('' === $page) {
@@ -53,5 +62,19 @@ call_user_func(static function (Response $response, View $view): void {
         throw new FecRuntimeException("Invalid page, $page");
     }
 
-    include $file;
-}, $response, $view);
+    call_user_func(function (string $__file, Response $response, View $view) {
+        include $__file;
+    }, $file, $response, $view);
+} finally {
+    if ($layout) {
+        $content = (string)ob_get_contents();
+        ob_end_clean();
+    }
+}
+
+if (null !== $content) {
+    echo $view->partial('layout', [
+        'content' => $content,
+        Response::ATTR_JS => $response->getAttribute(Response::ATTR_JS, false)
+    ]);
+}

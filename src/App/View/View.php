@@ -12,6 +12,7 @@ use CliffordVickrey\FecReporter\Infrastructure\Grid\AbstractGrid;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\CastingUtilities;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\FileUtilities;
 use JetBrains\PhpStorm\Pure;
+use JsonSerializable;
 
 use function htmlentities;
 use function ob_end_clean;
@@ -90,6 +91,38 @@ class View
         } finally {
             ob_end_clean();
         }
+    }
+
+    /**
+     * @param string $id
+     * @param string $name
+     * @param string $label
+     * @param array<array-key, string>|JsonSerializable $options
+     * @param int|string|null $value
+     * @param string|null $text
+     * @return string
+     */
+    public function autocomplete(
+        string $id,
+        string $name,
+        string $label,
+        array|JsonSerializable $options,
+        int|string|null $value = null,
+        ?string $text = null
+    ): string {
+        $partialOptions = [
+            'id' => $id,
+            'name' => $name,
+            'label' => $label,
+            'options' => $options,
+            'text' => $text
+        ];
+
+        if (null !== $value) {
+            $partialOptions['value'] = $value;
+        }
+
+        return $this->partial('autocomplete', $partialOptions);
     }
 
     /**

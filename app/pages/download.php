@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 use CliffordVickrey\FecReporter\App\Controller\DownloadController;
 use CliffordVickrey\FecReporter\App\Response\Response;
-use CliffordVickrey\FecReporter\App\View\View;
 use CliffordVickrey\FecReporter\Exception\FecRuntimeException;
 
 $response = $response ?? new Response();
-$view = $view ?? new View();
 
 $filename = $response->getAttribute(DownloadController::ATTRIBUTE_FILENAME, '');
 

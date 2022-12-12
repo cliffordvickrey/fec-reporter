@@ -7,10 +7,10 @@ namespace CliffordVickrey\FecReporter\Domain\Repository;
 use CliffordVickrey\FecReporter\Domain\Collection\CandidateCollection;
 use CliffordVickrey\FecReporter\Domain\Collection\TotalCollection;
 use CliffordVickrey\FecReporter\Domain\Entity\CandidateSummary;
+use CliffordVickrey\FecReporter\Exception\FecInvalidArgumentException;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\CastingUtilities;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\FileUtilities;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\JsonUtilities;
-use InvalidArgumentException;
 
 class ObjectRepository implements ObjectRepositoryInterface
 {
@@ -25,14 +25,14 @@ class ObjectRepository implements ObjectRepositoryInterface
             '' === $firstParam
             && (CandidateSummary::class === $classname || TotalCollection::class === $classname)
         ) {
-            throw new InvalidArgumentException('Candidate ID is required');
+            throw new FecInvalidArgumentException('Candidate ID is required');
         }
 
         $path = match ($classname) {
             CandidateCollection::class => 'candidates/candidates.json',
             CandidateSummary::class => "totals/$firstParam.json",
             TotalCollection::class => "subtotals/$firstParam.json",
-            default => throw new InvalidArgumentException('Invalid class name')
+            default => throw new FecInvalidArgumentException('Invalid class name')
         };
 
         $filename = __DIR__ . "/../../../data/$path";
