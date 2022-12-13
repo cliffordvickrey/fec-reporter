@@ -47,7 +47,7 @@ $totalType = $response->getObjectNullable(TotalType::class);
                             $view->partial('candidate', $response)
                         ); ?>
                         <!-- /candidate info panel -->
-                        <!-- subtotals  panel -->
+                        <!-- subtotals panel -->
                         <?= $view->panel(
                             'subtotal',
                             'Subtotals',
