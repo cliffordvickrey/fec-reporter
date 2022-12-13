@@ -9,6 +9,7 @@ use CliffordVickrey\FecReporter\App\Response\Response;
 use CliffordVickrey\FecReporter\Domain\Enum\TotalType;
 use CliffordVickrey\FecReporter\Exception\FecRuntimeException;
 use CliffordVickrey\FecReporter\Infrastructure\Grid\AbstractGrid;
+use CliffordVickrey\FecReporter\Infrastructure\Utility\ArrayUtilities;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\CastingUtilities;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\FileUtilities;
 use DateTimeImmutable;
@@ -136,6 +137,20 @@ class View
         int|string|null $value = null,
         ?string $text = null
     ): string {
+        if (is_array($options) && ArrayUtilities::isArrayAssociative($options)) {
+            $reshapedOptions = [];
+
+            foreach ($options as $k => $v) {
+                $reshapedOptions[] = ['label' => $v, 'value' => $k];
+            }
+
+            if (null === $text && isset($options[$value])) {
+                $text = $options[$value];
+            }
+
+            $options = $reshapedOptions;
+        }
+
         $partialOptions = [
             'id' => $id,
             'name' => $name,

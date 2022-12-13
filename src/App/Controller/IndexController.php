@@ -9,9 +9,11 @@ use CliffordVickrey\FecReporter\App\Grids\CandidateSubTotalsGrid;
 use CliffordVickrey\FecReporter\App\Grids\CandidateSummaryGrid;
 use CliffordVickrey\FecReporter\App\Grids\EndorsersGrid;
 use CliffordVickrey\FecReporter\App\Grids\FecHistoryGrid;
+use CliffordVickrey\FecReporter\App\Grids\NonEndorsersGrid;
 use CliffordVickrey\FecReporter\App\Request\Request;
 use CliffordVickrey\FecReporter\App\Response\Response;
 use CliffordVickrey\FecReporter\Domain\Aggregate\EndorsersAggregate;
+use CliffordVickrey\FecReporter\Domain\Aggregate\NonEndorsersAggregate;
 use CliffordVickrey\FecReporter\Domain\Collection\CandidateCollection;
 use CliffordVickrey\FecReporter\Domain\Collection\CommitteeCollection;
 use CliffordVickrey\FecReporter\Domain\Collection\TotalCollection;
@@ -23,8 +25,12 @@ use CliffordVickrey\FecReporter\Infrastructure\Utility\CastingUtilities;
 
 final class IndexController implements ControllerInterface
 {
-    public const PARAM_ENDORSER_ID = 'endorserId';
     public const PARAM_CANDIDATE_ID = 'candidateId';
+    public const PARAM_ENDORSEMENT_DATE = 'endorsementDate';
+    public const PARAM_ENDORSERS = 'endorsers';
+    public const PARAM_ENDORSER_ID = 'endorserId';
+    public const PARAM_NON_ENDORSERS = 'nonEndorsers';
+    public const PARAM_NON_ENDORSER_ID = 'nonEndorserId';
     public const PARAM_TOTAL_TYPE = 'totalType';
 
     /**
@@ -112,7 +118,7 @@ final class IndexController implements ControllerInterface
 
             $endorsersAggregate = $this->objectRepository->getObject(EndorsersAggregate::class);
             $endorsers = $endorsersAggregate->getEndorsersList($candidateId, $totalType);
-            $response['endorsers'] = $endorsers;
+            $response[self::PARAM_ENDORSERS] = $endorsers;
 
             $endorserId = CastingUtilities::toString($request->get(self::PARAM_ENDORSER_ID));
 
@@ -122,7 +128,7 @@ final class IndexController implements ControllerInterface
 
             $response[self::PARAM_ENDORSER_ID] = $endorserId;
 
-            if ('' !== $endorsers) {
+            if ('' !== $endorserId) {
                 $endorsements = $endorsersAggregate->getEndorserCommittees(
                     $candidateId,
                     $endorserId,
@@ -133,7 +139,39 @@ final class IndexController implements ControllerInterface
                 $endorsersGrid->setValues($endorsements);
 
                 $response[EndorsersGrid::class] = $endorsersGrid;
-                $response['endorsementDate'] = $endorsersAggregate->getEndorsementDate($candidateId, $endorserId);
+                $response[self::PARAM_ENDORSEMENT_DATE] = $endorsersAggregate->getEndorsementDate(
+                    $candidateId,
+                    $endorserId
+                );
+            }
+
+            // endregion
+
+            // region non-endorsers
+
+            $nonEndorsersAggregate = $this->objectRepository->getObject(NonEndorsersAggregate::class);
+            $nonEndorsers = $nonEndorsersAggregate->getNonEndorsersList($candidateId, $totalType);
+            $response[self::PARAM_NON_ENDORSERS] = $nonEndorsers;
+
+            $nonEndorserId = CastingUtilities::toString($request->get(self::PARAM_NON_ENDORSER_ID));
+
+            if (!isset($nonEndorsers[$nonEndorserId])) {
+                $nonEndorserId = '';
+            }
+
+            $response[self::PARAM_NON_ENDORSER_ID] = $nonEndorserId;
+
+            if ('' !== $nonEndorserId) {
+                $nonEndorsements = $nonEndorsersAggregate->getNonEndorserCommittees(
+                    $candidateId,
+                    $nonEndorserId,
+                    $totalType
+                );
+
+                $endorsersGrid = new NonEndorsersGrid();
+                $endorsersGrid->setValues($nonEndorsements);
+
+                $response[NonEndorsersGrid::class] = $endorsersGrid;
             }
 
             // endregion

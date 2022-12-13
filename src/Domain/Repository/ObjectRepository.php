@@ -7,6 +7,7 @@ declare(strict_types=1);
 namespace CliffordVickrey\FecReporter\Domain\Repository;
 
 use CliffordVickrey\FecReporter\Domain\Aggregate\EndorsersAggregate;
+use CliffordVickrey\FecReporter\Domain\Aggregate\NonEndorsersAggregate;
 use CliffordVickrey\FecReporter\Domain\Collection\CandidateCollection;
 use CliffordVickrey\FecReporter\Domain\Collection\CommitteeCollection;
 use CliffordVickrey\FecReporter\Domain\Collection\EndorsementDateCollection;
@@ -92,9 +93,9 @@ class ObjectRepository implements ObjectRepositoryInterface
             CandidateCollection::class => 'candidates/candidates.json',
             CandidateSummary::class => "totals/$firstParam.json",
             CommitteeCollection::class => 'committees/committees.json',
-            EndorsersAggregate::class => '',
             EndorsementDateCollection::class => "endorser-dates/$firstParam.json",
             EndorserByTotalTypeCollection::class => "endorsers/$firstParam.json",
+            EndorsersAggregate::class, NonEndorsersAggregate::class => '',
             NonEndorserByTotalTypeCollection::class => "non-endorsers/$firstParam.json",
             PersonCollection::class => 'people/people.json',
             TotalCollection::class => "subtotals/$firstParam.json",
@@ -115,10 +116,11 @@ class ObjectRepository implements ObjectRepositoryInterface
             CandidateCollection::class => CandidateCollection::fromArray($data),
             CandidateSummary::class => CandidateSummary::fromArray($data),
             CommitteeCollection::class => CommitteeCollection::fromArray($data),
-            EndorsersAggregate::class => new EndorsersAggregate($this),
             EndorsementDateCollection::class => EndorsementDateCollection::fromArray($data),
             EndorserByTotalTypeCollection::class => EndorserByTotalTypeCollection::fromArray($data),
+            EndorsersAggregate::class => new EndorsersAggregate($this),
             NonEndorserByTotalTypeCollection::class => NonEndorserByTotalTypeCollection::fromArray($data),
+            NonEndorsersAggregate::class => new NonEndorsersAggregate($this),
             PersonCollection::class => PersonCollection::fromArray($data),
             default => TotalCollection::fromArray($data)
         };

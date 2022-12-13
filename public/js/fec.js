@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", () => {
             onSelectItem: selected => {
                 const boundTo = autocomplete.getAttribute("data-bound-to");
                 document.getElementById(boundTo).value = selected.value;
-                reportForm.action = "#" + encodeURIComponent(boundTo);
+                reportForm.action = "#" + encodeURIComponent(boundTo) + "-search";
                 reportForm.submit();
             }
         });

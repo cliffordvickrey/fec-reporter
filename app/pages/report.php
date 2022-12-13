@@ -8,8 +8,6 @@ use CliffordVickrey\FecReporter\Domain\Collection\CandidateCollection;
 use CliffordVickrey\FecReporter\Domain\Entity\Candidate;
 use CliffordVickrey\FecReporter\Domain\Enum\TotalType;
 
-header('Content-Type: text/html; charset=UTF-8');
-
 $response = $response ?? new Response();
 $view = $view ?? new View();
 
@@ -23,7 +21,7 @@ $totalType = $response->getObjectNullable(TotalType::class);
     <div class="container-fluid">
         <div class="row">
             <?= $view->autocomplete(
-                'candidate-id',
+                'fec-candidate-id',
                 'candidateId',
                 'Candidate',
                 $candidates,
@@ -106,6 +104,27 @@ $totalType = $response->getObjectNullable(TotalType::class);
                                 </div>
                             </div>
                             <!-- /endorsers panel -->
+                            <!-- non-endorsers panel -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="fec-accordion-heading-non-endorsers">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#fec-accordion-collapse-non-endorsers" aria-expanded="true"
+                                            aria-controls="fec-accordion-collapse-non-endorsers">
+                                        Non-Endorsers
+                                    </button>
+                                </h2>
+                                <div id="fec-accordion-collapse-non-endorsers" class="accordion-collapse collapse show"
+                                     aria-labelledby="fec-accordion-heading-non-endorsers">
+                                    <div class="accordion-body">
+                                        <div class="container-fluid">
+                                            <!-- non-endorsers info -->
+                                            <?= $view->partial('non-endorsers', $response); ?>
+                                            <!-- /non-endorsers info -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /non-endorsers panel -->
                         <?php } ?>
                     </div>
                     <!-- /panels -->

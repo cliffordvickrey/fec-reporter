@@ -55,6 +55,10 @@ final class EndorsersAggregate
             $committee = $committees[$committeeId];
 
             foreach ($committee->people as $committeePerson) {
+                if (!isset($people[$committeePerson])) {
+                    continue;
+                }
+
                 $arr[$committeePerson] = $people[$committeePerson];
             }
         }
