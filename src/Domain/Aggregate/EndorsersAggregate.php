@@ -50,12 +50,13 @@ final class EndorsersAggregate
 
         $endorsers = $endorsersByType[$totalType];
         $people = $this->objectRepository->getObject(PersonCollection::class);
+        $endorsementDates = $this->objectRepository->getObject(EndorsementDateCollection::class, $candidateId);
 
         foreach ($endorsers as $committeeId => $unused) {
             $committee = $committees[$committeeId];
 
             foreach ($committee->people as $committeePerson) {
-                if (!isset($people[$committeePerson])) {
+                if (!isset($people[$committeePerson]) || !isset($endorsementDates[$committeePerson])) {
                     continue;
                 }
 
