@@ -136,7 +136,7 @@ final class EndorsersAggregate
                         'postAmt' => $endorsements->post->amt,
                         'allDonors' => $endorsements->all->donors,
                         'allReceipts' => $endorsements->all->receipts,
-                        'alAmt' => $endorsements->all->amt
+                        'allAmt' => $endorsements->all->amt
                     ]);
                 }
 
