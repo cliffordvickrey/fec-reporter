@@ -11,10 +11,13 @@ use CliffordVickrey\FecReporter\Exception\FecRuntimeException;
 use CliffordVickrey\FecReporter\Infrastructure\Grid\AbstractGrid;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\CastingUtilities;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\FileUtilities;
+use DateTimeImmutable;
+use IntlDateFormatter;
 use JetBrains\PhpStorm\Pure;
 use JsonSerializable;
 
 use function htmlentities;
+use function is_array;
 use function ob_end_clean;
 use function ob_get_contents;
 use function ob_start;
@@ -24,6 +27,8 @@ use const ENT_QUOTES;
 
 class View
 {
+    private ?IntlDateFormatter $intlDateFormatter = null;
+
     /**
      * @param mixed $value
      * @return string
@@ -66,10 +71,10 @@ class View
 
     /**
      * @param string $partial
-     * @param array<string, mixed> $params
+     * @param array<string, mixed>|Response $params
      * @return string
      */
-    public function partial(string $partial, array $params): string
+    public function partial(string $partial, array|Response $params): string
     {
         $filename = __DIR__ . "/../../../app/partials/$partial.php";
 
@@ -78,10 +83,14 @@ class View
             throw new FecRuntimeException($msg);
         }
 
-        $response = new Response();
+        if (is_array($params)) {
+            $response = new Response();
 
-        foreach ($params as $k => $v) {
-            $response[$k] = $v;
+            foreach ($params as $k => $v) {
+                $response[$k] = $v;
+            }
+        } else {
+            $response = clone $params;
         }
 
         try {
@@ -91,6 +100,23 @@ class View
         } finally {
             ob_end_clean();
         }
+    }
+
+    /**
+     * @param DateTimeImmutable $dateTime
+     * @return string
+     */
+    public function formatDate(DateTimeImmutable $dateTime): string
+    {
+        if (null === $this->intlDateFormatter) {
+            $this->intlDateFormatter = new IntlDateFormatter(
+                'en_US',
+                IntlDateFormatter::SHORT,
+                IntlDateFormatter::NONE
+            );
+        }
+
+        return (string)$this->intlDateFormatter->format($dateTime);
     }
 
     /**

@@ -22,6 +22,7 @@ if (is_scalar($value)) {
 }
 
 ?>
+
 <div class="col-12 col-lg-6">
     <div class="input-group">
             <span class="input-group-text" id="<?= $id; ?>-addon">

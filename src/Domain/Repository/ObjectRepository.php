@@ -44,7 +44,7 @@ class ObjectRepository implements ObjectRepositoryInterface
         }
 
         if (null !== $key && isset($this->cache[$key]) && is_a($this->cache[$key], $classname)) {
-            return $this->cache[$key];
+            return clone $this->cache[$key];
         }
 
         $path = self::doGetPath($classname, $params);

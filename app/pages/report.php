@@ -2,10 +2,6 @@
 
 declare(strict_types=1);
 
-use CliffordVickrey\FecReporter\App\Grids\CandidateGrid;
-use CliffordVickrey\FecReporter\App\Grids\CandidateSubTotalsGrid;
-use CliffordVickrey\FecReporter\App\Grids\CandidateSummaryGrid;
-use CliffordVickrey\FecReporter\App\Grids\FecHistoryGrid;
 use CliffordVickrey\FecReporter\App\Response\Response;
 use CliffordVickrey\FecReporter\App\View\View;
 use CliffordVickrey\FecReporter\Domain\Collection\CandidateCollection;
@@ -18,31 +14,8 @@ $response = $response ?? new Response();
 $view = $view ?? new View();
 
 $candidates = $response->getObject(CandidateCollection::class);
-$candidatesJson = $view->htmlEncode(json_encode($candidates));
-
 $candidate = $response->getObject(Candidate::class);
-
-$candidateGrid = null;
-$endorsers = [];
-$summaryGrid = null;
-$historyGrid = null;
-$totalType = null;
-
-if ($candidate->id !== '') {
-    $candidateGrid = $response->getObject(CandidateGrid::class);
-    $summaryGrid = $response->getObject(CandidateSummaryGrid::class);
-    $historyGrid = $response->getObject(FecHistoryGrid::class);
-    $totalType = $response->getObjectNullable(TotalType::class);
-}
-
-$endorserId = null;
-$subTotalsGrid = null;
-
-if (null !== $totalType) {
-    $endorserId = $response->getAttributeNullable('endorserId', '');
-    $endorsers = $response->getAttribute('endorsers', []);
-    $subTotalsGrid = $response->getObject(CandidateSubTotalsGrid::class);
-}
+$totalType = $response->getObjectNullable(TotalType::class);
 
 ?>
 <!-- reporting form -->
@@ -59,119 +32,86 @@ if (null !== $totalType) {
             ); ?>
         </div>
 
-        <!-- candidate selected -->
         <?php if ('' !== $candidate->id) { ?>
-            <hr/>
-
-            <!-- candidate details -->
-            <?php if (null !== $candidateGrid) { ?>
-                <div class="row">
-                    <div class="col-12">
-                        <h5 class="text-info">Details for <strong>
-                                <?= $view->htmlEncode($candidate->name); ?>
-                            </strong></h5>
-                    </div>
-                    <div class="col-12">
-                        <?= $view->dataGrid($candidateGrid); ?>
-                    </div>
-                </div>
-            <?php } ?>
-            <!-- /candidate details -->
-
-            <!-- candidate imputed summary -->
-            <?php if (null !== $summaryGrid) { ?>
-                <div class="row">
-                    <div class="col-12">
-                        <h5 class="text-info">Imputed totals for <strong>
-                                <?= $view->htmlEncode($candidate->name); ?>
-                            </strong></h5>
-                    </div>
-                    <div class="col-12">
-                        <?= $view->dataGrid($summaryGrid); ?>
-                    </div>
-                </div>
-            <?php } ?>
-            <!-- /candidate imputed summary -->
-
-            <!-- candidate FEC summary -->
-            <?php if (null !== $historyGrid) { ?>
-                <div class="row">
-                    <div class="col-12">
-                        <h5 class="text-info">FEC report history for <strong>
-                                <?= $view->htmlEncode($candidate->name); ?>
-                            </strong></h5>
-                    </div>
-                    <div class="col-12">
-                        <?= $view->dataGrid($historyGrid); ?>
-                    </div>
-                </div>
-            <?php } ?>
-            <!-- /candidate FEC summary -->
-
-            <!-- reporting controls -->
-            <?= $view->downloadLink($candidate->id); ?>
-            <hr/>
             <div class="row">
                 <div class="col-12">
-                    <h5 class="text-info">Donor subtotals for <strong>
-                            <?= $view->htmlEncode($candidate->name); ?>
-                        </strong></h5>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <?= $view->select(
-                        'fec-total-type',
-                        'totalType',
-                        'Type of Donor',
-                        TotalType::getDropdownOptions(),
-                        (string)$totalType
-                    ); ?>
+                    <hr/>
                 </div>
             </div>
-            <!-- /reporting controls -->
-
-            <!-- donor type selected -->
-            <?php if (null !== $totalType && null !== $subTotalsGrid) { ?>
-                <p class="pt-3">
-                    <?= $view->htmlEncode($totalType->getBlurb()); ?>
-                </p>
-                <div class="row">
-                    <div class="col-12">
-                        <?= $view->dataGrid($subTotalsGrid); ?>
-                    </div>
-                </div>
-                <?= $view->downloadLink($candidate->id, $totalType); ?>
-
-                <!-- endorsers -->
-
-                <hr/>
-
-                <div class="row">
-                    <div class="col-12">
-                        <h5 class="text-info">Endorsers
-                            (<?= $view->htmlEncode($totalType->getDownloadDescription()); ?>)
-                            of <strong><?= $view->htmlEncode($candidate->name); ?></strong></h5>
-                    </div>
-                    <?php if (0 === count($endorsers)) { ?>
-                        <div class="col-12">
-                            <p class="text-muted">This candidate didn't have any endorsers</p>
+            <div class="row">
+                <div class="col-12">
+                    <!-- panels -->
+                    <div class="accordion" id="fec-accordion">
+                        <!-- candidate info panel -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="fec-accordion-heading-candidate">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#fec-accordion-collapse-candidate" aria-expanded="true"
+                                        aria-controls="fec-accordion-collapse-candidate">
+                                    Candidate Info
+                                </button>
+                            </h2>
+                            <div id="fec-accordion-collapse-candidate" class="accordion-collapse collapse show"
+                                 aria-labelledby="fec-accordion-heading-candidate">
+                                <div class="accordion-body">
+                                    <div class="container-fluid">
+                                        <!-- candidate info -->
+                                        <?= $view->partial('candidate-info', $response); ?>
+                                        <!-- /candidate info -->
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    <?php } else { ?>
-                        <div class="col-12 col-lg-6">
-                            <?= $view->select(
-                                'fec-endorser',
-                                'endorserId',
-                                'Endorser',
-                                $endorsers,
-                                (string)$endorserId
-                            ); ?>
+                        <!-- /candidate info panel -->
+                        <!-- subtotals  panel -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="fec-accordion-heading-subtotals">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#fec-accordion-collapse-subtotals" aria-expanded="true"
+                                        aria-controls="fec-accordion-collapse-subtotals">
+                                    Subtotals
+                                </button>
+                            </h2>
+                            <div id="fec-accordion-collapse-subtotals" class="accordion-collapse collapse show"
+                                 aria-labelledby="fec-accordion-heading-subtotals">
+                                <div class="accordion-body">
+                                    <div class="container-fluid">
+                                        <!-- subtotals info -->
+                                        <?= $view->partial('subtotals', $response); ?>
+                                        <!-- /subtotals info -->
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    <?php } ?>
+                        <!-- /subtotals panel -->
+                        <?php if (null !== $totalType) { ?>
+                            <!-- endorsers panel -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="fec-accordion-heading-endorsers">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#fec-accordion-collapse-endorsers" aria-expanded="true"
+                                            aria-controls="fec-accordion-collapse-endorsers">
+                                        Endorsers
+                                    </button>
+                                </h2>
+                                <div id="fec-accordion-collapse-endorsers" class="accordion-collapse collapse show"
+                                     aria-labelledby="fec-accordion-heading-endorsers">
+                                    <div class="accordion-body">
+                                        <div class="container-fluid">
+                                            <!-- endorsers info -->
+                                            <?= $view->partial('endorsers', $response); ?>
+                                            <!-- /endorsers info -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /endorsers panel -->
+                        <?php } ?>
+                    </div>
+                    <!-- /panels -->
                 </div>
-                <!-- /endorsers -->
-            <?php } ?>
-            <!-- /donor type selected -->
+            </div>
         <?php } ?>
-        <!-- /candidate selected -->
     </div>
 </form>
 <!-- /reporting form -->

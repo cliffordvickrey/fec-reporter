@@ -21,9 +21,18 @@ $js = $response->getAttribute(Response::ATTR_JS, false);
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>FEC Reporter</title>
+    <style>
+        #fec-page {
+            font-size: .9em;
+        }
+
+        td, tr {
+            white-space: nowrap;
+        }
+    </style>
 </head>
 <body>
-<div class="container-fluid my-3">
+<div id="fec-page" class="container-fluid my-3">
     <div class="row">
         <div class="col-12">
             <div class="col-12 mt-3">

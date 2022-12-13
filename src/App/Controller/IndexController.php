@@ -7,6 +7,7 @@ namespace CliffordVickrey\FecReporter\App\Controller;
 use CliffordVickrey\FecReporter\App\Grids\CandidateGrid;
 use CliffordVickrey\FecReporter\App\Grids\CandidateSubTotalsGrid;
 use CliffordVickrey\FecReporter\App\Grids\CandidateSummaryGrid;
+use CliffordVickrey\FecReporter\App\Grids\EndorsersGrid;
 use CliffordVickrey\FecReporter\App\Grids\FecHistoryGrid;
 use CliffordVickrey\FecReporter\App\Request\Request;
 use CliffordVickrey\FecReporter\App\Response\Response;
@@ -120,6 +121,20 @@ final class IndexController implements ControllerInterface
             }
 
             $response[self::PARAM_ENDORSER_ID] = $endorserId;
+
+            if ('' !== $endorsers) {
+                $endorsements = $endorsersAggregate->getEndorserCommittees(
+                    $candidateId,
+                    $endorserId,
+                    $totalType
+                );
+
+                $endorsersGrid = new EndorsersGrid();
+                $endorsersGrid->setValues($endorsements);
+
+                $response[EndorsersGrid::class] = $endorsersGrid;
+                $response['endorsementDate'] = $endorsersAggregate->getEndorsementDate($candidateId, $endorserId);
+            }
 
             // endregion
         }

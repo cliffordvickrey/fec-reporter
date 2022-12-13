@@ -40,10 +40,10 @@ final class SubTotalPanel
             $self->pre = SubTotal::fromArray($pre);
         }
 
-        $pre = $data['pre'] ?? [];
+        $post = $data['post'] ?? [];
 
-        if (is_array($pre)) {
-            $self->pre = SubTotal::fromArray($pre);
+        if (is_array($post)) {
+            $self->post = SubTotal::fromArray($post);
         }
 
         $all = $data['all'] ?? [];

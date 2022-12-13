@@ -15,6 +15,7 @@ window.addEventListener("DOMContentLoaded", () => {
             onSelectItem: selected => {
                 const boundTo = autocomplete.getAttribute("data-bound-to");
                 document.getElementById(boundTo).value = selected.value;
+                reportForm.action = "#" + encodeURIComponent(boundTo);
                 reportForm.submit();
             }
         });
@@ -40,7 +41,11 @@ window.addEventListener("DOMContentLoaded", () => {
     const dropdowns = document.querySelectorAll("select[data-dropdown='1']");
 
     for (let i = 0; i < dropdowns.length; i++) {
-        dropdowns.item(i).addEventListener("change", () => reportForm.submit());
+        const dropdown = dropdowns.item(i);
+        dropdown.addEventListener("change", () => {
+            reportForm.action = "#" + encodeURIComponent(dropdown.id);
+            reportForm.submit()
+        });
     }
 
     // download links

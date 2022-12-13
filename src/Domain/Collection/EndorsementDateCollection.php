@@ -37,7 +37,7 @@ final class EndorsementDateCollection extends AbstractCollection
                 throw new FecUnexpectedValueException($msg);
             }
 
-            $self[$key] = $value;
+            $self[$key] = $dateTime;
         }
 
         return $self;
