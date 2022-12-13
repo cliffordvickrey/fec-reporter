@@ -83,7 +83,7 @@ final class SubTotalType extends AbstractEnum
             self::SUB_TYPE_LOCAL_PARTY => 'Local Party Committee Donors',
             self::SUB_TYPE_COMPETITOR_ENDORSEMENT => 'Competitor Endorsement Donors (Donors who gave to other'
                 . ' presidential endorser)',
-            self::SUB_TYPE_CONGRESSIONAL_ENDORSEMENT => 'Competitor Endorsement Donors (Donors who gave an endoser'
+            self::SUB_TYPE_CONGRESSIONAL_ENDORSEMENT => 'Congressional Endorsement Donors (Donors who gave an endoser'
                 . ' in Congress)',
             self::SUB_TYPE_SENATE_ENDORSEMENT => 'Senate Endorsement Donors (Donors who gave to Senate endorser)',
             self::SUB_TYPE_HOUSE_ENDORSEMENT => 'House Endorsement Donors (Donors who gave to House endorser)'
