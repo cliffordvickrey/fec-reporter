@@ -41,89 +41,33 @@ $totalType = $response->getObjectNullable(TotalType::class);
                     <!-- panels -->
                     <div class="accordion" id="fec-accordion">
                         <!-- candidate info panel -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="fec-accordion-heading-candidate">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#fec-accordion-collapse-candidate" aria-expanded="true"
-                                        aria-controls="fec-accordion-collapse-candidate">
-                                    Candidate Info
-                                </button>
-                            </h2>
-                            <div id="fec-accordion-collapse-candidate" class="accordion-collapse collapse show"
-                                 aria-labelledby="fec-accordion-heading-candidate">
-                                <div class="accordion-body">
-                                    <div class="container-fluid">
-                                        <!-- candidate info -->
-                                        <?= $view->partial('candidate-info', $response); ?>
-                                        <!-- /candidate info -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?= $view->panel(
+                            'candidate',
+                            'Candidate Info',
+                            $view->partial('candidate', $response)
+                        ); ?>
                         <!-- /candidate info panel -->
                         <!-- subtotals  panel -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="fec-accordion-heading-subtotals">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#fec-accordion-collapse-subtotals" aria-expanded="true"
-                                        aria-controls="fec-accordion-collapse-subtotals">
-                                    Subtotals
-                                </button>
-                            </h2>
-                            <div id="fec-accordion-collapse-subtotals" class="accordion-collapse collapse show"
-                                 aria-labelledby="fec-accordion-heading-subtotals">
-                                <div class="accordion-body">
-                                    <div class="container-fluid">
-                                        <!-- subtotals info -->
-                                        <?= $view->partial('subtotals', $response); ?>
-                                        <!-- /subtotals info -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?= $view->panel(
+                            'subtotal',
+                            'Subtotals',
+                            $view->partial('subtotals', $response)
+                        ); ?>
                         <!-- /subtotals panel -->
                         <?php if (null !== $totalType) { ?>
                             <!-- endorsers panel -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="fec-accordion-heading-endorsers">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#fec-accordion-collapse-endorsers" aria-expanded="true"
-                                            aria-controls="fec-accordion-collapse-endorsers">
-                                        Endorsers
-                                    </button>
-                                </h2>
-                                <div id="fec-accordion-collapse-endorsers" class="accordion-collapse collapse show"
-                                     aria-labelledby="fec-accordion-heading-endorsers">
-                                    <div class="accordion-body">
-                                        <div class="container-fluid">
-                                            <!-- endorsers info -->
-                                            <?= $view->partial('endorsers', $response); ?>
-                                            <!-- /endorsers info -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <?= $view->panel(
+                                'endorsers',
+                                'Endorsers',
+                                $view->partial('endorsers', $response)
+                            ); ?>
                             <!-- /endorsers panel -->
                             <!-- non-endorsers panel -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="fec-accordion-heading-non-endorsers">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#fec-accordion-collapse-non-endorsers" aria-expanded="true"
-                                            aria-controls="fec-accordion-collapse-non-endorsers">
-                                        Non-Endorsers
-                                    </button>
-                                </h2>
-                                <div id="fec-accordion-collapse-non-endorsers" class="accordion-collapse collapse show"
-                                     aria-labelledby="fec-accordion-heading-non-endorsers">
-                                    <div class="accordion-body">
-                                        <div class="container-fluid">
-                                            <!-- non-endorsers info -->
-                                            <?= $view->partial('non-endorsers', $response); ?>
-                                            <!-- /non-endorsers info -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <?= $view->panel(
+                                'non-endorsers',
+                                'Non-Endorsers',
+                                $view->partial('non-endorsers', $response)
+                            ); ?>
                             <!-- /non-endorsers panel -->
                         <?php } ?>
                     </div>

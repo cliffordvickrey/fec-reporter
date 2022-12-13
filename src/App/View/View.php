@@ -122,6 +122,17 @@ class View
 
     /**
      * @param string $id
+     * @param string $label
+     * @param string $content
+     * @return string
+     */
+    public function panel(string $id, string $label, string $content): string
+    {
+        return $this->partial('panel', ['id' => $id, 'label' => $label, 'content' => $content]);
+    }
+
+    /**
+     * @param string $id
      * @param string $name
      * @param string $label
      * @param array<array-key, string>|JsonSerializable $options
