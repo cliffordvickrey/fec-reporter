@@ -1511,29 +1511,63 @@
             }
         }
     },
-    "donor2016": {
+    "endorsementPre": {
         "craig_house": {
             "pre": {
-                "donors": 1326,
-                "receipts": 3684,
-                "amt": 118242.03
+                "donors": 5432,
+                "receipts": 13959,
+                "amt": 1334655.28
             },
             "post": {
-                "donors": 748,
-                "receipts": 2608,
-                "amt": 84853.18
+                "donors": 2375,
+                "receipts": 10795,
+                "amt": 897314.41
             },
             "all": {
-                "donors": 1760,
-                "receipts": 6292,
-                "amt": 203095.21
+                "donors": 6111,
+                "receipts": 24754,
+                "amt": 2231969.69
+            }
+        },
+        "joint_heitkamp_and_tina_smith": {
+            "pre": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 1700
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 1700
             }
         },
         "joint_rosen_and_sinema_and_stabenow_and_tina_smith": {
             "pre": {
+                "donors": 6,
+                "receipts": 6,
+                "amt": 27300
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 6,
+                "amt": 27300
+            }
+        },
+        "joint_rosen_and_tina_smith": {
+            "pre": {
                 "donors": 1,
                 "receipts": 1,
-                "amt": 5000
+                "amt": 1000
             },
             "post": {
                 "donors": 0,
@@ -1543,92 +1577,882 @@
             "all": {
                 "donors": 1,
                 "receipts": 1,
-                "amt": 5000
+                "amt": 1000
             }
         },
         "linda_sanchez_house": {
             "pre": {
-                "donors": 203,
-                "receipts": 890,
-                "amt": 13533.72
+                "donors": 453,
+                "receipts": 1870,
+                "amt": 92074.37
             },
             "post": {
-                "donors": 50,
-                "receipts": 82,
-                "amt": 1334.5
+                "donors": 81,
+                "receipts": 252,
+                "amt": 16134
             },
             "all": {
-                "donors": 232,
-                "receipts": 972,
-                "amt": 14868.22
+                "donors": 485,
+                "receipts": 2122,
+                "amt": 108208.37
+            }
+        },
+        "linda_sanchez_house_alt": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            }
+        },
+        "linda_sanchez_leadership": {
+            "pre": {
+                "donors": 5,
+                "receipts": 6,
+                "amt": 30000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 6,
+                "amt": 30000
             }
         },
         "mccollum_house": {
             "pre": {
-                "donors": 112,
-                "receipts": 244,
-                "amt": 35112.74
+                "donors": 444,
+                "receipts": 991,
+                "amt": 377953.52
             },
             "post": {
-                "donors": 49,
-                "receipts": 132,
-                "amt": 4497
+                "donors": 193,
+                "receipts": 498,
+                "amt": 61660.88
             },
             "all": {
-                "donors": 134,
-                "receipts": 376,
-                "amt": 39609.74
+                "donors": 516,
+                "receipts": 1489,
+                "amt": 439614.4
+            }
+        },
+        "mccollum_leadership": {
+            "pre": {
+                "donors": 8,
+                "receipts": 12,
+                "amt": 37600
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 10000
+            },
+            "all": {
+                "donors": 9,
+                "receipts": 14,
+                "amt": 47600
             }
         },
         "peterson_house": {
             "pre": {
-                "donors": 12,
-                "receipts": 33,
-                "amt": 1773.87
+                "donors": 107,
+                "receipts": 242,
+                "amt": 149114.8
             },
             "post": {
-                "donors": 85,
-                "receipts": 101,
-                "amt": 5676.99
+                "donors": 206,
+                "receipts": 297,
+                "amt": 96955.82
             },
             "all": {
-                "donors": 94,
-                "receipts": 134,
-                "amt": 7450.86
+                "donors": 273,
+                "receipts": 539,
+                "amt": 246070.62
+            }
+        },
+        "peterson_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 10000
             }
         },
         "phillips_house": {
             "pre": {
-                "donors": 761,
-                "receipts": 2060,
-                "amt": 84482.03
+                "donors": 4602,
+                "receipts": 11981,
+                "amt": 1170157.07
             },
             "post": {
-                "donors": 316,
-                "receipts": 1298,
-                "amt": 42239.44
+                "donors": 1572,
+                "receipts": 7594,
+                "amt": 630664.08
             },
             "all": {
-                "donors": 897,
-                "receipts": 3358,
-                "amt": 126721.47
+                "donors": 4813,
+                "receipts": 19575,
+                "amt": 1800821.15
             }
         },
         "tina_smith_sen": {
             "pre": {
-                "donors": 1966,
-                "receipts": 5597,
-                "amt": 155218.81
+                "donors": 9308,
+                "receipts": 24810,
+                "amt": 1867654.25
             },
             "post": {
-                "donors": 2689,
-                "receipts": 12462,
-                "amt": 297500.1
+                "donors": 6140,
+                "receipts": 38929,
+                "amt": 2065357.39
             },
             "all": {
-                "donors": 3799,
-                "receipts": 18059,
-                "amt": 452718.91
+                "donors": 10809,
+                "receipts": 63739,
+                "amt": 3933011.64
+            }
+        }
+    },
+    "congressionalEndorsement": {
+        "craig_house": {
+            "pre": {
+                "donors": 5432,
+                "receipts": 13959,
+                "amt": 1334655.28
+            },
+            "post": {
+                "donors": 4355,
+                "receipts": 14845,
+                "amt": 1095686.43
+            },
+            "all": {
+                "donors": 8091,
+                "receipts": 28804,
+                "amt": 2430341.71
+            }
+        },
+        "joint_heitkamp_and_tina_smith": {
+            "pre": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 1700
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 1700
+            }
+        },
+        "joint_rosen_and_sinema_and_stabenow_and_tina_smith": {
+            "pre": {
+                "donors": 6,
+                "receipts": 6,
+                "amt": 27300
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 6,
+                "amt": 27300
+            }
+        },
+        "joint_rosen_and_tina_smith": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            }
+        },
+        "linda_sanchez_house": {
+            "pre": {
+                "donors": 453,
+                "receipts": 1870,
+                "amt": 92074.37
+            },
+            "post": {
+                "donors": 131,
+                "receipts": 315,
+                "amt": 24149.5
+            },
+            "all": {
+                "donors": 535,
+                "receipts": 2185,
+                "amt": 116223.87
+            }
+        },
+        "linda_sanchez_house_alt": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            }
+        },
+        "linda_sanchez_leadership": {
+            "pre": {
+                "donors": 5,
+                "receipts": 6,
+                "amt": 30000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 6,
+                "amt": 30000
+            }
+        },
+        "mccollum_house": {
+            "pre": {
+                "donors": 444,
+                "receipts": 991,
+                "amt": 377953.52
+            },
+            "post": {
+                "donors": 257,
+                "receipts": 579,
+                "amt": 70232.88
+            },
+            "all": {
+                "donors": 580,
+                "receipts": 1570,
+                "amt": 448186.4
+            }
+        },
+        "mccollum_leadership": {
+            "pre": {
+                "donors": 8,
+                "receipts": 12,
+                "amt": 37600
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 10000
+            },
+            "all": {
+                "donors": 9,
+                "receipts": 14,
+                "amt": 47600
+            }
+        },
+        "peterson_house": {
+            "pre": {
+                "donors": 107,
+                "receipts": 242,
+                "amt": 149114.8
+            },
+            "post": {
+                "donors": 605,
+                "receipts": 766,
+                "amt": 131602.08
+            },
+            "all": {
+                "donors": 672,
+                "receipts": 1008,
+                "amt": 280716.88
+            }
+        },
+        "peterson_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 10000
+            }
+        },
+        "phillips_house": {
+            "pre": {
+                "donors": 4602,
+                "receipts": 11981,
+                "amt": 1170157.07
+            },
+            "post": {
+                "donors": 2453,
+                "receipts": 9068,
+                "amt": 733047.8
+            },
+            "all": {
+                "donors": 5694,
+                "receipts": 21049,
+                "amt": 1903204.87
+            }
+        },
+        "tina_smith_sen": {
+            "pre": {
+                "donors": 9308,
+                "receipts": 24810,
+                "amt": 1867654.25
+            },
+            "post": {
+                "donors": 18559,
+                "receipts": 75122,
+                "amt": 3387672.14
+            },
+            "all": {
+                "donors": 23228,
+                "receipts": 99932,
+                "amt": 5255326.39
+            }
+        }
+    },
+    "donor2016": {
+        "craig_house": {
+            "pre": {
+                "donors": 2708,
+                "receipts": 8138,
+                "amt": 722380.78
+            },
+            "post": {
+                "donors": 1719,
+                "receipts": 5995,
+                "amt": 503326.57
+            },
+            "all": {
+                "donors": 3652,
+                "receipts": 14133,
+                "amt": 1225707.35
+            }
+        },
+        "joint_heitkamp_and_tina_smith": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 100
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 100
+            }
+        },
+        "joint_rosen_and_sinema_and_stabenow_and_tina_smith": {
+            "pre": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 17300
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 17300
+            }
+        },
+        "linda_sanchez_house": {
+            "pre": {
+                "donors": 344,
+                "receipts": 1583,
+                "amt": 38881.14
+            },
+            "post": {
+                "donors": 90,
+                "receipts": 225,
+                "amt": 7180.5
+            },
+            "all": {
+                "donors": 398,
+                "receipts": 1808,
+                "amt": 46061.64
+            }
+        },
+        "mccollum_house": {
+            "pre": {
+                "donors": 230,
+                "receipts": 583,
+                "amt": 172807.39
+            },
+            "post": {
+                "donors": 108,
+                "receipts": 305,
+                "amt": 24458.88
+            },
+            "all": {
+                "donors": 276,
+                "receipts": 888,
+                "amt": 197266.27
+            }
+        },
+        "mccollum_leadership": {
+            "pre": {
+                "donors": 5,
+                "receipts": 9,
+                "amt": 35500
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 10,
+                "amt": 40500
+            }
+        },
+        "peterson_house": {
+            "pre": {
+                "donors": 32,
+                "receipts": 79,
+                "amt": 28862.31
+            },
+            "post": {
+                "donors": 209,
+                "receipts": 274,
+                "amt": 44583.09
+            },
+            "all": {
+                "donors": 231,
+                "receipts": 353,
+                "amt": 73445.4
+            }
+        },
+        "phillips_house": {
+            "pre": {
+                "donors": 1755,
+                "receipts": 4798,
+                "amt": 459430.18
+            },
+            "post": {
+                "donors": 759,
+                "receipts": 3056,
+                "amt": 267910.57
+            },
+            "all": {
+                "donors": 2043,
+                "receipts": 7854,
+                "amt": 727340.75
+            }
+        },
+        "tina_smith_sen": {
+            "pre": {
+                "donors": 3888,
+                "receipts": 11616,
+                "amt": 873274.63
+            },
+            "post": {
+                "donors": 5883,
+                "receipts": 26626,
+                "amt": 1322726.07
+            },
+            "all": {
+                "donors": 7867,
+                "receipts": 38242,
+                "amt": 2196000.7
+            }
+        }
+    },
+    "clinton2016": {
+        "craig_house": {
+            "pre": {
+                "donors": 1855,
+                "receipts": 6001,
+                "amt": 660459.11
+            },
+            "post": {
+                "donors": 1258,
+                "receipts": 4599,
+                "amt": 464734.51
+            },
+            "all": {
+                "donors": 2526,
+                "receipts": 10600,
+                "amt": 1125193.62
+            }
+        },
+        "joint_heitkamp_and_tina_smith": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 100
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 100
+            }
+        },
+        "joint_rosen_and_sinema_and_stabenow_and_tina_smith": {
+            "pre": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 12300
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 12300
+            }
+        },
+        "linda_sanchez_house": {
+            "pre": {
+                "donors": 262,
+                "receipts": 1396,
+                "amt": 36479.74
+            },
+            "post": {
+                "donors": 67,
+                "receipts": 197,
+                "amt": 6786.5
+            },
+            "all": {
+                "donors": 301,
+                "receipts": 1593,
+                "amt": 43266.24
+            }
+        },
+        "mccollum_house": {
+            "pre": {
+                "donors": 165,
+                "receipts": 492,
+                "amt": 163479.24
+            },
+            "post": {
+                "donors": 74,
+                "receipts": 223,
+                "amt": 22444.88
+            },
+            "all": {
+                "donors": 194,
+                "receipts": 715,
+                "amt": 185924.12
+            }
+        },
+        "mccollum_leadership": {
+            "pre": {
+                "donors": 5,
+                "receipts": 9,
+                "amt": 35500
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 10,
+                "amt": 40500
+            }
+        },
+        "peterson_house": {
+            "pre": {
+                "donors": 24,
+                "receipts": 63,
+                "amt": 27244.97
+            },
+            "post": {
+                "donors": 162,
+                "receipts": 217,
+                "amt": 41495.91
+            },
+            "all": {
+                "donors": 179,
+                "receipts": 280,
+                "amt": 68740.88
+            }
+        },
+        "phillips_house": {
+            "pre": {
+                "donors": 1258,
+                "receipts": 3521,
+                "amt": 412036.59
+            },
+            "post": {
+                "donors": 541,
+                "receipts": 2240,
+                "amt": 242156.64
+            },
+            "all": {
+                "donors": 1446,
+                "receipts": 5761,
+                "amt": 654193.23
+            }
+        },
+        "tina_smith_sen": {
+            "pre": {
+                "donors": 2577,
+                "receipts": 8450,
+                "amt": 797718.7
+            },
+            "post": {
+                "donors": 4053,
+                "receipts": 19369,
+                "amt": 1153235.48
+            },
+            "all": {
+                "donors": 5244,
+                "receipts": 27819,
+                "amt": 1950954.18
+            }
+        }
+    },
+    "endorsementPost": {
+        "craig_house": {
+            "pre": {
+                "donors": 2794,
+                "receipts": 9721,
+                "amt": 1057246.89
+            },
+            "post": {
+                "donors": 4355,
+                "receipts": 14845,
+                "amt": 1095686.43
+            },
+            "all": {
+                "donors": 5453,
+                "receipts": 24566,
+                "amt": 2152933.32
+            }
+        },
+        "joint_heitkamp_and_tina_smith": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 600
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 600
+            }
+        },
+        "joint_rosen_and_sinema_and_stabenow_and_tina_smith": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            }
+        },
+        "linda_sanchez_house": {
+            "pre": {
+                "donors": 184,
+                "receipts": 962,
+                "amt": 53108.19
+            },
+            "post": {
+                "donors": 131,
+                "receipts": 315,
+                "amt": 24149.5
+            },
+            "all": {
+                "donors": 266,
+                "receipts": 1277,
+                "amt": 77257.69
+            }
+        },
+        "linda_sanchez_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 15000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 15000
+            }
+        },
+        "mccollum_house": {
+            "pre": {
+                "donors": 321,
+                "receipts": 827,
+                "amt": 330140.34
+            },
+            "post": {
+                "donors": 257,
+                "receipts": 579,
+                "amt": 70232.88
+            },
+            "all": {
+                "donors": 457,
+                "receipts": 1406,
+                "amt": 400373.22
+            }
+        },
+        "mccollum_leadership": {
+            "pre": {
+                "donors": 7,
+                "receipts": 11,
+                "amt": 37100
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 10000
+            },
+            "all": {
+                "donors": 8,
+                "receipts": 13,
+                "amt": 47100
+            }
+        },
+        "peterson_house": {
+            "pre": {
+                "donors": 72,
+                "receipts": 186,
+                "amt": 122192.65
+            },
+            "post": {
+                "donors": 605,
+                "receipts": 766,
+                "amt": 131602.08
+            },
+            "all": {
+                "donors": 637,
+                "receipts": 952,
+                "amt": 253794.73
+            }
+        },
+        "peterson_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 10000
+            }
+        },
+        "phillips_house": {
+            "pre": {
+                "donors": 2639,
+                "receipts": 8823,
+                "amt": 925925.46
+            },
+            "post": {
+                "donors": 2453,
+                "receipts": 9068,
+                "amt": 733047.8
+            },
+            "all": {
+                "donors": 3731,
+                "receipts": 17891,
+                "amt": 1658973.26
+            }
+        },
+        "tina_smith_sen": {
+            "pre": {
+                "donors": 5023,
+                "receipts": 17596,
+                "amt": 1450200.31
+            },
+            "post": {
+                "donors": 18559,
+                "receipts": 75122,
+                "amt": 3387672.14
+            },
+            "all": {
+                "donors": 18943,
+                "receipts": 92718,
+                "amt": 4837872.45
             }
         }
     },

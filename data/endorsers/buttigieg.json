@@ -995,114 +995,131 @@
             }
         }
     },
-    "donor2016": {
+    "endorsementPost": {
         "anthony_brown_house": {
             "pre": {
-                "donors": 47,
-                "receipts": 118,
-                "amt": 820.01
+                "donors": 28,
+                "receipts": 216,
+                "amt": 31301.26
             },
             "post": {
-                "donors": 37,
-                "receipts": 51,
-                "amt": 382.33
+                "donors": 268,
+                "receipts": 397,
+                "amt": 27958.34
             },
             "all": {
-                "donors": 83,
-                "receipts": 169,
-                "amt": 1202.34
+                "donors": 279,
+                "receipts": 613,
+                "amt": 59259.6
+            }
+        },
+        "anthony_brown_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2700
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2700
             }
         },
         "beyer_house": {
             "pre": {
-                "donors": 208,
-                "receipts": 492,
-                "amt": 28809.09
+                "donors": 285,
+                "receipts": 1153,
+                "amt": 377704.76
             },
             "post": {
-                "donors": 101,
-                "receipts": 222,
-                "amt": 7006.82
+                "donors": 669,
+                "receipts": 1452,
+                "amt": 151860.2
             },
             "all": {
-                "donors": 268,
-                "receipts": 714,
-                "amt": 35815.91
+                "donors": 718,
+                "receipts": 2605,
+                "amt": 529564.96
             }
         },
         "beyer_leadership": {
             "pre": {
-                "donors": 1,
-                "receipts": 2,
-                "amt": 10000
+                "donors": 6,
+                "receipts": 32,
+                "amt": 37550
             },
             "post": {
-                "donors": 4,
-                "receipts": 4,
-                "amt": 400
+                "donors": 65,
+                "receipts": 90,
+                "amt": 66910
             },
             "all": {
-                "donors": 5,
-                "receipts": 6,
-                "amt": 10400
+                "donors": 67,
+                "receipts": 122,
+                "amt": 104460
             }
         },
         "kim_house": {
             "pre": {
-                "donors": 1660,
-                "receipts": 4656,
-                "amt": 125885.43
+                "donors": 1240,
+                "receipts": 7210,
+                "amt": 576804.13
             },
             "post": {
-                "donors": 541,
-                "receipts": 1584,
-                "amt": 48416.62
+                "donors": 2793,
+                "receipts": 6780,
+                "amt": 514895.78
             },
             "all": {
-                "donors": 1938,
-                "receipts": 6240,
-                "amt": 174302.05
+                "donors": 2890,
+                "receipts": 13990,
+                "amt": 1091699.91
             }
         },
         "kuster_house": {
             "pre": {
-                "donors": 1995,
-                "receipts": 8125,
-                "amt": 271057.89
+                "donors": 561,
+                "receipts": 7260,
+                "amt": 653545.92
             },
             "post": {
-                "donors": 198,
-                "receipts": 890,
-                "amt": 30181.99
+                "donors": 766,
+                "receipts": 2429,
+                "amt": 147965.67
             },
             "all": {
-                "donors": 2063,
-                "receipts": 9015,
-                "amt": 301239.88
+                "donors": 954,
+                "receipts": 9689,
+                "amt": 801511.59
             }
         },
         "kuster_leadership": {
             "pre": {
-                "donors": 1,
-                "receipts": 1,
-                "amt": 100
+                "donors": 3,
+                "receipts": 3,
+                "amt": 6100
             },
             "post": {
-                "donors": 0,
-                "receipts": 0,
-                "amt": 0
+                "donors": 3,
+                "receipts": 3,
+                "amt": 2610
             },
             "all": {
-                "donors": 1,
-                "receipts": 1,
-                "amt": 100
+                "donors": 5,
+                "receipts": 6,
+                "amt": 8710
             }
         },
         "loebsack_house": {
             "pre": {
-                "donors": 322,
-                "receipts": 1137,
-                "amt": 35385.43
+                "donors": 74,
+                "receipts": 201,
+                "amt": 22902.83
             },
             "post": {
                 "donors": 0,
@@ -1110,33 +1127,50 @@
                 "amt": 0
             },
             "all": {
-                "donors": 322,
-                "receipts": 1137,
-                "amt": 35385.43
+                "donors": 74,
+                "receipts": 201,
+                "amt": 22902.83
             }
         },
         "rice_house": {
             "pre": {
-                "donors": 208,
-                "receipts": 410,
-                "amt": 11048.45
+                "donors": 101,
+                "receipts": 319,
+                "amt": 91901.4
             },
             "post": {
-                "donors": 91,
-                "receipts": 162,
-                "amt": 2261.56
+                "donors": 558,
+                "receipts": 779,
+                "amt": 35973.63
             },
             "all": {
-                "donors": 284,
-                "receipts": 572,
-                "amt": 13310.01
+                "donors": 594,
+                "receipts": 1098,
+                "amt": 127875.03
+            }
+        },
+        "rice_leadership": {
+            "pre": {
+                "donors": 7,
+                "receipts": 10,
+                "amt": 20000
+            },
+            "post": {
+                "donors": 8,
+                "receipts": 9,
+                "amt": 13500
+            },
+            "all": {
+                "donors": 10,
+                "receipts": 19,
+                "amt": 33500
             }
         },
         "visclosky_house": {
             "pre": {
-                "donors": 35,
-                "receipts": 104,
-                "amt": 10763.13
+                "donors": 1,
+                "receipts": 2,
+                "amt": 200
             },
             "post": {
                 "donors": 0,
@@ -1144,9 +1178,404 @@
                 "amt": 0
             },
             "all": {
-                "donors": 35,
-                "receipts": 104,
-                "amt": 10763.13
+                "donors": 1,
+                "receipts": 2,
+                "amt": 200
+            }
+        }
+    },
+    "congressionalEndorsement": {
+        "anthony_brown_house": {
+            "pre": {
+                "donors": 135,
+                "receipts": 423,
+                "amt": 44399.5
+            },
+            "post": {
+                "donors": 268,
+                "receipts": 397,
+                "amt": 27958.34
+            },
+            "all": {
+                "donors": 386,
+                "receipts": 820,
+                "amt": 72357.84
+            }
+        },
+        "anthony_brown_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2700
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2700
+            }
+        },
+        "beyer_house": {
+            "pre": {
+                "donors": 795,
+                "receipts": 2018,
+                "amt": 610802.37
+            },
+            "post": {
+                "donors": 669,
+                "receipts": 1452,
+                "amt": 151860.2
+            },
+            "all": {
+                "donors": 1228,
+                "receipts": 3470,
+                "amt": 762662.57
+            }
+        },
+        "beyer_leadership": {
+            "pre": {
+                "donors": 13,
+                "receipts": 40,
+                "amt": 67050
+            },
+            "post": {
+                "donors": 65,
+                "receipts": 90,
+                "amt": 66910
+            },
+            "all": {
+                "donors": 74,
+                "receipts": 130,
+                "amt": 133960
+            }
+        },
+        "joint_clark_and_kuster": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            }
+        },
+        "kim_house": {
+            "pre": {
+                "donors": 5824,
+                "receipts": 15617,
+                "amt": 1062082.65
+            },
+            "post": {
+                "donors": 2793,
+                "receipts": 6780,
+                "amt": 514895.78
+            },
+            "all": {
+                "donors": 7474,
+                "receipts": 22397,
+                "amt": 1576978.43
+            }
+        },
+        "kuster_house": {
+            "pre": {
+                "donors": 4302,
+                "receipts": 16606,
+                "amt": 1258066.58
+            },
+            "post": {
+                "donors": 766,
+                "receipts": 2429,
+                "amt": 147965.67
+            },
+            "all": {
+                "donors": 4695,
+                "receipts": 19035,
+                "amt": 1406032.25
+            }
+        },
+        "kuster_leadership": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 6100
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 2610
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 6,
+                "amt": 8710
+            }
+        },
+        "loebsack_house": {
+            "pre": {
+                "donors": 887,
+                "receipts": 3206,
+                "amt": 226290.46
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 887,
+                "receipts": 3206,
+                "amt": 226290.46
+            }
+        },
+        "rice_house": {
+            "pre": {
+                "donors": 509,
+                "receipts": 941,
+                "amt": 247153.33
+            },
+            "post": {
+                "donors": 558,
+                "receipts": 779,
+                "amt": 35973.63
+            },
+            "all": {
+                "donors": 1002,
+                "receipts": 1720,
+                "amt": 283126.96
+            }
+        },
+        "rice_leadership": {
+            "pre": {
+                "donors": 9,
+                "receipts": 12,
+                "amt": 26000
+            },
+            "post": {
+                "donors": 8,
+                "receipts": 9,
+                "amt": 13500
+            },
+            "all": {
+                "donors": 12,
+                "receipts": 21,
+                "amt": 39500
+            }
+        },
+        "visclosky_house": {
+            "pre": {
+                "donors": 119,
+                "receipts": 311,
+                "amt": 102268.6
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 119,
+                "receipts": 311,
+                "amt": 102268.6
+            }
+        }
+    },
+    "donor2016": {
+        "anthony_brown_house": {
+            "pre": {
+                "donors": 82,
+                "receipts": 199,
+                "amt": 21933.06
+            },
+            "post": {
+                "donors": 66,
+                "receipts": 102,
+                "amt": 11861.6
+            },
+            "all": {
+                "donors": 141,
+                "receipts": 301,
+                "amt": 33794.66
+            }
+        },
+        "anthony_brown_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2700
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2700
+            }
+        },
+        "beyer_house": {
+            "pre": {
+                "donors": 470,
+                "receipts": 1294,
+                "amt": 409352.83
+            },
+            "post": {
+                "donors": 259,
+                "receipts": 656,
+                "amt": 72717.61
+            },
+            "all": {
+                "donors": 588,
+                "receipts": 1950,
+                "amt": 482070.44
+            }
+        },
+        "beyer_leadership": {
+            "pre": {
+                "donors": 7,
+                "receipts": 34,
+                "amt": 47550
+            },
+            "post": {
+                "donors": 30,
+                "receipts": 53,
+                "amt": 43800
+            },
+            "all": {
+                "donors": 34,
+                "receipts": 87,
+                "amt": 91350
+            }
+        },
+        "kim_house": {
+            "pre": {
+                "donors": 2944,
+                "receipts": 8386,
+                "amt": 589420.9
+            },
+            "post": {
+                "donors": 1103,
+                "receipts": 3043,
+                "amt": 253593.54
+            },
+            "all": {
+                "donors": 3491,
+                "receipts": 11429,
+                "amt": 843014.44
+            }
+        },
+        "kuster_house": {
+            "pre": {
+                "donors": 2904,
+                "receipts": 12603,
+                "amt": 897459.11
+            },
+            "post": {
+                "donors": 330,
+                "receipts": 1343,
+                "amt": 85770.9
+            },
+            "all": {
+                "donors": 3004,
+                "receipts": 13946,
+                "amt": 983230.01
+            }
+        },
+        "kuster_leadership": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 6100
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2500
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 8600
+            }
+        },
+        "loebsack_house": {
+            "pre": {
+                "donors": 523,
+                "receipts": 1991,
+                "amt": 123494.51
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 523,
+                "receipts": 1991,
+                "amt": 123494.51
+            }
+        },
+        "rice_house": {
+            "pre": {
+                "donors": 328,
+                "receipts": 633,
+                "amt": 95418.96
+            },
+            "post": {
+                "donors": 191,
+                "receipts": 299,
+                "amt": 16081.14
+            },
+            "all": {
+                "donors": 487,
+                "receipts": 932,
+                "amt": 111500.1
+            }
+        },
+        "rice_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 4,
+                "amt": 6000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 5,
+                "amt": 6500
+            }
+        },
+        "visclosky_house": {
+            "pre": {
+                "donors": 59,
+                "receipts": 161,
+                "amt": 68015.31
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 59,
+                "receipts": 161,
+                "amt": 68015.31
             }
         }
     },
@@ -1508,6 +1937,401 @@
                 "donors": 85,
                 "receipts": 221,
                 "amt": 74258.43
+            }
+        }
+    },
+    "endorsementPre": {
+        "anthony_brown_house": {
+            "pre": {
+                "donors": 135,
+                "receipts": 423,
+                "amt": 44399.5
+            },
+            "post": {
+                "donors": 33,
+                "receipts": 88,
+                "amt": 14937.56
+            },
+            "all": {
+                "donors": 151,
+                "receipts": 511,
+                "amt": 59337.06
+            }
+        },
+        "anthony_brown_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2700
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2700
+            }
+        },
+        "beyer_house": {
+            "pre": {
+                "donors": 795,
+                "receipts": 2018,
+                "amt": 610802.37
+            },
+            "post": {
+                "donors": 274,
+                "receipts": 813,
+                "amt": 125447.55
+            },
+            "all": {
+                "donors": 833,
+                "receipts": 2831,
+                "amt": 736249.92
+            }
+        },
+        "beyer_leadership": {
+            "pre": {
+                "donors": 13,
+                "receipts": 40,
+                "amt": 67050
+            },
+            "post": {
+                "donors": 42,
+                "receipts": 66,
+                "amt": 53485
+            },
+            "all": {
+                "donors": 51,
+                "receipts": 106,
+                "amt": 120535
+            }
+        },
+        "joint_clark_and_kuster": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            }
+        },
+        "kim_house": {
+            "pre": {
+                "donors": 5824,
+                "receipts": 15617,
+                "amt": 1062082.65
+            },
+            "post": {
+                "donors": 1216,
+                "receipts": 4558,
+                "amt": 358580.46
+            },
+            "all": {
+                "donors": 5897,
+                "receipts": 20175,
+                "amt": 1420663.11
+            }
+        },
+        "kuster_house": {
+            "pre": {
+                "donors": 4302,
+                "receipts": 16606,
+                "amt": 1258066.58
+            },
+            "post": {
+                "donors": 394,
+                "receipts": 1839,
+                "amt": 118526.5
+            },
+            "all": {
+                "donors": 4323,
+                "receipts": 18445,
+                "amt": 1376593.08
+            }
+        },
+        "kuster_leadership": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 6100
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 2600
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 5,
+                "amt": 8700
+            }
+        },
+        "loebsack_house": {
+            "pre": {
+                "donors": 887,
+                "receipts": 3206,
+                "amt": 226290.46
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 887,
+                "receipts": 3206,
+                "amt": 226290.46
+            }
+        },
+        "rice_house": {
+            "pre": {
+                "donors": 509,
+                "receipts": 941,
+                "amt": 247153.33
+            },
+            "post": {
+                "donors": 110,
+                "receipts": 268,
+                "amt": 19814.44
+            },
+            "all": {
+                "donors": 554,
+                "receipts": 1209,
+                "amt": 266967.77
+            }
+        },
+        "rice_leadership": {
+            "pre": {
+                "donors": 9,
+                "receipts": 12,
+                "amt": 26000
+            },
+            "post": {
+                "donors": 6,
+                "receipts": 7,
+                "amt": 12000
+            },
+            "all": {
+                "donors": 10,
+                "receipts": 19,
+                "amt": 38000
+            }
+        },
+        "visclosky_house": {
+            "pre": {
+                "donors": 119,
+                "receipts": 311,
+                "amt": 102268.6
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 119,
+                "receipts": 311,
+                "amt": 102268.6
+            }
+        }
+    },
+    "clinton2016": {
+        "anthony_brown_house": {
+            "pre": {
+                "donors": 53,
+                "receipts": 121,
+                "amt": 21408.69
+            },
+            "post": {
+                "donors": 37,
+                "receipts": 61,
+                "amt": 11676.69
+            },
+            "all": {
+                "donors": 83,
+                "receipts": 182,
+                "amt": 33085.38
+            }
+        },
+        "anthony_brown_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2700
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2700
+            }
+        },
+        "beyer_house": {
+            "pre": {
+                "donors": 345,
+                "receipts": 993,
+                "amt": 391837.64
+            },
+            "post": {
+                "donors": 198,
+                "receipts": 506,
+                "amt": 69003.87
+            },
+            "all": {
+                "donors": 419,
+                "receipts": 1499,
+                "amt": 460841.51
+            }
+        },
+        "beyer_leadership": {
+            "pre": {
+                "donors": 6,
+                "receipts": 32,
+                "amt": 37550
+            },
+            "post": {
+                "donors": 27,
+                "receipts": 50,
+                "amt": 43500
+            },
+            "all": {
+                "donors": 30,
+                "receipts": 82,
+                "amt": 81050
+            }
+        },
+        "kim_house": {
+            "pre": {
+                "donors": 1862,
+                "receipts": 5625,
+                "amt": 529046.66
+            },
+            "post": {
+                "donors": 753,
+                "receipts": 2086,
+                "amt": 227902.97
+            },
+            "all": {
+                "donors": 2204,
+                "receipts": 7711,
+                "amt": 756949.63
+            }
+        },
+        "kuster_house": {
+            "pre": {
+                "donors": 1626,
+                "receipts": 8335,
+                "amt": 722571.75
+            },
+            "post": {
+                "donors": 196,
+                "receipts": 856,
+                "amt": 66377.7
+            },
+            "all": {
+                "donors": 1672,
+                "receipts": 9191,
+                "amt": 788949.45
+            }
+        },
+        "kuster_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 6000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2500
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 8500
+            }
+        },
+        "loebsack_house": {
+            "pre": {
+                "donors": 328,
+                "receipts": 1232,
+                "amt": 92472.35
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 328,
+                "receipts": 1232,
+                "amt": 92472.35
+            }
+        },
+        "rice_house": {
+            "pre": {
+                "donors": 218,
+                "receipts": 482,
+                "amt": 90519.49
+            },
+            "post": {
+                "donors": 130,
+                "receipts": 233,
+                "amt": 15393.57
+            },
+            "all": {
+                "donors": 321,
+                "receipts": 715,
+                "amt": 105913.06
+            }
+        },
+        "rice_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 4,
+                "amt": 6000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 5,
+                "amt": 6500
+            }
+        },
+        "visclosky_house": {
+            "pre": {
+                "donors": 28,
+                "receipts": 68,
+                "amt": 59304.18
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 28,
+                "receipts": 68,
+                "amt": 59304.18
             }
         }
     },

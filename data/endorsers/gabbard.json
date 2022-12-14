@@ -94,12 +94,12 @@
             }
         }
     },
-    "donor2016": {
+    "endorsementPre": {
         "gravel_pres": {
             "pre": {
-                "donors": 6685,
-                "receipts": 9735,
-                "amt": 46628.89
+                "donors": 13924,
+                "receipts": 19006,
+                "amt": 83055.39
             },
             "post": {
                 "donors": 0,
@@ -107,9 +107,47 @@
                 "amt": 0
             },
             "all": {
-                "donors": 6685,
-                "receipts": 9735,
-                "amt": 46628.89
+                "donors": 13924,
+                "receipts": 19006,
+                "amt": 83055.39
+            }
+        }
+    },
+    "competitorEndorsement": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 13924,
+                "receipts": 19006,
+                "amt": 83055.39
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 13924,
+                "receipts": 19006,
+                "amt": 83055.39
+            }
+        }
+    },
+    "donor2016": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 6716,
+                "receipts": 9778,
+                "amt": 46957.89
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 6716,
+                "receipts": 9778,
+                "amt": 46957.89
             }
         }
     },
@@ -205,6 +243,25 @@
                 "donors": 153,
                 "receipts": 227,
                 "amt": 1317.23
+            }
+        }
+    },
+    "clinton2016": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 95,
+                "receipts": 145,
+                "amt": 953.35
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 95,
+                "receipts": 145,
+                "amt": 953.35
             }
         }
     },

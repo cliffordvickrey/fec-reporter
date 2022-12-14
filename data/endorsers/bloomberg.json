@@ -1031,6 +1031,730 @@
             }
         }
     },
+    "endorsementPre": {
+        "aguilar_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1035
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1035
+            }
+        },
+        "deutch_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 12,
+                "amt": 7090
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 12,
+                "amt": 7090
+            }
+        },
+        "gottheimer_house": {
+            "pre": {
+                "donors": 6,
+                "receipts": 6,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 300
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 8,
+                "amt": 5300
+            }
+        },
+        "mcadams_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 1218.8
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 1218.8
+            }
+        },
+        "mcbath_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 7,
+                "amt": 3984.81
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 8,
+                "amt": 4984.81
+            }
+        },
+        "rose_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 5,
+                "amt": 2218.8
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 2100
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 8,
+                "amt": 4318.8
+            }
+        },
+        "rouda_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 3174.81
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 3174.81
+            }
+        },
+        "sherrill_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 2014.8
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 2014.8
+            }
+        },
+        "stephanie_murphy_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 259.81
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 259.81
+            }
+        },
+        "stevens_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 1064.8
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 1064.8
+            }
+        }
+    },
+    "endorsementPost": {
+        "gottheimer_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 2000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 300
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 4,
+                "amt": 2300
+            }
+        },
+        "mcadams_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 1218.8
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 1218.8
+            }
+        },
+        "mcbath_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 1134.81
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 5,
+                "amt": 2134.81
+            }
+        },
+        "rose_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 5,
+                "amt": 2218.8
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 4900
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 9,
+                "amt": 7118.8
+            }
+        },
+        "rouda_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 3174.81
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 3174.81
+            }
+        },
+        "sherrill_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 1009.8
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 1009.8
+            }
+        },
+        "stephanie_murphy_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 9.81
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 9.81
+            }
+        },
+        "stevens_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 1009.8
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 20
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 1029.8
+            }
+        }
+    },
+    "congressionalEndorsement": {
+        "aguilar_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1035
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1035
+            }
+        },
+        "deutch_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 12,
+                "amt": 7090
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 12,
+                "amt": 7090
+            }
+        },
+        "gottheimer_house": {
+            "pre": {
+                "donors": 6,
+                "receipts": 6,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 300
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 8,
+                "amt": 5300
+            }
+        },
+        "mcadams_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 1218.8
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 1218.8
+            }
+        },
+        "mcbath_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 7,
+                "amt": 3984.81
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 8,
+                "amt": 4984.81
+            }
+        },
+        "rose_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 5,
+                "amt": 2218.8
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 4900
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 9,
+                "amt": 7118.8
+            }
+        },
+        "rouda_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 3174.81
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 3174.81
+            }
+        },
+        "sherrill_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 2014.8
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 2014.8
+            }
+        },
+        "stephanie_murphy_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 259.81
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 259.81
+            }
+        },
+        "stevens_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 1064.8
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 20
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 5,
+                "amt": 1084.8
+            }
+        }
+    },
+    "donor2016": {
+        "aguilar_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1035
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1035
+            }
+        },
+        "deutch_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 12,
+                "amt": 7090
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 12,
+                "amt": 7090
+            }
+        },
+        "gottheimer_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            }
+        },
+        "mcbath_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 2850
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 2850
+            }
+        },
+        "rose_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 2000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 3,
+                "amt": 3000
+            }
+        },
+        "sherrill_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5
+            }
+        },
+        "stephanie_murphy_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            }
+        },
+        "stevens_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5
+            }
+        }
+    },
+    "clinton2016": {
+        "aguilar_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1035
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1035
+            }
+        },
+        "deutch_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 12,
+                "amt": 7090
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 12,
+                "amt": 7090
+            }
+        },
+        "gottheimer_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            }
+        },
+        "mcbath_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 2850
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 2850
+            }
+        },
+        "rose_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 2000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 3,
+                "amt": 3000
+            }
+        },
+        "stephanie_murphy_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            }
+        }
+    },
     "weekOneLaunch": {
         "aguilar_house": {
             "pre": {
@@ -1219,59 +1943,6 @@
                 "donors": 1,
                 "receipts": 1,
                 "amt": 20
-            }
-        }
-    },
-    "donor2016": {
-        "mcbath_house": {
-            "pre": {
-                "donors": 1,
-                "receipts": 2,
-                "amt": 50
-            },
-            "post": {
-                "donors": 0,
-                "receipts": 0,
-                "amt": 0
-            },
-            "all": {
-                "donors": 1,
-                "receipts": 2,
-                "amt": 50
-            }
-        },
-        "sherrill_house": {
-            "pre": {
-                "donors": 1,
-                "receipts": 1,
-                "amt": 5
-            },
-            "post": {
-                "donors": 0,
-                "receipts": 0,
-                "amt": 0
-            },
-            "all": {
-                "donors": 1,
-                "receipts": 1,
-                "amt": 5
-            }
-        },
-        "stevens_house": {
-            "pre": {
-                "donors": 1,
-                "receipts": 1,
-                "amt": 5
-            },
-            "post": {
-                "donors": 0,
-                "receipts": 0,
-                "amt": 0
-            },
-            "all": {
-                "donors": 1,
-                "receipts": 1,
-                "amt": 5
             }
         }
     },

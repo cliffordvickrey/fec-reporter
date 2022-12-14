@@ -108,36 +108,72 @@
     "donor2016": {
         "carolyn_maloney_house": {
             "pre": {
-                "donors": 289,
-                "receipts": 667,
-                "amt": 19184.47
+                "donors": 478,
+                "receipts": 1170,
+                "amt": 144160.61
             },
             "post": {
-                "donors": 115,
-                "receipts": 349,
-                "amt": 8465.11
+                "donors": 225,
+                "receipts": 645,
+                "amt": 57238.96
             },
             "all": {
-                "donors": 363,
-                "receipts": 1016,
-                "amt": 27649.58
+                "donors": 616,
+                "receipts": 1815,
+                "amt": 201399.57
             }
         },
         "carolyn_maloney_leadership": {
             "pre": {
-                "donors": 1,
-                "receipts": 1,
-                "amt": 5000
+                "donors": 2,
+                "receipts": 3,
+                "amt": 15000
             },
             "post": {
-                "donors": 1,
-                "receipts": 1,
-                "amt": 5000
+                "donors": 5,
+                "receipts": 5,
+                "amt": 6700
             },
             "all": {
-                "donors": 1,
-                "receipts": 2,
-                "amt": 10000
+                "donors": 6,
+                "receipts": 8,
+                "amt": 21700
+            }
+        }
+    },
+    "clinton2016": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 336,
+                "receipts": 937,
+                "amt": 139665.14
+            },
+            "post": {
+                "donors": 157,
+                "receipts": 514,
+                "amt": 55838.28
+            },
+            "all": {
+                "donors": 427,
+                "receipts": 1451,
+                "amt": 195503.42
+            }
+        },
+        "carolyn_maloney_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 15000
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 6700
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 8,
+                "amt": 21700
             }
         }
     },
@@ -458,6 +494,165 @@
                 "donors": 910,
                 "receipts": 2642,
                 "amt": 316282.05
+            }
+        },
+        "carolyn_maloney_house_alt": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "carolyn_maloney_leadership": {
+            "pre": {
+                "donors": 4,
+                "receipts": 8,
+                "amt": 36750
+            },
+            "post": {
+                "donors": 11,
+                "receipts": 12,
+                "amt": 22420
+            },
+            "all": {
+                "donors": 12,
+                "receipts": 20,
+                "amt": 59170
+            }
+        }
+    },
+    "endorsementPre": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 642,
+                "receipts": 1480,
+                "amt": 224198.39
+            },
+            "post": {
+                "donors": 121,
+                "receipts": 536,
+                "amt": 59426.44
+            },
+            "all": {
+                "donors": 642,
+                "receipts": 2016,
+                "amt": 283624.83
+            }
+        },
+        "carolyn_maloney_house_alt": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "carolyn_maloney_leadership": {
+            "pre": {
+                "donors": 4,
+                "receipts": 8,
+                "amt": 36750
+            },
+            "post": {
+                "donors": 9,
+                "receipts": 9,
+                "amt": 17220
+            },
+            "all": {
+                "donors": 10,
+                "receipts": 17,
+                "amt": 53970
+            }
+        }
+    },
+    "congressionalEndorsement": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 642,
+                "receipts": 1480,
+                "amt": 224198.39
+            },
+            "post": {
+                "donors": 389,
+                "receipts": 1162,
+                "amt": 92083.66
+            },
+            "all": {
+                "donors": 910,
+                "receipts": 2642,
+                "amt": 316282.05
+            }
+        },
+        "carolyn_maloney_house_alt": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "carolyn_maloney_leadership": {
+            "pre": {
+                "donors": 4,
+                "receipts": 8,
+                "amt": 36750
+            },
+            "post": {
+                "donors": 11,
+                "receipts": 12,
+                "amt": 22420
+            },
+            "all": {
+                "donors": 12,
+                "receipts": 20,
+                "amt": 59170
+            }
+        }
+    },
+    "endorsementPost": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 124,
+                "receipts": 569,
+                "amt": 135891.87
+            },
+            "post": {
+                "donors": 389,
+                "receipts": 1162,
+                "amt": 92083.66
+            },
+            "all": {
+                "donors": 392,
+                "receipts": 1731,
+                "amt": 227975.53
             }
         },
         "carolyn_maloney_house_alt": {

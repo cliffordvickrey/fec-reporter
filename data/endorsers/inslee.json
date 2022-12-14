@@ -176,70 +176,140 @@
     "donor2016": {
         "kilmer_house": {
             "pre": {
-                "donors": 177,
-                "receipts": 698,
-                "amt": 63517.3
+                "donors": 318,
+                "receipts": 1238,
+                "amt": 243511.53
             },
             "post": {
-                "donors": 160,
-                "receipts": 806,
-                "amt": 20839.96
+                "donors": 249,
+                "receipts": 1139,
+                "amt": 51856.45
             },
             "all": {
-                "donors": 272,
-                "receipts": 1504,
-                "amt": 84357.26
+                "donors": 451,
+                "receipts": 2377,
+                "amt": 295367.98
             }
         },
         "kilmer_leadership": {
             "pre": {
-                "donors": 1,
-                "receipts": 1,
-                "amt": 500
+                "donors": 3,
+                "receipts": 3,
+                "amt": 2000
             },
             "post": {
-                "donors": 0,
-                "receipts": 0,
-                "amt": 0
-            },
-            "all": {
                 "donors": 1,
                 "receipts": 1,
-                "amt": 500
+                "amt": 5000
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 7000
             }
         },
         "larsen_house": {
             "pre": {
-                "donors": 170,
-                "receipts": 461,
-                "amt": 23409.07
+                "donors": 240,
+                "receipts": 636,
+                "amt": 71694.07
             },
             "post": {
-                "donors": 184,
-                "receipts": 609,
-                "amt": 18148.5
+                "donors": 267,
+                "receipts": 827,
+                "amt": 40894.5
             },
             "all": {
-                "donors": 276,
-                "receipts": 1070,
-                "amt": 41557.57
+                "donors": 391,
+                "receipts": 1463,
+                "amt": 112588.57
             }
         },
         "schrier_house": {
             "pre": {
-                "donors": 1687,
-                "receipts": 4527,
-                "amt": 315911.9
+                "donors": 2601,
+                "receipts": 6887,
+                "amt": 818325.5
             },
             "post": {
-                "donors": 934,
-                "receipts": 2915,
-                "amt": 151682.92
+                "donors": 1467,
+                "receipts": 4550,
+                "amt": 400585.4
             },
             "all": {
-                "donors": 2124,
-                "receipts": 7442,
-                "amt": 467594.82
+                "donors": 3220,
+                "receipts": 11437,
+                "amt": 1218910.9
+            }
+        }
+    },
+    "clinton2016": {
+        "kilmer_house": {
+            "pre": {
+                "donors": 188,
+                "receipts": 723,
+                "amt": 210845.29
+            },
+            "post": {
+                "donors": 132,
+                "receipts": 568,
+                "amt": 38906.49
+            },
+            "all": {
+                "donors": 248,
+                "receipts": 1291,
+                "amt": 249751.78
+            }
+        },
+        "kilmer_leadership": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 2000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 7000
+            }
+        },
+        "larsen_house": {
+            "pre": {
+                "donors": 119,
+                "receipts": 283,
+                "amt": 56177.5
+            },
+            "post": {
+                "donors": 126,
+                "receipts": 362,
+                "amt": 29914.5
+            },
+            "all": {
+                "donors": 186,
+                "receipts": 645,
+                "amt": 86092
+            }
+        },
+        "schrier_house": {
+            "pre": {
+                "donors": 1325,
+                "receipts": 3885,
+                "amt": 632936.6
+            },
+            "post": {
+                "donors": 803,
+                "receipts": 2752,
+                "amt": 302752.6
+            },
+            "all": {
+                "donors": 1624,
+                "receipts": 6637,
+                "amt": 935689.2
             }
         }
     },
@@ -801,6 +871,180 @@
             }
         }
     },
+    "endorsementPost": {
+        "kilmer_house": {
+            "pre": {
+                "donors": 354,
+                "receipts": 1833,
+                "amt": 525803.24
+            },
+            "post": {
+                "donors": 616,
+                "receipts": 2382,
+                "amt": 172960.2
+            },
+            "all": {
+                "donors": 705,
+                "receipts": 4215,
+                "amt": 698763.44
+            }
+        },
+        "kilmer_leadership": {
+            "pre": {
+                "donors": 12,
+                "receipts": 14,
+                "amt": 24750
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 13,
+                "receipts": 15,
+                "amt": 29750
+            }
+        },
+        "larsen_house": {
+            "pre": {
+                "donors": 247,
+                "receipts": 763,
+                "amt": 143033.67
+            },
+            "post": {
+                "donors": 539,
+                "receipts": 1416,
+                "amt": 99725.5
+            },
+            "all": {
+                "donors": 600,
+                "receipts": 2179,
+                "amt": 242759.17
+            }
+        },
+        "larsen_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            }
+        },
+        "schrier_house": {
+            "pre": {
+                "donors": 1852,
+                "receipts": 6511,
+                "amt": 1118917.94
+            },
+            "post": {
+                "donors": 3099,
+                "receipts": 9585,
+                "amt": 940255.07
+            },
+            "all": {
+                "donors": 3278,
+                "receipts": 16096,
+                "amt": 2059173.01
+            }
+        }
+    },
+    "congressionalEndorsement": {
+        "kilmer_house": {
+            "pre": {
+                "donors": 725,
+                "receipts": 2634,
+                "amt": 728320.68
+            },
+            "post": {
+                "donors": 616,
+                "receipts": 2382,
+                "amt": 172960.2
+            },
+            "all": {
+                "donors": 1076,
+                "receipts": 5016,
+                "amt": 901280.88
+            }
+        },
+        "kilmer_leadership": {
+            "pre": {
+                "donors": 17,
+                "receipts": 21,
+                "amt": 35351
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 18,
+                "receipts": 22,
+                "amt": 40351
+            }
+        },
+        "larsen_house": {
+            "pre": {
+                "donors": 417,
+                "receipts": 1030,
+                "amt": 174269.47
+            },
+            "post": {
+                "donors": 539,
+                "receipts": 1416,
+                "amt": 99725.5
+            },
+            "all": {
+                "donors": 770,
+                "receipts": 2446,
+                "amt": 273994.97
+            }
+        },
+        "larsen_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            }
+        },
+        "schrier_house": {
+            "pre": {
+                "donors": 5492,
+                "receipts": 12845,
+                "amt": 1659629.3
+            },
+            "post": {
+                "donors": 3099,
+                "receipts": 9585,
+                "amt": 940255.07
+            },
+            "all": {
+                "donors": 6918,
+                "receipts": 22430,
+                "amt": 2599884.37
+            }
+        }
+    },
     "loyal": {
         "kilmer_house": {
             "pre": {
@@ -868,6 +1112,93 @@
                 "donors": 716,
                 "receipts": 1714,
                 "amt": 440598.03
+            }
+        }
+    },
+    "endorsementPre": {
+        "kilmer_house": {
+            "pre": {
+                "donors": 725,
+                "receipts": 2634,
+                "amt": 728320.68
+            },
+            "post": {
+                "donors": 359,
+                "receipts": 1782,
+                "amt": 141308.95
+            },
+            "all": {
+                "donors": 819,
+                "receipts": 4416,
+                "amt": 869629.63
+            }
+        },
+        "kilmer_leadership": {
+            "pre": {
+                "donors": 17,
+                "receipts": 21,
+                "amt": 35351
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 18,
+                "receipts": 22,
+                "amt": 40351
+            }
+        },
+        "larsen_house": {
+            "pre": {
+                "donors": 417,
+                "receipts": 1030,
+                "amt": 174269.47
+            },
+            "post": {
+                "donors": 308,
+                "receipts": 975,
+                "amt": 87469
+            },
+            "all": {
+                "donors": 539,
+                "receipts": 2005,
+                "amt": 261738.47
+            }
+        },
+        "larsen_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            }
+        },
+        "schrier_house": {
+            "pre": {
+                "donors": 5492,
+                "receipts": 12845,
+                "amt": 1659629.3
+            },
+            "post": {
+                "donors": 1720,
+                "receipts": 6893,
+                "amt": 819450.85
+            },
+            "all": {
+                "donors": 5539,
+                "receipts": 19738,
+                "amt": 2479080.15
             }
         }
     },

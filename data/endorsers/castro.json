@@ -300,39 +300,198 @@
             }
         }
     },
-    "donor2016": {
+    "endorsementPre": {
         "allred_house": {
             "pre": {
-                "donors": 1250,
-                "receipts": 2133,
-                "amt": 60480.53
+                "donors": 4393,
+                "receipts": 7484,
+                "amt": 374269.73
             },
             "post": {
-                "donors": 625,
-                "receipts": 1662,
-                "amt": 40231.43
+                "donors": 687,
+                "receipts": 2797,
+                "amt": 216244.65
             },
             "all": {
-                "donors": 1674,
-                "receipts": 3795,
-                "amt": 100711.96
+                "donors": 4404,
+                "receipts": 10281,
+                "amt": 590514.38
             }
         },
         "gonzalez_house": {
             "pre": {
-                "donors": 47,
-                "receipts": 124,
-                "amt": 6296.47
+                "donors": 117,
+                "receipts": 347,
+                "amt": 75945.13
             },
             "post": {
-                "donors": 79,
-                "receipts": 177,
-                "amt": 1548.4
+                "donors": 70,
+                "receipts": 200,
+                "amt": 8098.1
             },
             "all": {
-                "donors": 118,
-                "receipts": 301,
-                "amt": 7844.87
+                "donors": 161,
+                "receipts": 547,
+                "amt": 84043.23
+            }
+        }
+    },
+    "congressionalEndorsement": {
+        "allred_house": {
+            "pre": {
+                "donors": 4393,
+                "receipts": 7484,
+                "amt": 374269.73
+            },
+            "post": {
+                "donors": 2353,
+                "receipts": 5844,
+                "amt": 322192.54
+            },
+            "all": {
+                "donors": 6070,
+                "receipts": 13328,
+                "amt": 696462.27
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 117,
+                "receipts": 347,
+                "amt": 75945.13
+            },
+            "post": {
+                "donors": 242,
+                "receipts": 552,
+                "amt": 17809.05
+            },
+            "all": {
+                "donors": 333,
+                "receipts": 899,
+                "amt": 93754.18
+            }
+        },
+        "gonzalez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            }
+        }
+    },
+    "endorsementPost": {
+        "allred_house": {
+            "pre": {
+                "donors": 702,
+                "receipts": 2607,
+                "amt": 232938.64
+            },
+            "post": {
+                "donors": 2353,
+                "receipts": 5844,
+                "amt": 322192.54
+            },
+            "all": {
+                "donors": 2379,
+                "receipts": 8451,
+                "amt": 555131.18
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 38,
+                "receipts": 159,
+                "amt": 16123.47
+            },
+            "post": {
+                "donors": 242,
+                "receipts": 552,
+                "amt": 17809.05
+            },
+            "all": {
+                "donors": 254,
+                "receipts": 711,
+                "amt": 33932.52
+            }
+        },
+        "gonzalez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            }
+        }
+    },
+    "donor2016": {
+        "allred_house": {
+            "pre": {
+                "donors": 2231,
+                "receipts": 4003,
+                "amt": 239901.28
+            },
+            "post": {
+                "donors": 1163,
+                "receipts": 3065,
+                "amt": 198568.2
+            },
+            "all": {
+                "donors": 3009,
+                "receipts": 7068,
+                "amt": 438469.48
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 74,
+                "receipts": 213,
+                "amt": 37994.04
+            },
+            "post": {
+                "donors": 125,
+                "receipts": 277,
+                "amt": 7661.7
+            },
+            "all": {
+                "donors": 184,
+                "receipts": 490,
+                "amt": 45655.74
+            }
+        },
+        "gonzalez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
             }
         }
     },
@@ -369,6 +528,59 @@
                 "donors": 118,
                 "receipts": 301,
                 "amt": 7844.87
+            }
+        }
+    },
+    "clinton2016": {
+        "allred_house": {
+            "pre": {
+                "donors": 1412,
+                "receipts": 2669,
+                "amt": 213552.09
+            },
+            "post": {
+                "donors": 759,
+                "receipts": 2156,
+                "amt": 181853.53
+            },
+            "all": {
+                "donors": 1891,
+                "receipts": 4825,
+                "amt": 395405.62
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 46,
+                "receipts": 164,
+                "amt": 37474.04
+            },
+            "post": {
+                "donors": 79,
+                "receipts": 174,
+                "amt": 6791.3
+            },
+            "all": {
+                "donors": 114,
+                "receipts": 338,
+                "amt": 44265.34
+            }
+        },
+        "gonzalez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
             }
         }
     },

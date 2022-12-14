@@ -113,14 +113,84 @@
                 "amt": 0
             },
             "post": {
-                "donors": 7,
-                "receipts": 14,
-                "amt": 205.5
+                "donors": 31,
+                "receipts": 63,
+                "amt": 30674.5
             },
             "all": {
-                "donors": 7,
-                "receipts": 14,
-                "amt": 205.5
+                "donors": 31,
+                "receipts": 63,
+                "amt": 30674.5
+            }
+        },
+        "trone_house_alt": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 10
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 10
+            }
+        },
+        "vargas_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 199
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 199
+            }
+        }
+    },
+    "clinton2016": {
+        "trone_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 26,
+                "receipts": 53,
+                "amt": 30554
+            },
+            "all": {
+                "donors": 26,
+                "receipts": 53,
+                "amt": 30554
+            }
+        },
+        "trone_house_alt": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 10
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 10
             }
         },
         "vargas_house": {
@@ -389,6 +459,112 @@
             }
         }
     },
+    "endorsementPre": {
+        "trone_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 5,
+                "amt": 3800
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 5,
+                "amt": 3800
+            }
+        },
+        "trone_house_alt": {
+            "pre": {
+                "donors": 5,
+                "receipts": 20,
+                "amt": 13414265
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 20,
+                "amt": 13414265
+            }
+        },
+        "vargas_house": {
+            "pre": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 479.42
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 479.42
+            }
+        }
+    },
+    "congressionalEndorsement": {
+        "trone_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 83,
+                "receipts": 158,
+                "amt": 96866.2
+            },
+            "all": {
+                "donors": 83,
+                "receipts": 158,
+                "amt": 96866.2
+            }
+        },
+        "trone_house_alt": {
+            "pre": {
+                "donors": 5,
+                "receipts": 20,
+                "amt": 13414265
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 20,
+                "amt": 13414265
+            }
+        },
+        "vargas_house": {
+            "pre": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 479.42
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 6,
+                "amt": 729.42
+            }
+        }
+    },
     "loyal": {
         "trone_house": {
             "pre": {
@@ -439,6 +615,59 @@
                 "donors": 3,
                 "receipts": 3,
                 "amt": 393
+            }
+        }
+    },
+    "endorsementPost": {
+        "trone_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 83,
+                "receipts": 158,
+                "amt": 96866.2
+            },
+            "all": {
+                "donors": 83,
+                "receipts": 158,
+                "amt": 96866.2
+            }
+        },
+        "trone_house_alt": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 10
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 10
+            }
+        },
+        "vargas_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 25
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 275
             }
         }
     },

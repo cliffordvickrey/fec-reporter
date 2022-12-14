@@ -40,19 +40,19 @@
     "donor2016": {
         "gallego_house": {
             "pre": {
-                "donors": 74,
-                "receipts": 233,
-                "amt": 2808.16
+                "donors": 110,
+                "receipts": 309,
+                "amt": 13097.26
             },
             "post": {
-                "donors": 69,
-                "receipts": 324,
-                "amt": 3620.5
+                "donors": 106,
+                "receipts": 409,
+                "amt": 5643
             },
             "all": {
-                "donors": 118,
-                "receipts": 557,
-                "amt": 6428.66
+                "donors": 182,
+                "receipts": 718,
+                "amt": 18740.26
             }
         }
     },
@@ -148,6 +148,82 @@
                 "donors": 264,
                 "receipts": 939,
                 "amt": 23867.46
+            }
+        }
+    },
+    "endorsementPost": {
+        "gallego_house": {
+            "pre": {
+                "donors": 48,
+                "receipts": 174,
+                "amt": 9939.23
+            },
+            "post": {
+                "donors": 158,
+                "receipts": 560,
+                "amt": 7628.2
+            },
+            "all": {
+                "donors": 158,
+                "receipts": 734,
+                "amt": 17567.43
+            }
+        }
+    },
+    "congressionalEndorsement": {
+        "gallego_house": {
+            "pre": {
+                "donors": 154,
+                "receipts": 379,
+                "amt": 16239.26
+            },
+            "post": {
+                "donors": 158,
+                "receipts": 560,
+                "amt": 7628.2
+            },
+            "all": {
+                "donors": 264,
+                "receipts": 939,
+                "amt": 23867.46
+            }
+        }
+    },
+    "clinton2016": {
+        "gallego_house": {
+            "pre": {
+                "donors": 70,
+                "receipts": 231,
+                "amt": 12488.88
+            },
+            "post": {
+                "donors": 70,
+                "receipts": 303,
+                "amt": 4720
+            },
+            "all": {
+                "donors": 115,
+                "receipts": 534,
+                "amt": 17208.88
+            }
+        }
+    },
+    "endorsementPre": {
+        "gallego_house": {
+            "pre": {
+                "donors": 154,
+                "receipts": 379,
+                "amt": 16239.26
+            },
+            "post": {
+                "donors": 48,
+                "receipts": 284,
+                "amt": 4364.5
+            },
+            "all": {
+                "donors": 154,
+                "receipts": 663,
+                "amt": 20603.76
             }
         }
     },
