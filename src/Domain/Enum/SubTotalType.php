@@ -68,7 +68,7 @@ final class SubTotalType extends AbstractEnum
             self::SUB_TYPE_DEBATE4 => 'Debate 4 (August 29, 2019 - October 1, 2019)',
             self::SUB_TYPE_DEBATE5 => 'Debate 5 (October 2, 2019 - November 13, 2019)',
             self::SUB_TYPE_DEBATE6 => 'Debate 6 (November 14, 2019 - December 13, 2019)',
-            self::SUB_TYPE_DEBATE7 => 'Debate 7 (December 14, 2019 - January 11, 2019)',
+            self::SUB_TYPE_DEBATE7 => 'Debate 7 (December 14, 2019 - January 11, 2020)',
             self::SUB_TYPE_OUT_OF_STATE => 'Out-of-State (Donors from different state as candidate)',
             self::SUB_TYPE_IN_STATE => 'In-State (Donors from same state as candidate)',
             self::SUB_TYPE_PRIOR => 'Prior Donors',
