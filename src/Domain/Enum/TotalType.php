@@ -48,9 +48,9 @@ final class TotalType extends AbstractEnum
             . ' presidential campaign committee',
         self::TYPE_ENDORSEMENT => 'Donors who gave to an endorser\'s campaign committee or leadership PAC',
         self::TYPE_ENDORSEMENT_PRE => 'Donors gave to an endorser\'s campaign committee or leadership PAC before'
-            . 'their endorsement data',
+            . ' their endorsement date',
         self::TYPE_ENDORSEMENT_POST => 'Donors gave to an endorser\'s campaign committee or leadership PAC on or after'
-            . 'their endorsement data',
+            . ' their endorsement date',
         self::TYPE_COMPETITOR_ENDORSEMENT => 'Donors to gave to an endorsing presidential candidate\'s campaign'
             . ' committee or leadership PAC',
         self::TYPE_CONGRESSIONAL_ENDORSEMENT => 'Donors to gave to an endorsing Member of Congress\' campaign committee'
