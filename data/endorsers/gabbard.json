@@ -2,9 +2,9 @@
     "all": {
         "gravel_pres": {
             "pre": {
-                "donors": 13924,
-                "receipts": 19006,
-                "amt": 83055.39
+                "donors": 13988,
+                "receipts": 19076,
+                "amt": 83452.39
             },
             "post": {
                 "donors": 0,
@@ -12,18 +12,18 @@
                 "amt": 0
             },
             "all": {
-                "donors": 13924,
-                "receipts": 19006,
-                "amt": 83055.39
+                "donors": 13988,
+                "receipts": 19076,
+                "amt": 83452.39
             }
         }
     },
     "unfaithful": {
         "gravel_pres": {
             "pre": {
-                "donors": 13924,
-                "receipts": 19006,
-                "amt": 83055.39
+                "donors": 13988,
+                "receipts": 19076,
+                "amt": 83452.39
             },
             "post": {
                 "donors": 0,
@@ -31,18 +31,18 @@
                 "amt": 0
             },
             "all": {
-                "donors": 13924,
-                "receipts": 19006,
-                "amt": 83055.39
+                "donors": 13988,
+                "receipts": 19076,
+                "amt": 83452.39
             }
         }
     },
     "elite": {
         "gravel_pres": {
             "pre": {
-                "donors": 8738,
-                "receipts": 12863,
-                "amt": 63184.96
+                "donors": 12076,
+                "receipts": 16966,
+                "amt": 76247.6
             },
             "post": {
                 "donors": 0,
@@ -50,18 +50,18 @@
                 "amt": 0
             },
             "all": {
-                "donors": 8738,
-                "receipts": 12863,
-                "amt": 63184.96
+                "donors": 12076,
+                "receipts": 16966,
+                "amt": 76247.6
             }
         }
     },
     "elitePac": {
         "gravel_pres": {
             "pre": {
-                "donors": 8558,
-                "receipts": 12641,
-                "amt": 62582.51
+                "donors": 8594,
+                "receipts": 12681,
+                "amt": 62895.11
             },
             "post": {
                 "donors": 0,
@@ -69,113 +69,18 @@
                 "amt": 0
             },
             "all": {
-                "donors": 8558,
-                "receipts": 12641,
-                "amt": 62582.51
-            }
-        }
-    },
-    "endorsement": {
-        "gravel_pres": {
-            "pre": {
-                "donors": 13924,
-                "receipts": 19006,
-                "amt": 83055.39
-            },
-            "post": {
-                "donors": 0,
-                "receipts": 0,
-                "amt": 0
-            },
-            "all": {
-                "donors": 13924,
-                "receipts": 19006,
-                "amt": 83055.39
-            }
-        }
-    },
-    "endorsementPre": {
-        "gravel_pres": {
-            "pre": {
-                "donors": 13924,
-                "receipts": 19006,
-                "amt": 83055.39
-            },
-            "post": {
-                "donors": 0,
-                "receipts": 0,
-                "amt": 0
-            },
-            "all": {
-                "donors": 13924,
-                "receipts": 19006,
-                "amt": 83055.39
-            }
-        }
-    },
-    "competitorEndorsement": {
-        "gravel_pres": {
-            "pre": {
-                "donors": 13924,
-                "receipts": 19006,
-                "amt": 83055.39
-            },
-            "post": {
-                "donors": 0,
-                "receipts": 0,
-                "amt": 0
-            },
-            "all": {
-                "donors": 13924,
-                "receipts": 19006,
-                "amt": 83055.39
-            }
-        }
-    },
-    "donor2016": {
-        "gravel_pres": {
-            "pre": {
-                "donors": 6716,
-                "receipts": 9778,
-                "amt": 46957.89
-            },
-            "post": {
-                "donors": 0,
-                "receipts": 0,
-                "amt": 0
-            },
-            "all": {
-                "donors": 6716,
-                "receipts": 9778,
-                "amt": 46957.89
-            }
-        }
-    },
-    "sanders2016": {
-        "gravel_pres": {
-            "pre": {
-                "donors": 6685,
-                "receipts": 9735,
-                "amt": 46628.89
-            },
-            "post": {
-                "donors": 0,
-                "receipts": 0,
-                "amt": 0
-            },
-            "all": {
-                "donors": 6685,
-                "receipts": 9735,
-                "amt": 46628.89
+                "donors": 8594,
+                "receipts": 12681,
+                "amt": 62895.11
             }
         }
     },
     "eliteParty": {
         "gravel_pres": {
             "pre": {
-                "donors": 2234,
-                "receipts": 3486,
-                "amt": 18046.74
+                "donors": 11723,
+                "receipts": 16557,
+                "amt": 73538.83
             },
             "post": {
                 "donors": 0,
@@ -183,9 +88,104 @@
                 "amt": 0
             },
             "all": {
-                "donors": 2234,
-                "receipts": 3486,
-                "amt": 18046.74
+                "donors": 11723,
+                "receipts": 16557,
+                "amt": 73538.83
+            }
+        }
+    },
+    "endorsement": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 13988,
+                "receipts": 19076,
+                "amt": 83452.39
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 13988,
+                "receipts": 19076,
+                "amt": 83452.39
+            }
+        }
+    },
+    "endorsementPre": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 13988,
+                "receipts": 19076,
+                "amt": 83452.39
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 13988,
+                "receipts": 19076,
+                "amt": 83452.39
+            }
+        }
+    },
+    "competitorEndorsement": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 13988,
+                "receipts": 19076,
+                "amt": 83452.39
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 13988,
+                "receipts": 19076,
+                "amt": 83452.39
+            }
+        }
+    },
+    "donor2016": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 6737,
+                "receipts": 9801,
+                "amt": 47177.14
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 6737,
+                "receipts": 9801,
+                "amt": 47177.14
+            }
+        }
+    },
+    "sanders2016": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 6701,
+                "receipts": 9752,
+                "amt": 46829.14
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 6701,
+                "receipts": 9752,
+                "amt": 46829.14
             }
         }
     },
@@ -193,8 +193,8 @@
         "gravel_pres": {
             "pre": {
                 "donors": 1841,
-                "receipts": 2881,
-                "amt": 15353.65
+                "receipts": 2878,
+                "amt": 15408.85
             },
             "post": {
                 "donors": 0,
@@ -203,8 +203,8 @@
             },
             "all": {
                 "donors": 1841,
-                "receipts": 2881,
-                "amt": 15353.65
+                "receipts": 2878,
+                "amt": 15408.85
             }
         }
     },
@@ -212,8 +212,8 @@
         "gravel_pres": {
             "pre": {
                 "donors": 1841,
-                "receipts": 2881,
-                "amt": 15353.65
+                "receipts": 2878,
+                "amt": 15408.85
             },
             "post": {
                 "donors": 0,
@@ -222,8 +222,8 @@
             },
             "all": {
                 "donors": 1841,
-                "receipts": 2881,
-                "amt": 15353.65
+                "receipts": 2878,
+                "amt": 15408.85
             }
         }
     },
@@ -249,9 +249,9 @@
     "clinton2016": {
         "gravel_pres": {
             "pre": {
-                "donors": 95,
-                "receipts": 145,
-                "amt": 953.35
+                "donors": 94,
+                "receipts": 139,
+                "amt": 905.8
             },
             "post": {
                 "donors": 0,
@@ -259,9 +259,9 @@
                 "amt": 0
             },
             "all": {
-                "donors": 95,
-                "receipts": 145,
-                "amt": 953.35
+                "donors": 94,
+                "receipts": 139,
+                "amt": 905.8
             }
         }
     },

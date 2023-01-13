@@ -1,5 +1,15 @@
 {
     "all": {
+        "joint_trump": {
+            "donors": 1,
+            "receipts": 4,
+            "amt": 6600
+        },
+        "trump_pres": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 2000
+        },
         "vela_house": {
             "donors": 1,
             "receipts": 1,
@@ -7,6 +17,16 @@
         }
     },
     "loyal": {
+        "joint_trump": {
+            "donors": 1,
+            "receipts": 4,
+            "amt": 6600
+        },
+        "trump_pres": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 2000
+        },
         "vela_house": {
             "donors": 1,
             "receipts": 1,
@@ -14,6 +34,16 @@
         }
     },
     "elite": {
+        "joint_trump": {
+            "donors": 1,
+            "receipts": 4,
+            "amt": 6600
+        },
+        "trump_pres": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 2000
+        },
         "vela_house": {
             "donors": 1,
             "receipts": 1,
@@ -21,6 +51,23 @@
         }
     },
     "elitePac": {
+        "joint_trump": {
+            "donors": 1,
+            "receipts": 4,
+            "amt": 6600
+        },
+        "trump_pres": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 2000
+        },
+        "vela_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 2700
+        }
+    },
+    "eliteParty": {
         "vela_house": {
             "donors": 1,
             "receipts": 1,
@@ -28,6 +75,16 @@
         }
     },
     "weekOneLaunch": {
+        "joint_trump": {
+            "donors": 1,
+            "receipts": 4,
+            "amt": 6600
+        },
+        "trump_pres": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 2000
+        },
         "vela_house": {
             "donors": 1,
             "receipts": 1,
@@ -35,6 +92,16 @@
         }
     },
     "nonEndorsement": {
+        "joint_trump": {
+            "donors": 1,
+            "receipts": 4,
+            "amt": 6600
+        },
+        "trump_pres": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 2000
+        },
         "vela_house": {
             "donors": 1,
             "receipts": 1,

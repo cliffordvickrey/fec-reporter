@@ -34,6 +34,8 @@ final class SubTotalType extends AbstractEnum
     public const SUB_TYPE_DONOR_2016 = 'donor2016';
     public const SUB_TYPE_CLINTON_2016 = 'clinton2016';
     public const SUB_TYPE_SANDERS_2016 = 'sanders2016';
+    public const SUB_TYPE_OBAMA_2012 = 'obama2012';
+    public const SUB_TYPE_TRAITOR = 'traitor';
     public const SUB_TYPE_ELITE = 'elite';
     public const SUB_TYPE_PARTY = 'party';
     public const SUB_TYPE_NATIONAL_PARTY = 'nationalParty';
@@ -76,6 +78,8 @@ final class SubTotalType extends AbstractEnum
             self::SUB_TYPE_DONOR_2016 => '2016 Democratic Presidential Donors',
             self::SUB_TYPE_CLINTON_2016 => 'Clinton Donors',
             self::SUB_TYPE_SANDERS_2016 => 'Sanders Donors',
+            self::SUB_TYPE_OBAMA_2012 => 'Obama 2012 Donors',
+            self::SUB_TYPE_TRAITOR => 'Traitorous Donors (Donors who gave to Trump in 2020)',
             self::SUB_TYPE_ELITE => 'Elite Donors',
             self::SUB_TYPE_PARTY => 'Party Committee Donors',
             self::SUB_TYPE_NATIONAL_PARTY => 'National Party Committee Donors',
