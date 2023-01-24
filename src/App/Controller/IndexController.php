@@ -58,7 +58,7 @@ final class IndexController implements ControllerInterface
         $reportType = new ReportType($request->get(self::PARAM_REPORT_TYPE), false);
 
         if (!$reportType->isValid()) {
-            $reportType = new ReportType(ReportType::ENDORSER);
+            $reportType = new ReportType(ReportType::ENDORSED);
         }
 
         $response[ReportType::class] = $reportType;
