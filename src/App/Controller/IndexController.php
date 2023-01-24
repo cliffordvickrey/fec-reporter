@@ -19,6 +19,7 @@ use CliffordVickrey\FecReporter\Domain\Collection\CommitteeCollection;
 use CliffordVickrey\FecReporter\Domain\Collection\TotalCollection;
 use CliffordVickrey\FecReporter\Domain\Entity\Candidate;
 use CliffordVickrey\FecReporter\Domain\Entity\CandidateSummary;
+use CliffordVickrey\FecReporter\Domain\Enum\ReportType;
 use CliffordVickrey\FecReporter\Domain\Enum\TotalType;
 use CliffordVickrey\FecReporter\Domain\Repository\ObjectRepositoryInterface;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\CastingUtilities;
@@ -31,6 +32,7 @@ final class IndexController implements ControllerInterface
     public const PARAM_ENDORSER_ID = 'endorserId';
     public const PARAM_NON_ENDORSERS = 'nonEndorsers';
     public const PARAM_NON_ENDORSER_ID = 'nonEndorserId';
+    public const PARAM_REPORT_TYPE = 'reportType';
     public const PARAM_TOTAL_TYPE = 'totalType';
 
     /**
@@ -50,6 +52,18 @@ final class IndexController implements ControllerInterface
 
         $response[Response::ATTR_JS] = true;
         $response[Response::ATTR_PAGE] = 'report';
+
+        // region report type
+
+        $reportType = new ReportType($request->get(self::PARAM_REPORT_TYPE), false);
+
+        if (!$reportType->isValid()) {
+            $reportType = new ReportType(ReportType::ENDORSER);
+        }
+
+        $response[ReportType::class] = $reportType;
+
+        // endregion
 
         // region candidates list
 
@@ -132,7 +146,8 @@ final class IndexController implements ControllerInterface
                 $endorsements = $endorsersAggregate->getEndorserCommittees(
                     $candidateId,
                     $endorserId,
-                    $totalType
+                    $totalType,
+                    $reportType
                 );
 
                 $endorsersGrid = new EndorsersGrid();
@@ -165,7 +180,8 @@ final class IndexController implements ControllerInterface
                 $nonEndorsements = $nonEndorsersAggregate->getNonEndorserCommittees(
                     $candidateId,
                     $nonEndorserId,
-                    $totalType
+                    $totalType,
+                    $reportType
                 );
 
                 $endorsersGrid = new NonEndorsersGrid();

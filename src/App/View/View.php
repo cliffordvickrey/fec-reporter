@@ -47,6 +47,7 @@ class View
      * @param string $label
      * @param array<array-key, string> $options
      * @param int|string|null $value
+     * @param bool $hasBlank
      * @return string
      */
     public function select(
@@ -54,9 +55,11 @@ class View
         string $name,
         string $label,
         array $options,
-        int|string|null $value = null
+        int|string|null $value = null,
+        bool $hasBlank = true
     ): string {
         $partialOptions = [
+            'hasBlank' => $hasBlank,
             'id' => $id,
             'name' => $name,
             'label' => $label,

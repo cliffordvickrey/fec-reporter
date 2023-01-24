@@ -6,6 +6,7 @@ use CliffordVickrey\FecReporter\App\Response\Response;
 use CliffordVickrey\FecReporter\App\View\View;
 use CliffordVickrey\FecReporter\Domain\Collection\CandidateCollection;
 use CliffordVickrey\FecReporter\Domain\Entity\Candidate;
+use CliffordVickrey\FecReporter\Domain\Enum\ReportType;
 use CliffordVickrey\FecReporter\Domain\Enum\TotalType;
 
 $response = $response ?? new Response();
@@ -19,6 +20,18 @@ $totalType = $response->getObjectNullable(TotalType::class);
 <!-- reporting form -->
 <form class="form" method="get" id="fec-form">
     <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 py-3">
+                <?= $view->select(
+                    'fec-report-type',
+                    'reportType',
+                    'Endorsement Report Type',
+                    ReportType::getDropdownOptions(),
+                    (string)$response->getObject(ReportType::class),
+                    false
+                ); ?>
+            </div>
+        </div>
         <div class="row">
             <?= $view->autocomplete(
                 'fec-candidate-id',

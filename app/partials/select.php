@@ -8,10 +8,14 @@ use CliffordVickrey\FecReporter\App\View\View;
 $response = $response ?? new Response();
 $view = $view ?? new View();
 
+$hasBlank = $response->getAttribute('hasBlank', false);
 $id = $response->getAttribute('id', '');
 $name = $response->getAttribute('name', '');
 $label = $response->getAttribute('label', '');
-$options = ['' => ''] + $response->getAttribute('options', []);
+
+$options = $hasBlank ? ['' => ''] : [];
+
+$options += $response->getAttribute('options', []);
 $value = isset($response['value']) ? $response['value'] : null;
 
 if (is_scalar($value)) {

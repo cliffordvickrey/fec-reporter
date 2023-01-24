@@ -8,6 +8,7 @@ use CliffordVickrey\FecReporter\Domain\Collection\CommitteeCollection;
 use CliffordVickrey\FecReporter\Domain\Collection\NonEndorserByTotalTypeCollection;
 use CliffordVickrey\FecReporter\Domain\Collection\PersonCollection;
 use CliffordVickrey\FecReporter\Domain\Entity\Committee;
+use CliffordVickrey\FecReporter\Domain\Enum\ReportType;
 use CliffordVickrey\FecReporter\Domain\Enum\TotalType;
 use CliffordVickrey\FecReporter\Domain\Repository\ObjectRepositoryInterface;
 
@@ -70,12 +71,25 @@ final class NonEndorsersAggregate
      * @param string $nonEndorsed
      * @param string $nonEndorser
      * @param TotalType $totalType
+     * @param ReportType|null $reportType
      * @return list<array<string, mixed>>
      */
-    public function getNonEndorserCommittees(string $nonEndorsed, string $nonEndorser, TotalType $totalType): array
-    {
+    public function getNonEndorserCommittees(
+        string $nonEndorsed,
+        string $nonEndorser,
+        TotalType $totalType,
+        ?ReportType $reportType = null
+    ): array {
+        if (null === $reportType) {
+            $reportType = new ReportType(ReportType::ENDORSER);
+        }
+
         $committees = $this->objectRepository->getObject(CommitteeCollection::class);
-        $allNonEndorsements = $this->objectRepository->getObject(NonEndorserByTotalTypeCollection::class, $nonEndorsed);
+        $allNonEndorsements = $this->objectRepository->getObject(
+            NonEndorserByTotalTypeCollection::class,
+            $nonEndorsed,
+            $reportType
+        );
         $nonEndorsementsByCommittee = $allNonEndorsements[$totalType];
 
         $nonEndorserCommittees = [];

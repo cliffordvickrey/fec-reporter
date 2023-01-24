@@ -20,6 +20,8 @@ final class SubTotalType extends AbstractEnum
     public const SUB_TYPE_Q3_2019 = 'q32019';
     public const SUB_TYPE_Q4_2019 = 'q42019';
     public const SUB_TYPE_Q1_2020 = 'q12020';
+    public const SUB_TYPE_DAY1 = 'day1';
+    public const SUB_TYPE_WEEK1 = 'week1';
     public const SUB_TYPE_DEBATE1 = 'debate1';
     public const SUB_TYPE_DEBATE2 = 'debate2';
     public const SUB_TYPE_DEBATE3 = 'debate3';
@@ -64,6 +66,8 @@ final class SubTotalType extends AbstractEnum
             self::SUB_TYPE_Q3_2019 => '2019 Quarter 3 (July 1 - September 30)',
             self::SUB_TYPE_Q4_2019 => '2019 Quarter 4 (October 1 - December 31)',
             self::SUB_TYPE_Q1_2020 => '2020 Quarter 1 (January 1 - March 31)',
+            self::SUB_TYPE_DAY1 => 'Day 1',
+            self::SUB_TYPE_WEEK1 => 'Week 1',
             self::SUB_TYPE_DEBATE1 => 'Debate 1 (January 1, 2019 - June 12, 2019)',
             self::SUB_TYPE_DEBATE2 => 'Debate 2 (June 13, 2019 - July 16, 2019)',
             self::SUB_TYPE_DEBATE3 => 'Debate 3 (July 17, 2019 - August 28, 2019)',

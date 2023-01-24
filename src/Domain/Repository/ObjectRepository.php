@@ -16,6 +16,7 @@ use CliffordVickrey\FecReporter\Domain\Collection\NonEndorserByTotalTypeCollecti
 use CliffordVickrey\FecReporter\Domain\Collection\PersonCollection;
 use CliffordVickrey\FecReporter\Domain\Collection\TotalCollection;
 use CliffordVickrey\FecReporter\Domain\Entity\CandidateSummary;
+use CliffordVickrey\FecReporter\Domain\Enum\ReportType;
 use CliffordVickrey\FecReporter\Exception\FecInvalidArgumentException;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\CastingUtilities;
 use CliffordVickrey\FecReporter\Infrastructure\Utility\FileUtilities;
@@ -89,14 +90,23 @@ class ObjectRepository implements ObjectRepositoryInterface
             throw new FecInvalidArgumentException('Candidate ID is required');
         }
 
+        $endorserDir = 'endorsers';
+
+        if (
+            in_array($classname, [EndorserByTotalTypeCollection::class, NonEndorserByTotalTypeCollection::class])
+            && ($params[1] ?? null) === ReportType::ENDORSED
+        ) {
+            $endorserDir = 'endorsed';
+        }
+
         return match ($classname) {
             CandidateCollection::class => 'candidates/candidates.json',
             CandidateSummary::class => "totals/$firstParam.json",
             CommitteeCollection::class => 'committees/committees.json',
             EndorsementDateCollection::class => "endorser-dates/$firstParam.json",
-            EndorserByTotalTypeCollection::class => "endorsers/$firstParam.json",
+            EndorserByTotalTypeCollection::class => "$endorserDir/$firstParam.json",
             EndorsersAggregate::class, NonEndorsersAggregate::class => '',
-            NonEndorserByTotalTypeCollection::class => "non-endorsers/$firstParam.json",
+            NonEndorserByTotalTypeCollection::class => "non-$endorserDir/$firstParam.json",
             PersonCollection::class => 'people/people.json',
             TotalCollection::class => "subtotals/$firstParam.json",
             default => throw new FecInvalidArgumentException('Invalid class name')

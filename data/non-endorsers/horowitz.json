@@ -67,13 +67,6 @@
             "amt": 2700
         }
     },
-    "eliteParty": {
-        "vela_house": {
-            "donors": 1,
-            "receipts": 1,
-            "amt": 2700
-        }
-    },
     "weekOneLaunch": {
         "joint_trump": {
             "donors": 1,
@@ -106,6 +99,18 @@
             "donors": 1,
             "receipts": 1,
             "amt": 2700
+        }
+    },
+    "traitor": {
+        "joint_trump": {
+            "donors": 1,
+            "receipts": 4,
+            "amt": 6600
+        },
+        "trump_pres": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 2000
         }
     }
 }

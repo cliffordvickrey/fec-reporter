@@ -78,19 +78,19 @@
     "elite": {
         "gallego_house": {
             "pre": {
-                "donors": 153,
-                "receipts": 378,
-                "amt": 16204.26
+                "donors": 152,
+                "receipts": 377,
+                "amt": 16179.26
             },
             "post": {
-                "donors": 158,
-                "receipts": 561,
-                "amt": 7633.2
+                "donors": 157,
+                "receipts": 560,
+                "amt": 7628.2
             },
             "all": {
-                "donors": 263,
-                "receipts": 939,
-                "amt": 23837.46
+                "donors": 261,
+                "receipts": 937,
+                "amt": 23807.46
             }
         }
     },
@@ -116,19 +116,19 @@
     "eliteParty": {
         "gallego_house": {
             "pre": {
-                "donors": 152,
-                "receipts": 374,
-                "amt": 16075.26
+                "donors": 147,
+                "receipts": 366,
+                "amt": 7343.32
             },
             "post": {
-                "donors": 157,
-                "receipts": 560,
-                "amt": 7608.2
+                "donors": 152,
+                "receipts": 554,
+                "amt": 6565.7
             },
             "all": {
-                "donors": 261,
-                "receipts": 934,
-                "amt": 23683.46
+                "donors": 252,
+                "receipts": 920,
+                "amt": 13909.02
             }
         }
     },
@@ -154,19 +154,19 @@
     "endorsementPost": {
         "gallego_house": {
             "pre": {
-                "donors": 48,
-                "receipts": 174,
-                "amt": 9939.23
+                "donors": 146,
+                "receipts": 366,
+                "amt": 15344.83
             },
             "post": {
-                "donors": 158,
-                "receipts": 561,
-                "amt": 7633.2
+                "donors": 148,
+                "receipts": 525,
+                "amt": 6900.7
             },
             "all": {
-                "donors": 158,
-                "receipts": 735,
-                "amt": 17572.43
+                "donors": 246,
+                "receipts": 891,
+                "amt": 22245.53
             }
         }
     },
@@ -208,25 +208,6 @@
             }
         }
     },
-    "endorsementPre": {
-        "gallego_house": {
-            "pre": {
-                "donors": 154,
-                "receipts": 379,
-                "amt": 16239.26
-            },
-            "post": {
-                "donors": 48,
-                "receipts": 284,
-                "amt": 4364.5
-            },
-            "all": {
-                "donors": 154,
-                "receipts": 663,
-                "amt": 20603.76
-            }
-        }
-    },
     "loyal": {
         "gallego_house": {
             "pre": {
@@ -265,6 +246,25 @@
             }
         }
     },
+    "endorsementPre": {
+        "gallego_house": {
+            "pre": {
+                "donors": 19,
+                "receipts": 102,
+                "amt": 2137.02
+            },
+            "post": {
+                "donors": 20,
+                "receipts": 50,
+                "amt": 1309.5
+            },
+            "all": {
+                "donors": 36,
+                "receipts": 152,
+                "amt": 3446.52
+            }
+        }
+    },
     "dayOneLaunch": {
         "gallego_house": {
             "pre": {
@@ -281,6 +281,25 @@
                 "donors": 5,
                 "receipts": 5,
                 "amt": 741.67
+            }
+        }
+    },
+    "traitor": {
+        "gallego_house": {
+            "pre": {
+                "donors": 5,
+                "receipts": 12,
+                "amt": 297.54
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 20,
+                "amt": 108
+            },
+            "all": {
+                "donors": 7,
+                "receipts": 32,
+                "amt": 405.54
             }
         }
     },

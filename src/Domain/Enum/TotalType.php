@@ -29,6 +29,7 @@ final class TotalType extends AbstractEnum
     public const TYPE_DONOR_2016 = 'donor2016';
     public const TYPE_CLINTON_2016 = 'clinton2016';
     public const TYPE_SANDERS_2016 = 'sanders2016';
+    public const TYPE_TRAITOR = 'traitor';
     public const TYPE_ELITE = 'elite';
     public const TYPE_ELITE_PARTY = 'eliteParty';
     public const TYPE_ELITE_PAC = 'elitePac';
@@ -62,6 +63,7 @@ final class TotalType extends AbstractEnum
         self::TYPE_DONOR_2016 => 'Donors who gave to a Democratic presidential campaign committee 2016',
         self::TYPE_CLINTON_2016 => 'Donors who gave to Clinton campaign committee in 2016',
         self::TYPE_SANDERS_2016 => 'Donors who gave to Sanders campaign committee in 2016',
+        self::TYPE_TRAITOR => 'Donors who gave to Trump in 2020',
         self::TYPE_ELITE => 'Gave to candidate campaign committee in 2020 and National/State/County Political Party or'
             . ' PAC in 2020 or before',
         self::TYPE_ELITE_PARTY => 'Gave to candidate campaign committee in 2020 and National/State/County Political'
@@ -113,6 +115,7 @@ final class TotalType extends AbstractEnum
             self::TYPE_DONOR_2016 => '2016 Donors',
             self::TYPE_CLINTON_2016 => 'Clinton Donors',
             self::TYPE_SANDERS_2016 => 'Sanders Donors',
+            self::TYPE_TRAITOR => 'Traitorous Donors',
             self::TYPE_ELITE => 'Elite Donors',
             self::TYPE_ELITE_PARTY => 'Elite Party Donors',
             self::TYPE_ELITE_PAC => 'Elite PAC Donors'

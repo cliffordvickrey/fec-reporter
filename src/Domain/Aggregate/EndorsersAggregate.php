@@ -9,6 +9,7 @@ use CliffordVickrey\FecReporter\Domain\Collection\EndorsementDateCollection;
 use CliffordVickrey\FecReporter\Domain\Collection\EndorserByTotalTypeCollection;
 use CliffordVickrey\FecReporter\Domain\Collection\PersonCollection;
 use CliffordVickrey\FecReporter\Domain\Entity\Committee;
+use CliffordVickrey\FecReporter\Domain\Enum\ReportType;
 use CliffordVickrey\FecReporter\Domain\Enum\TotalType;
 use CliffordVickrey\FecReporter\Domain\Repository\ObjectRepositoryInterface;
 use DateTimeImmutable;
@@ -84,12 +85,25 @@ final class EndorsersAggregate
      * @param string $endorsed
      * @param string $endorser
      * @param TotalType $totalType
+     * @param ReportType|null $reportType
      * @return list<array<string, mixed>>
      */
-    public function getEndorserCommittees(string $endorsed, string $endorser, TotalType $totalType): array
-    {
+    public function getEndorserCommittees(
+        string $endorsed,
+        string $endorser,
+        TotalType $totalType,
+        ?ReportType $reportType = null
+    ): array {
+        if (null === $reportType) {
+            $reportType = new ReportType(ReportType::ENDORSER);
+        }
+
         $committees = $this->objectRepository->getObject(CommitteeCollection::class);
-        $allEndorsements = $this->objectRepository->getObject(EndorserByTotalTypeCollection::class, $endorsed);
+        $allEndorsements = $this->objectRepository->getObject(
+            EndorserByTotalTypeCollection::class,
+            $endorsed,
+            (string)$reportType
+        );
         $endorsementsByCommittee = $allEndorsements[$totalType];
 
         $endorserCommittees = [];
