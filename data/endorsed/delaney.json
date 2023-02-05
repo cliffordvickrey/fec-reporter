@@ -565,6 +565,59 @@
             }
         }
     },
+    "congressionalEndorsementPost": {
+        "trone_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 83,
+                "receipts": 240,
+                "amt": 70336.8
+            },
+            "all": {
+                "donors": 83,
+                "receipts": 240,
+                "amt": 70336.8
+            }
+        },
+        "trone_house_alt": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 9,
+                "amt": 6815
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 9,
+                "amt": 6815
+            }
+        },
+        "vargas_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 6,
+                "amt": 356
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 6,
+                "amt": 356
+            }
+        }
+    },
     "loyal": {
         "trone_house": {
             "pre": {
@@ -727,6 +780,25 @@
         }
     },
     "endorsementPre": {
+        "vargas_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1.42
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1.42
+            }
+        }
+    },
+    "congressionalEndorsementPre": {
         "vargas_house": {
             "pre": {
                 "donors": 1,

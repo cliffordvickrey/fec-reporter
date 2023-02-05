@@ -22,6 +22,8 @@ final class TotalType extends AbstractEnum
     public const TYPE_ENDORSEMENT_PRE = 'endorsementPre';
     public const TYPE_ENDORSEMENT_POST = 'endorsementPost';
     public const TYPE_CONGRESSIONAL_ENDORSEMENT = 'congressionalEndorsement';
+    public const TYPE_CONGRESSIONAL_ENDORSEMENT_PRE = 'congressionalEndorsementPre';
+    public const TYPE_CONGRESSIONAL_ENDORSEMENT_POST = 'congressionalEndorsementPost';
     public const TYPE_COMPETITOR_ENDORSEMENT = 'competitorEndorsement';
     public const TYPE_NON_ENDORSEMENT = 'nonEndorsement';
     public const TYPE_UNFAITHFUL = 'unfaithful';
@@ -56,6 +58,10 @@ final class TotalType extends AbstractEnum
             . ' committee or leadership PAC',
         self::TYPE_CONGRESSIONAL_ENDORSEMENT => 'Donors to gave to an endorsing Member of Congress\' campaign committee'
             . ' or leadership PAC',
+        self::TYPE_CONGRESSIONAL_ENDORSEMENT_PRE => 'Donors to gave to an endorsing Member of Congress\' campaign '
+            . ' committee or leadership PAC before the endorsement',
+        self::TYPE_CONGRESSIONAL_ENDORSEMENT_POST => 'Donors to gave to an endorsing Member of Congress\' campaign '
+            . ' committee or leadership PAC after the endorsement',
         self::TYPE_NON_ENDORSEMENT => 'Donors who did not give to an endorser\'s campaign committee or leadership PAC',
         self::TYPE_UNFAITHFUL => 'Donors who gave to a presidential candidate committee in 2020 and some other'
             . ' Democratic presidential candidate committee in 2020',
@@ -109,6 +115,8 @@ final class TotalType extends AbstractEnum
             self::TYPE_ENDORSEMENT_POST => 'Endorsement Donors (Post)',
             self::TYPE_COMPETITOR_ENDORSEMENT => 'Competitor Endorsement Donors',
             self::TYPE_CONGRESSIONAL_ENDORSEMENT => 'Congressional Endorsement Donors',
+            self::TYPE_CONGRESSIONAL_ENDORSEMENT_PRE => 'Congressional Endorsement Donors (Pre)',
+            self::TYPE_CONGRESSIONAL_ENDORSEMENT_POST => 'Congressional Endorsement Donors (Post)',
             self::TYPE_NON_ENDORSEMENT => 'Non-Endorsement Donors',
             self::TYPE_UNFAITHFUL => 'Unfaithful Donors',
             self::TYPE_LOYAL => 'Loyal Donors',

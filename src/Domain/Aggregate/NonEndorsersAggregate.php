@@ -88,7 +88,7 @@ final class NonEndorsersAggregate
         $allNonEndorsements = $this->objectRepository->getObject(
             NonEndorserByTotalTypeCollection::class,
             $nonEndorsed,
-            $reportType
+            (string)$reportType
         );
         $nonEndorsementsByCommittee = $allNonEndorsements[$totalType];
 

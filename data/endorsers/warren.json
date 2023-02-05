@@ -3654,9 +3654,9 @@
         },
         "castro_pres": {
             "pre": {
-                "donors": 52510,
-                "receipts": 152225,
-                "amt": 2422035.28
+                "donors": 52508,
+                "receipts": 152204,
+                "amt": 2421518.28
             },
             "post": {
                 "donors": 3441,
@@ -3664,9 +3664,9 @@
                 "amt": 168533.3
             },
             "all": {
-                "donors": 53348,
-                "receipts": 158985,
-                "amt": 2590568.58
+                "donors": 53346,
+                "receipts": 158964,
+                "amt": 2590051.58
             }
         },
         "clark_house": {
@@ -3841,9 +3841,9 @@
         },
         "kennedy_house": {
             "pre": {
-                "donors": 8663,
-                "receipts": 24740,
-                "amt": 838269.34
+                "donors": 8662,
+                "receipts": 24739,
+                "amt": 838254.34
             },
             "post": {
                 "donors": 1417,
@@ -3851,9 +3851,9 @@
                 "amt": 75228.24
             },
             "all": {
-                "donors": 9248,
-                "receipts": 28038,
-                "amt": 913497.58
+                "donors": 9247,
+                "receipts": 28037,
+                "amt": 913482.58
             }
         },
         "kennedy_leadership": {
@@ -3926,9 +3926,9 @@
         },
         "markey_sen": {
             "pre": {
-                "donors": 11157,
-                "receipts": 28509,
-                "amt": 1163498.03
+                "donors": 11156,
+                "receipts": 28501,
+                "amt": 1163481.7
             },
             "post": {
                 "donors": 24401,
@@ -3936,9 +3936,9 @@
                 "amt": 2530125
             },
             "all": {
-                "donors": 32501,
-                "receipts": 100537,
-                "amt": 3693623.03
+                "donors": 32500,
+                "receipts": 100529,
+                "amt": 3693606.7
             }
         },
         "mcgovern_house": {
@@ -3994,19 +3994,19 @@
         },
         "porter_house": {
             "pre": {
-                "donors": 22493,
-                "receipts": 56664,
-                "amt": 1428324.45
+                "donors": 22491,
+                "receipts": 56661,
+                "amt": 1428315.95
             },
             "post": {
-                "donors": 50188,
-                "receipts": 182351,
-                "amt": 3201870.86
+                "donors": 50186,
+                "receipts": 182349,
+                "amt": 3201865.86
             },
             "all": {
-                "donors": 61566,
-                "receipts": 239015,
-                "amt": 4630195.31
+                "donors": 61563,
+                "receipts": 239010,
+                "amt": 4630181.81
             }
         },
         "porter_leadership": {
@@ -4028,9 +4028,9 @@
         },
         "pressley_house": {
             "pre": {
-                "donors": 9021,
-                "receipts": 15419,
-                "amt": 517780.47
+                "donors": 9020,
+                "receipts": 15418,
+                "amt": 517775.47
             },
             "post": {
                 "donors": 9491,
@@ -4038,9 +4038,9 @@
                 "amt": 444480.03
             },
             "all": {
-                "donors": 16257,
-                "receipts": 38164,
-                "amt": 962260.5
+                "donors": 16256,
+                "receipts": 38163,
+                "amt": 962255.5
             }
         },
         "pressley_leadership": {
@@ -7574,6 +7574,1047 @@
                 "donors": 791,
                 "receipts": 1355,
                 "amt": 147577.06
+            }
+        }
+    },
+    "congressionalEndorsementPre": {
+        "andy_levin_house": {
+            "pre": {
+                "donors": 689,
+                "receipts": 998,
+                "amt": 48293.87
+            },
+            "post": {
+                "donors": 636,
+                "receipts": 1278,
+                "amt": 50345.79
+            },
+            "all": {
+                "donors": 1250,
+                "receipts": 2276,
+                "amt": 98639.66
+            }
+        },
+        "castro_leadership": {
+            "pre": {
+                "donors": 157,
+                "receipts": 277,
+                "amt": 16611.5
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 17500
+            },
+            "all": {
+                "donors": 161,
+                "receipts": 281,
+                "amt": 34111.5
+            }
+        },
+        "castro_pres": {
+            "pre": {
+                "donors": 20395,
+                "receipts": 76737,
+                "amt": 1180424.54
+            },
+            "post": {
+                "donors": 2004,
+                "receipts": 4214,
+                "amt": 98337.11
+            },
+            "all": {
+                "donors": 20859,
+                "receipts": 80951,
+                "amt": 1278761.65
+            }
+        },
+        "clark_house": {
+            "pre": {
+                "donors": 856,
+                "receipts": 3742,
+                "amt": 442113.58
+            },
+            "post": {
+                "donors": 580,
+                "receipts": 2199,
+                "amt": 94389.93
+            },
+            "all": {
+                "donors": 1188,
+                "receipts": 5941,
+                "amt": 536503.51
+            }
+        },
+        "clark_house_alt": {
+            "pre": {
+                "donors": 457,
+                "receipts": 596,
+                "amt": 1647.11
+            },
+            "post": {
+                "donors": 124,
+                "receipts": 295,
+                "amt": 3528.19
+            },
+            "all": {
+                "donors": 570,
+                "receipts": 891,
+                "amt": 5175.3
+            }
+        },
+        "clark_leadership": {
+            "pre": {
+                "donors": 11,
+                "receipts": 20,
+                "amt": 78500
+            },
+            "post": {
+                "donors": 319,
+                "receipts": 562,
+                "amt": 55540.8
+            },
+            "all": {
+                "donors": 325,
+                "receipts": 582,
+                "amt": 134040.8
+            }
+        },
+        "grijalva_house": {
+            "pre": {
+                "donors": 4492,
+                "receipts": 11426,
+                "amt": 167403.27
+            },
+            "post": {
+                "donors": 1592,
+                "receipts": 3603,
+                "amt": 49648.69
+            },
+            "all": {
+                "donors": 5498,
+                "receipts": 15029,
+                "amt": 217051.96
+            }
+        },
+        "grijalva_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 27.5
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 27.5
+            }
+        },
+        "haaland_house": {
+            "pre": {
+                "donors": 3491,
+                "receipts": 5708,
+                "amt": 270684.97
+            },
+            "post": {
+                "donors": 2098,
+                "receipts": 5296,
+                "amt": 206375.59
+            },
+            "all": {
+                "donors": 4922,
+                "receipts": 11004,
+                "amt": 477060.56
+            }
+        },
+        "haaland_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            }
+        },
+        "joaquin_castro_house": {
+            "pre": {
+                "donors": 1600,
+                "receipts": 3843,
+                "amt": 115643.42
+            },
+            "post": {
+                "donors": 714,
+                "receipts": 1665,
+                "amt": 30768.15
+            },
+            "all": {
+                "donors": 2071,
+                "receipts": 5508,
+                "amt": 146411.57
+            }
+        },
+        "joaquin_castro_leadership": {
+            "pre": {
+                "donors": 34,
+                "receipts": 35,
+                "amt": 8646.12
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 34,
+                "receipts": 35,
+                "amt": 8646.12
+            }
+        },
+        "joint_clark_and_kuster": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2000
+            }
+        },
+        "kennedy_house": {
+            "pre": {
+                "donors": 5211,
+                "receipts": 15948,
+                "amt": 471566.53
+            },
+            "post": {
+                "donors": 967,
+                "receipts": 2211,
+                "amt": 46836.24
+            },
+            "all": {
+                "donors": 5576,
+                "receipts": 18159,
+                "amt": 518402.77
+            }
+        },
+        "kennedy_leadership": {
+            "pre": {
+                "donors": 11,
+                "receipts": 11,
+                "amt": 24350
+            },
+            "post": {
+                "donors": 117,
+                "receipts": 160,
+                "amt": 32840.3
+            },
+            "all": {
+                "donors": 126,
+                "receipts": 171,
+                "amt": 57190.3
+            }
+        },
+        "kennedy_sen": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 3831,
+                "receipts": 10529,
+                "amt": 245142.41
+            },
+            "all": {
+                "donors": 3831,
+                "receipts": 10529,
+                "amt": 245142.41
+            }
+        },
+        "markey_house": {
+            "pre": {
+                "donors": 15,
+                "receipts": 17,
+                "amt": 18270
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 15,
+                "receipts": 17,
+                "amt": 18270
+            }
+        },
+        "markey_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            }
+        },
+        "markey_sen": {
+            "pre": {
+                "donors": 6734,
+                "receipts": 19811,
+                "amt": 764262.41
+            },
+            "post": {
+                "donors": 10954,
+                "receipts": 41593,
+                "amt": 1375228.48
+            },
+            "all": {
+                "donors": 15568,
+                "receipts": 61404,
+                "amt": 2139490.89
+            }
+        },
+        "mcgovern_house": {
+            "pre": {
+                "donors": 1327,
+                "receipts": 4029,
+                "amt": 129810.82
+            },
+            "post": {
+                "donors": 922,
+                "receipts": 3011,
+                "amt": 72566.64
+            },
+            "all": {
+                "donors": 1845,
+                "receipts": 7040,
+                "amt": 202377.46
+            }
+        },
+        "neal_house": {
+            "pre": {
+                "donors": 48,
+                "receipts": 115,
+                "amt": 21827.8
+            },
+            "post": {
+                "donors": 41,
+                "receipts": 48,
+                "amt": 9416
+            },
+            "all": {
+                "donors": 85,
+                "receipts": 163,
+                "amt": 31243.8
+            }
+        },
+        "porter_house": {
+            "pre": {
+                "donors": 24762,
+                "receipts": 61437,
+                "amt": 1618627.17
+            },
+            "post": {
+                "donors": 49624,
+                "receipts": 180453,
+                "amt": 3182863.57
+            },
+            "all": {
+                "donors": 62486,
+                "receipts": 241890,
+                "amt": 4801490.74
+            }
+        },
+        "porter_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 3851,
+                "receipts": 6123,
+                "amt": 171064.35
+            },
+            "all": {
+                "donors": 3851,
+                "receipts": 6123,
+                "amt": 171064.35
+            }
+        },
+        "pressley_house": {
+            "pre": {
+                "donors": 10857,
+                "receipts": 17714,
+                "amt": 508740.88
+            },
+            "post": {
+                "donors": 8694,
+                "receipts": 20814,
+                "amt": 387981.01
+            },
+            "all": {
+                "donors": 17239,
+                "receipts": 38528,
+                "amt": 896721.89
+            }
+        },
+        "pressley_leadership": {
+            "pre": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 2615
+            },
+            "post": {
+                "donors": 117,
+                "receipts": 178,
+                "amt": 12145.52
+            },
+            "all": {
+                "donors": 120,
+                "receipts": 182,
+                "amt": 14760.52
+            }
+        },
+        "raskin_house": {
+            "pre": {
+                "donors": 3414,
+                "receipts": 7875,
+                "amt": 321007.44
+            },
+            "post": {
+                "donors": 253,
+                "receipts": 1088,
+                "amt": 97361.48
+            },
+            "all": {
+                "donors": 3537,
+                "receipts": 8963,
+                "amt": 418368.92
+            }
+        },
+        "raskin_leadership": {
+            "pre": {
+                "donors": 143,
+                "receipts": 201,
+                "amt": 41832
+            },
+            "post": {
+                "donors": 7,
+                "receipts": 8,
+                "amt": 17700
+            },
+            "all": {
+                "donors": 144,
+                "receipts": 209,
+                "amt": 59532
+            }
+        },
+        "schakowsky_house": {
+            "pre": {
+                "donors": 1853,
+                "receipts": 5585,
+                "amt": 377254.98
+            },
+            "post": {
+                "donors": 341,
+                "receipts": 1699,
+                "amt": 86895.76
+            },
+            "all": {
+                "donors": 1968,
+                "receipts": 7284,
+                "amt": 464150.74
+            }
+        },
+        "schakowsky_leadership": {
+            "pre": {
+                "donors": 10,
+                "receipts": 33,
+                "amt": 108300
+            },
+            "post": {
+                "donors": 6,
+                "receipts": 7,
+                "amt": 28500
+            },
+            "all": {
+                "donors": 10,
+                "receipts": 40,
+                "amt": 136800
+            }
+        },
+        "trahan_house": {
+            "pre": {
+                "donors": 390,
+                "receipts": 490,
+                "amt": 36734.08
+            },
+            "post": {
+                "donors": 149,
+                "receipts": 439,
+                "amt": 37061.88
+            },
+            "all": {
+                "donors": 491,
+                "receipts": 929,
+                "amt": 73795.96
+            }
+        }
+    },
+    "congressionalEndorsementPost": {
+        "andy_levin_house": {
+            "pre": {
+                "donors": 731,
+                "receipts": 1085,
+                "amt": 68471.99
+            },
+            "post": {
+                "donors": 762,
+                "receipts": 1521,
+                "amt": 66479.8
+            },
+            "all": {
+                "donors": 1407,
+                "receipts": 2606,
+                "amt": 134951.79
+            }
+        },
+        "castro_leadership": {
+            "pre": {
+                "donors": 150,
+                "receipts": 263,
+                "amt": 17215.5
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 12500
+            },
+            "all": {
+                "donors": 153,
+                "receipts": 266,
+                "amt": 29715.5
+            }
+        },
+        "castro_pres": {
+            "pre": {
+                "donors": 19024,
+                "receipts": 73380,
+                "amt": 1155142.24
+            },
+            "post": {
+                "donors": 2069,
+                "receipts": 4513,
+                "amt": 101311.55
+            },
+            "all": {
+                "donors": 19513,
+                "receipts": 77893,
+                "amt": 1256453.79
+            }
+        },
+        "clark_house": {
+            "pre": {
+                "donors": 1006,
+                "receipts": 4380,
+                "amt": 537545.75
+            },
+            "post": {
+                "donors": 704,
+                "receipts": 2449,
+                "amt": 107044.39
+            },
+            "all": {
+                "donors": 1418,
+                "receipts": 6829,
+                "amt": 644590.14
+            }
+        },
+        "clark_house_alt": {
+            "pre": {
+                "donors": 508,
+                "receipts": 664,
+                "amt": 1703.69
+            },
+            "post": {
+                "donors": 155,
+                "receipts": 330,
+                "amt": 4706.06
+            },
+            "all": {
+                "donors": 653,
+                "receipts": 994,
+                "amt": 6409.75
+            }
+        },
+        "clark_leadership": {
+            "pre": {
+                "donors": 12,
+                "receipts": 22,
+                "amt": 87000
+            },
+            "post": {
+                "donors": 383,
+                "receipts": 674,
+                "amt": 61836.64
+            },
+            "all": {
+                "donors": 390,
+                "receipts": 696,
+                "amt": 148836.64
+            }
+        },
+        "grijalva_house": {
+            "pre": {
+                "donors": 4892,
+                "receipts": 12297,
+                "amt": 180126.47
+            },
+            "post": {
+                "donors": 1892,
+                "receipts": 4079,
+                "amt": 60668.64
+            },
+            "all": {
+                "donors": 6153,
+                "receipts": 16376,
+                "amt": 240795.11
+            }
+        },
+        "grijalva_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 28.06
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 28.06
+            }
+        },
+        "haaland_house": {
+            "pre": {
+                "donors": 3788,
+                "receipts": 6387,
+                "amt": 347238.62
+            },
+            "post": {
+                "donors": 2886,
+                "receipts": 6680,
+                "amt": 264024.89
+            },
+            "all": {
+                "donors": 5874,
+                "receipts": 13067,
+                "amt": 611263.51
+            }
+        },
+        "haaland_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            }
+        },
+        "joaquin_castro_house": {
+            "pre": {
+                "donors": 1369,
+                "receipts": 3410,
+                "amt": 119536.51
+            },
+            "post": {
+                "donors": 737,
+                "receipts": 1755,
+                "amt": 37597.41
+            },
+            "all": {
+                "donors": 1875,
+                "receipts": 5165,
+                "amt": 157133.92
+            }
+        },
+        "joaquin_castro_leadership": {
+            "pre": {
+                "donors": 33,
+                "receipts": 35,
+                "amt": 8850
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 33,
+                "receipts": 35,
+                "amt": 8850
+            }
+        },
+        "joint_clark_and_kuster": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 5000
+            }
+        },
+        "kennedy_house": {
+            "pre": {
+                "donors": 8662,
+                "receipts": 24739,
+                "amt": 838254.34
+            },
+            "post": {
+                "donors": 1417,
+                "receipts": 3298,
+                "amt": 75228.24
+            },
+            "all": {
+                "donors": 9247,
+                "receipts": 28037,
+                "amt": 913482.58
+            }
+        },
+        "kennedy_leadership": {
+            "pre": {
+                "donors": 29,
+                "receipts": 31,
+                "amt": 42025
+            },
+            "post": {
+                "donors": 194,
+                "receipts": 255,
+                "amt": 41955.59
+            },
+            "all": {
+                "donors": 221,
+                "receipts": 286,
+                "amt": 83980.59
+            }
+        },
+        "kennedy_sen": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 6998,
+                "receipts": 16801,
+                "amt": 515707.53
+            },
+            "all": {
+                "donors": 6998,
+                "receipts": 16801,
+                "amt": 515707.53
+            }
+        },
+        "markey_house": {
+            "pre": {
+                "donors": 22,
+                "receipts": 24,
+                "amt": 24770
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 22,
+                "receipts": 24,
+                "amt": 24770
+            }
+        },
+        "markey_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 8500
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 8500
+            }
+        },
+        "markey_sen": {
+            "pre": {
+                "donors": 11156,
+                "receipts": 28501,
+                "amt": 1163481.7
+            },
+            "post": {
+                "donors": 24401,
+                "receipts": 72028,
+                "amt": 2530125
+            },
+            "all": {
+                "donors": 32500,
+                "receipts": 100529,
+                "amt": 3693606.7
+            }
+        },
+        "mcgovern_house": {
+            "pre": {
+                "donors": 2012,
+                "receipts": 5749,
+                "amt": 241531.77
+            },
+            "post": {
+                "donors": 1456,
+                "receipts": 4424,
+                "amt": 116968.25
+            },
+            "all": {
+                "donors": 2862,
+                "receipts": 10173,
+                "amt": 358500.02
+            }
+        },
+        "mcgovern_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            }
+        },
+        "neal_house": {
+            "pre": {
+                "donors": 40,
+                "receipts": 106,
+                "amt": 20202.6
+            },
+            "post": {
+                "donors": 30,
+                "receipts": 35,
+                "amt": 8081
+            },
+            "all": {
+                "donors": 67,
+                "receipts": 141,
+                "amt": 28283.6
+            }
+        },
+        "porter_house": {
+            "pre": {
+                "donors": 22491,
+                "receipts": 56661,
+                "amt": 1428315.95
+            },
+            "post": {
+                "donors": 50186,
+                "receipts": 182349,
+                "amt": 3201865.86
+            },
+            "all": {
+                "donors": 61563,
+                "receipts": 239010,
+                "amt": 4630181.81
+            }
+        },
+        "porter_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 3724,
+                "receipts": 6081,
+                "amt": 169879.41
+            },
+            "all": {
+                "donors": 3724,
+                "receipts": 6081,
+                "amt": 169879.41
+            }
+        },
+        "pressley_house": {
+            "pre": {
+                "donors": 9020,
+                "receipts": 15418,
+                "amt": 517775.47
+            },
+            "post": {
+                "donors": 9491,
+                "receipts": 22745,
+                "amt": 444480.03
+            },
+            "all": {
+                "donors": 16256,
+                "receipts": 38163,
+                "amt": 962255.5
+            }
+        },
+        "pressley_leadership": {
+            "pre": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 7615
+            },
+            "post": {
+                "donors": 129,
+                "receipts": 210,
+                "amt": 12694.68
+            },
+            "all": {
+                "donors": 133,
+                "receipts": 215,
+                "amt": 20309.68
+            }
+        },
+        "raskin_house": {
+            "pre": {
+                "donors": 3529,
+                "receipts": 8558,
+                "amt": 399864.57
+            },
+            "post": {
+                "donors": 303,
+                "receipts": 1244,
+                "amt": 117449.04
+            },
+            "all": {
+                "donors": 3673,
+                "receipts": 9802,
+                "amt": 517313.61
+            }
+        },
+        "raskin_leadership": {
+            "pre": {
+                "donors": 154,
+                "receipts": 209,
+                "amt": 51770
+            },
+            "post": {
+                "donors": 9,
+                "receipts": 10,
+                "amt": 15125
+            },
+            "all": {
+                "donors": 157,
+                "receipts": 219,
+                "amt": 66895
+            }
+        },
+        "schakowsky_house": {
+            "pre": {
+                "donors": 1827,
+                "receipts": 5370,
+                "amt": 368699.9
+            },
+            "post": {
+                "donors": 325,
+                "receipts": 1673,
+                "amt": 80160.34
+            },
+            "all": {
+                "donors": 1941,
+                "receipts": 7043,
+                "amt": 448860.24
+            }
+        },
+        "schakowsky_leadership": {
+            "pre": {
+                "donors": 8,
+                "receipts": 17,
+                "amt": 60800
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 5,
+                "amt": 22500
+            },
+            "all": {
+                "donors": 8,
+                "receipts": 22,
+                "amt": 83300
+            }
+        },
+        "trahan_house": {
+            "pre": {
+                "donors": 626,
+                "receipts": 773,
+                "amt": 86603.98
+            },
+            "post": {
+                "donors": 222,
+                "receipts": 555,
+                "amt": 57293.48
+            },
+            "all": {
+                "donors": 770,
+                "receipts": 1328,
+                "amt": 143897.46
             }
         }
     },

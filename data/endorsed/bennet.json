@@ -688,6 +688,112 @@
             }
         }
     },
+    "congressionalEndorsementPre": {
+        "golden_house": {
+            "pre": {
+                "donors": 1834,
+                "receipts": 5589,
+                "amt": 265895.69
+            },
+            "post": {
+                "donors": 139,
+                "receipts": 196,
+                "amt": 4282.14
+            },
+            "all": {
+                "donors": 1834,
+                "receipts": 5785,
+                "amt": 270177.83
+            }
+        },
+        "hickenlooper_leadership": {
+            "pre": {
+                "donors": 5,
+                "receipts": 17,
+                "amt": 5701
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 27,
+                "amt": 165
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 44,
+                "amt": 5866
+            }
+        },
+        "hickenlooper_pres": {
+            "pre": {
+                "donors": 110,
+                "receipts": 398,
+                "amt": 28649.98
+            },
+            "post": {
+                "donors": 28,
+                "receipts": 121,
+                "amt": 2994
+            },
+            "all": {
+                "donors": 112,
+                "receipts": 519,
+                "amt": 31643.98
+            }
+        }
+    },
+    "congressionalEndorsementPost": {
+        "golden_house": {
+            "pre": {
+                "donors": 157,
+                "receipts": 1640,
+                "amt": 33847.98
+            },
+            "post": {
+                "donors": 162,
+                "receipts": 219,
+                "amt": 4725.14
+            },
+            "all": {
+                "donors": 180,
+                "receipts": 1859,
+                "amt": 38573.12
+            }
+        },
+        "hickenlooper_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 14,
+                "amt": 96
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 27,
+                "amt": 165
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 41,
+                "amt": 261
+            }
+        },
+        "hickenlooper_pres": {
+            "pre": {
+                "donors": 26,
+                "receipts": 219,
+                "amt": 6002.67
+            },
+            "post": {
+                "donors": 28,
+                "receipts": 121,
+                "amt": 2994
+            },
+            "all": {
+                "donors": 28,
+                "receipts": 340,
+                "amt": 8996.67
+            }
+        }
+    },
     "clinton2016": {
         "golden_house": {
             "pre": {

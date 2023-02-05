@@ -565,6 +565,59 @@
             }
         }
     },
+    "congressionalEndorsementPost": {
+        "trone_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 83,
+                "receipts": 158,
+                "amt": 96866.2
+            },
+            "all": {
+                "donors": 83,
+                "receipts": 158,
+                "amt": 96866.2
+            }
+        },
+        "trone_house_alt": {
+            "pre": {
+                "donors": 5,
+                "receipts": 20,
+                "amt": 13414265
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 20,
+                "amt": 13414265
+            }
+        },
+        "vargas_house": {
+            "pre": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 478
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 728
+            }
+        }
+    },
     "loyal": {
         "trone_house": {
             "pre": {
@@ -727,6 +780,25 @@
         }
     },
     "endorsementPre": {
+        "vargas_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1.42
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1.42
+            }
+        }
+    },
+    "congressionalEndorsementPre": {
         "vargas_house": {
             "pre": {
                 "donors": 1,
