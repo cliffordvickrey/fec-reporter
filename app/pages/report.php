@@ -75,6 +75,13 @@ $totalType = $response->getObjectNullable(TotalType::class);
                                 $view->partial('endorsers', $response)
                             ); ?>
                             <!-- /endorsers panel -->
+                            <!-- endorsers panel -->
+                            <?= $view->panel(
+                                'endorsement-graphs',
+                                'Graphs',
+                                $view->partial('endorsement-graphs', $response)
+                            ); ?>
+                            <!-- /endorsers panel -->
                             <!-- non-endorsers panel -->
                             <?= $view->panel(
                                 'non-endorsers',
