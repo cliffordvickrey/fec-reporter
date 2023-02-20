@@ -208,6 +208,44 @@
             }
         }
     },
+    "unconnected": {
+        "gallego_house": {
+            "pre": {
+                "donors": 20,
+                "receipts": 21,
+                "amt": 428
+            },
+            "post": {
+                "donors": 155,
+                "receipts": 225,
+                "amt": 2205.22
+            },
+            "all": {
+                "donors": 166,
+                "receipts": 246,
+                "amt": 2633.22
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "gallego_house": {
+            "pre": {
+                "donors": 19,
+                "receipts": 20,
+                "amt": 403
+            },
+            "post": {
+                "donors": 149,
+                "receipts": 219,
+                "amt": 2124.22
+            },
+            "all": {
+                "donors": 159,
+                "receipts": 239,
+                "amt": 2527.22
+            }
+        }
+    },
     "clinton2016": {
         "gallego_house": {
             "pre": {

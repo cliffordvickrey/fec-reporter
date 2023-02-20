@@ -3315,6 +3315,673 @@
             }
         }
     },
+    "unconnected": {
+        "coleman_house": {
+            "pre": {
+                "donors": 25,
+                "receipts": 27,
+                "amt": 1032
+            },
+            "post": {
+                "donors": 535,
+                "receipts": 1684,
+                "amt": 33850.69
+            },
+            "all": {
+                "donors": 544,
+                "receipts": 1711,
+                "amt": 34882.69
+            }
+        },
+        "drew_house": {
+            "pre": {
+                "donors": 13,
+                "receipts": 14,
+                "amt": 2207
+            },
+            "post": {
+                "donors": 344,
+                "receipts": 1063,
+                "amt": 53514.82
+            },
+            "all": {
+                "donors": 347,
+                "receipts": 1077,
+                "amt": 55721.82
+            }
+        },
+        "gottheimer_house": {
+            "pre": {
+                "donors": 24,
+                "receipts": 29,
+                "amt": 18828
+            },
+            "post": {
+                "donors": 526,
+                "receipts": 1219,
+                "amt": 328520.89
+            },
+            "all": {
+                "donors": 542,
+                "receipts": 1248,
+                "amt": 347348.89
+            }
+        },
+        "gottheimer_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 6,
+                "receipts": 9,
+                "amt": 11500
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 9,
+                "amt": 11500
+            }
+        },
+        "joint_baldwin_and_cantwell_and_casey_and_chris_murphy_and_donnelly_and_gillibrand_and_heinrich_and_kaine_and_king_and_manchin_and_menendez_and_nelson_and_rosen_and_sherrod_brown_and_sinema_and_stabenow": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 11,
+                "amt": 5245
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 11,
+                "amt": 5245
+            }
+        },
+        "joint_cardin_and_casey_and_gillibrand_and_menendez": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 300
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 300
+            }
+        },
+        "joint_houlahan_and_sherrill_and_spanberger": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 44
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 44
+            }
+        },
+        "kim_house": {
+            "pre": {
+                "donors": 115,
+                "receipts": 125,
+                "amt": 29118
+            },
+            "post": {
+                "donors": 3073,
+                "receipts": 8861,
+                "amt": 403149.34
+            },
+            "all": {
+                "donors": 3125,
+                "receipts": 8986,
+                "amt": 432267.34
+            }
+        },
+        "malinowski_house": {
+            "pre": {
+                "donors": 77,
+                "receipts": 90,
+                "amt": 16606
+            },
+            "post": {
+                "donors": 2229,
+                "receipts": 5657,
+                "amt": 360146.31
+            },
+            "all": {
+                "donors": 2251,
+                "receipts": 5747,
+                "amt": 376752.31
+            }
+        },
+        "menendez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 3305
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 3305
+            }
+        },
+        "menendez_sen": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1064,
+                "receipts": 3215,
+                "amt": 258064.12
+            },
+            "all": {
+                "donors": 1064,
+                "receipts": 3215,
+                "amt": 258064.12
+            }
+        },
+        "norcross_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "post": {
+                "donors": 20,
+                "receipts": 50,
+                "amt": 16660.7
+            },
+            "all": {
+                "donors": 21,
+                "receipts": 51,
+                "amt": 19460.7
+            }
+        },
+        "pallone_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2000
+            },
+            "post": {
+                "donors": 18,
+                "receipts": 23,
+                "amt": 19361.4
+            },
+            "all": {
+                "donors": 19,
+                "receipts": 24,
+                "amt": 21361.4
+            }
+        },
+        "pallone_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 2003.86
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 5,
+                "amt": 150
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 7,
+                "amt": 2153.86
+            }
+        },
+        "pascrell_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 47,
+                "receipts": 175,
+                "amt": 3895.42
+            },
+            "all": {
+                "donors": 47,
+                "receipts": 175,
+                "amt": 3895.42
+            }
+        },
+        "payne_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 7,
+                "receipts": 12,
+                "amt": 8938.4
+            },
+            "all": {
+                "donors": 7,
+                "receipts": 12,
+                "amt": 8938.4
+            }
+        },
+        "payne_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            }
+        },
+        "sherrill_house": {
+            "pre": {
+                "donors": 83,
+                "receipts": 91,
+                "amt": 34924
+            },
+            "post": {
+                "donors": 1875,
+                "receipts": 5165,
+                "amt": 365805.5
+            },
+            "all": {
+                "donors": 1908,
+                "receipts": 5256,
+                "amt": 400729.5
+            }
+        },
+        "sherrill_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "sires_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2000
+            },
+            "post": {
+                "donors": 7,
+                "receipts": 11,
+                "amt": 2906.2
+            },
+            "all": {
+                "donors": 8,
+                "receipts": 12,
+                "amt": 4906.2
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "coleman_house": {
+            "pre": {
+                "donors": 22,
+                "receipts": 24,
+                "amt": 917
+            },
+            "post": {
+                "donors": 517,
+                "receipts": 1644,
+                "amt": 29035.19
+            },
+            "all": {
+                "donors": 525,
+                "receipts": 1668,
+                "amt": 29952.19
+            }
+        },
+        "drew_house": {
+            "pre": {
+                "donors": 11,
+                "receipts": 12,
+                "amt": 2097
+            },
+            "post": {
+                "donors": 318,
+                "receipts": 1023,
+                "amt": 47918.82
+            },
+            "all": {
+                "donors": 321,
+                "receipts": 1035,
+                "amt": 50015.82
+            }
+        },
+        "gottheimer_house": {
+            "pre": {
+                "donors": 17,
+                "receipts": 22,
+                "amt": 9433
+            },
+            "post": {
+                "donors": 394,
+                "receipts": 1058,
+                "amt": 177502.29
+            },
+            "all": {
+                "donors": 403,
+                "receipts": 1080,
+                "amt": 186935.29
+            }
+        },
+        "gottheimer_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 5,
+                "amt": 7600
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 5,
+                "amt": 7600
+            }
+        },
+        "joint_baldwin_and_cantwell_and_casey_and_chris_murphy_and_donnelly_and_gillibrand_and_heinrich_and_kaine_and_king_and_manchin_and_menendez_and_nelson_and_rosen_and_sherrod_brown_and_sinema_and_stabenow": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 11,
+                "amt": 5245
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 11,
+                "amt": 5245
+            }
+        },
+        "joint_cardin_and_casey_and_gillibrand_and_menendez": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 300
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 300
+            }
+        },
+        "joint_houlahan_and_sherrill_and_spanberger": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 44
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 44
+            }
+        },
+        "kim_house": {
+            "pre": {
+                "donors": 101,
+                "receipts": 111,
+                "amt": 26178
+            },
+            "post": {
+                "donors": 2736,
+                "receipts": 8287,
+                "amt": 332855.74
+            },
+            "all": {
+                "donors": 2780,
+                "receipts": 8398,
+                "amt": 359033.74
+            }
+        },
+        "malinowski_house": {
+            "pre": {
+                "donors": 66,
+                "receipts": 79,
+                "amt": 15191
+            },
+            "post": {
+                "donors": 1908,
+                "receipts": 5156,
+                "amt": 295609.96
+            },
+            "all": {
+                "donors": 1929,
+                "receipts": 5235,
+                "amt": 310800.96
+            }
+        },
+        "menendez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 3300
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 3300
+            }
+        },
+        "menendez_sen": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 987,
+                "receipts": 3089,
+                "amt": 176911.92
+            },
+            "all": {
+                "donors": 987,
+                "receipts": 3089,
+                "amt": 176911.92
+            }
+        },
+        "norcross_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 12,
+                "receipts": 41,
+                "amt": 2249.7
+            },
+            "all": {
+                "donors": 12,
+                "receipts": 41,
+                "amt": 2249.7
+            }
+        },
+        "pallone_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2000
+            },
+            "post": {
+                "donors": 10,
+                "receipts": 12,
+                "amt": 8424.4
+            },
+            "all": {
+                "donors": 11,
+                "receipts": 13,
+                "amt": 10424.4
+            }
+        },
+        "pallone_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 100
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 2100
+            }
+        },
+        "pascrell_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 43,
+                "receipts": 171,
+                "amt": 2632.42
+            },
+            "all": {
+                "donors": 43,
+                "receipts": 171,
+                "amt": 2632.42
+            }
+        },
+        "payne_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 8,
+                "amt": 4113.2
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 8,
+                "amt": 4113.2
+            }
+        },
+        "sherrill_house": {
+            "pre": {
+                "donors": 64,
+                "receipts": 72,
+                "amt": 13489
+            },
+            "post": {
+                "donors": 1638,
+                "receipts": 4705,
+                "amt": 295740.3
+            },
+            "all": {
+                "donors": 1659,
+                "receipts": 4777,
+                "amt": 309229.3
+            }
+        },
+        "sherrill_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "sires_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2000
+            },
+            "post": {
+                "donors": 7,
+                "receipts": 11,
+                "amt": 2906.2
+            },
+            "all": {
+                "donors": 8,
+                "receipts": 12,
+                "amt": 4906.2
+            }
+        }
+    },
     "donor2016": {
         "coleman_house": {
             "pre": {

@@ -132,6 +132,25 @@
             }
         }
     },
+    "unconnected": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 11994,
+                "receipts": 16019,
+                "amt": 67150.54
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 11994,
+                "receipts": 16019,
+                "amt": 67150.54
+            }
+        }
+    },
     "donor2016": {
         "gravel_pres": {
             "pre": {
@@ -243,6 +262,25 @@
                 "donors": 1839,
                 "receipts": 2876,
                 "amt": 15387.65
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 1562,
+                "receipts": 2342,
+                "amt": 11820.32
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1562,
+                "receipts": 2342,
+                "amt": 11820.32
             }
         }
     },

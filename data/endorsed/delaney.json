@@ -618,6 +618,112 @@
             }
         }
     },
+    "unconnected": {
+        "trone_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 12,
+                "receipts": 19,
+                "amt": 8214
+            },
+            "all": {
+                "donors": 12,
+                "receipts": 19,
+                "amt": 8214
+            }
+        },
+        "trone_house_alt": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 5,
+                "amt": 1064
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 5,
+                "amt": 1064
+            }
+        },
+        "vargas_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1.42
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 306
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 307.42
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "trone_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 9,
+                "amt": 4619
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 9,
+                "amt": 4619
+            }
+        },
+        "trone_house_alt": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 564
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 564
+            }
+        },
+        "vargas_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1.42
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 251.42
+            }
+        }
+    },
     "loyal": {
         "trone_house": {
             "pre": {

@@ -1441,6 +1441,128 @@
             "amt": 128
         }
     },
+    "unconnected": {
+        "booker_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 11
+        },
+        "booker_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "buttigieg_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 21
+        },
+        "castro_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "chris_carney_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 20
+        },
+        "cortez_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "cortez_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "doug_jones_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 20
+        },
+        "gillibrand_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 100
+        },
+        "gravel_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 20
+        },
+        "harris_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "heitkamp_sen": {
+            "donors": 2,
+            "receipts": 4,
+            "amt": 400
+        },
+        "hoyer_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "klobuchar_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "malinowski_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "mccaskill_sen": {
+            "donors": 1,
+            "receipts": 3,
+            "amt": 375
+        },
+        "moulton_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 2500
+        },
+        "phillips_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "sanders_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "schiff_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "warren_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 11
+        },
+        "wexton_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "williamson_pres": {
+            "donors": 1,
+            "receipts": 3,
+            "amt": 375
+        },
+        "yang_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 101
+        }
+    },
     "donor2016": {
         "barber_house": {
             "donors": 1,
@@ -2231,6 +2353,53 @@
             "donors": 2,
             "receipts": 6,
             "amt": 100
+        }
+    },
+    "unconnectedPartyElite": {
+        "buttigieg_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 21
+        },
+        "chris_carney_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 20
+        },
+        "doug_jones_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 20
+        },
+        "gravel_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 20
+        },
+        "harris_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "heitkamp_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 25
+        },
+        "malinowski_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "schiff_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "wexton_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
         }
     }
 }

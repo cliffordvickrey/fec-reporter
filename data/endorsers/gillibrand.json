@@ -690,6 +690,44 @@
             }
         }
     },
+    "unconnected": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 52,
+                "receipts": 79,
+                "amt": 5028.75
+            },
+            "post": {
+                "donors": 27,
+                "receipts": 49,
+                "amt": 1854.68
+            },
+            "all": {
+                "donors": 77,
+                "receipts": 128,
+                "amt": 6883.43
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 52,
+                "receipts": 79,
+                "amt": 5028.75
+            },
+            "post": {
+                "donors": 24,
+                "receipts": 46,
+                "amt": 1338.24
+            },
+            "all": {
+                "donors": 74,
+                "receipts": 125,
+                "amt": 6366.99
+            }
+        }
+    },
     "loyal": {
         "carolyn_maloney_house": {
             "pre": {

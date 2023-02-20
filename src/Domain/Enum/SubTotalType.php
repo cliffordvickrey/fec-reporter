@@ -48,6 +48,8 @@ final class SubTotalType extends AbstractEnum
     public const SUB_TYPE_CONGRESSIONAL_ENDORSEMENT = 'congressionalEndorsement';
     public const SUB_TYPE_SENATE_ENDORSEMENT = 'senateEndorsement';
     public const SUB_TYPE_HOUSE_ENDORSEMENT = 'houseEndorsement';
+    public const SUB_TYPE_UNCOMMITTED = 'uncommitted';
+    public const SUB_TYPE_UNCOMMITTED_PARTY_ELITE = 'uncommitteedPartyElite';
 
     /**
      * @return array<string, string>
@@ -96,7 +98,9 @@ final class SubTotalType extends AbstractEnum
             self::SUB_TYPE_CONGRESSIONAL_ENDORSEMENT => 'Congressional Endorsement Donors (Donors who gave an endoser'
                 . ' in Congress)',
             self::SUB_TYPE_SENATE_ENDORSEMENT => 'Senate Endorsement Donors (Donors who gave to Senate endorser)',
-            self::SUB_TYPE_HOUSE_ENDORSEMENT => 'House Endorsement Donors (Donors who gave to House endorser)'
+            self::SUB_TYPE_HOUSE_ENDORSEMENT => 'House Endorsement Donors (Donors who gave to House endorser)',
+            self::SUB_TYPE_UNCOMMITTED => 'Uncommitted Donors',
+            self::SUB_TYPE_UNCOMMITTED_PARTY_ELITE => 'Uncommitted Donors (party elites)'
         ];
     }
 }

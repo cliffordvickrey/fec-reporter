@@ -961,6 +961,70 @@
             "amt": 10
         }
     },
+    "unconnected": {
+        "carper_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 150
+        },
+        "coons_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 150
+        },
+        "crist_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 50
+        },
+        "orourke_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "rochester_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 150
+        },
+        "sanders_leadership": {
+            "donors": 1,
+            "receipts": 6,
+            "amt": 300
+        },
+        "sanders_sen": {
+            "donors": 1,
+            "receipts": 6,
+            "amt": 300
+        },
+        "steyer_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "warren_pres": {
+            "donors": 2,
+            "receipts": 7,
+            "amt": 320.2
+        }
+    },
+    "unconnectedPartyElite": {
+        "sanders_leadership": {
+            "donors": 1,
+            "receipts": 6,
+            "amt": 300
+        },
+        "sanders_sen": {
+            "donors": 1,
+            "receipts": 6,
+            "amt": 300
+        },
+        "warren_pres": {
+            "donors": 2,
+            "receipts": 7,
+            "amt": 320.2
+        }
+    },
     "loyal": {
         "crist_house": {
             "donors": 1,

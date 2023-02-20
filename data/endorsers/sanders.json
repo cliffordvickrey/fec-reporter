@@ -2289,6 +2289,348 @@
             }
         }
     },
+    "unconnected": {
+        "chuy_garcia_house": {
+            "pre": {
+                "donors": 86,
+                "receipts": 143,
+                "amt": 22025.53
+            },
+            "post": {
+                "donors": 50,
+                "receipts": 76,
+                "amt": 2090.74
+            },
+            "all": {
+                "donors": 124,
+                "receipts": 219,
+                "amt": 24116.27
+            }
+        },
+        "cortez_house": {
+            "pre": {
+                "donors": 32594,
+                "receipts": 56659,
+                "amt": 906937.19
+            },
+            "post": {
+                "donors": 86565,
+                "receipts": 206703,
+                "amt": 3150627.51
+            },
+            "all": {
+                "donors": 106830,
+                "receipts": 263362,
+                "amt": 4057564.7
+            }
+        },
+        "cortez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 8064,
+                "receipts": 17138,
+                "amt": 216091.5
+            },
+            "all": {
+                "donors": 8064,
+                "receipts": 17138,
+                "amt": 216091.5
+            }
+        },
+        "de_blasio_leadership": {
+            "pre": {
+                "donors": 11,
+                "receipts": 11,
+                "amt": 5604
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 11,
+                "receipts": 11,
+                "amt": 5604
+            }
+        },
+        "de_blasio_pres": {
+            "pre": {
+                "donors": 798,
+                "receipts": 981,
+                "amt": 15858.74
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5
+            },
+            "all": {
+                "donors": 799,
+                "receipts": 982,
+                "amt": 15863.74
+            }
+        },
+        "jayapal_house": {
+            "pre": {
+                "donors": 2588,
+                "receipts": 5152,
+                "amt": 117235.79
+            },
+            "post": {
+                "donors": 5302,
+                "receipts": 7994,
+                "amt": 83057.49
+            },
+            "all": {
+                "donors": 7591,
+                "receipts": 13146,
+                "amt": 200293.28
+            }
+        },
+        "jayapal_leadership": {
+            "pre": {
+                "donors": 1092,
+                "receipts": 3735,
+                "amt": 36197.32
+            },
+            "post": {
+                "donors": 3756,
+                "receipts": 14575,
+                "amt": 133649.23
+            },
+            "all": {
+                "donors": 4461,
+                "receipts": 18310,
+                "amt": 169846.55
+            }
+        },
+        "jayapal_leadership_alt": {
+            "pre": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 10000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 10000
+            }
+        },
+        "khanna_house": {
+            "pre": {
+                "donors": 497,
+                "receipts": 1118,
+                "amt": 69360.9
+            },
+            "post": {
+                "donors": 7161,
+                "receipts": 12762,
+                "amt": 175710.08
+            },
+            "all": {
+                "donors": 7535,
+                "receipts": 13880,
+                "amt": 245070.98
+            }
+        },
+        "leahy_leadership": {
+            "pre": {
+                "donors": 84,
+                "receipts": 114,
+                "amt": 3619.83
+            },
+            "post": {
+                "donors": 24,
+                "receipts": 27,
+                "amt": 5452
+            },
+            "all": {
+                "donors": 100,
+                "receipts": 141,
+                "amt": 9071.83
+            }
+        },
+        "leahy_sen": {
+            "pre": {
+                "donors": 171,
+                "receipts": 256,
+                "amt": 7623.33
+            },
+            "post": {
+                "donors": 108,
+                "receipts": 148,
+                "amt": 1439.7
+            },
+            "all": {
+                "donors": 268,
+                "receipts": 404,
+                "amt": 9063.03
+            }
+        },
+        "omar_house": {
+            "pre": {
+                "donors": 19346,
+                "receipts": 28848,
+                "amt": 491784.05
+            },
+            "post": {
+                "donors": 26529,
+                "receipts": 51441,
+                "amt": 669200.94
+            },
+            "all": {
+                "donors": 41847,
+                "receipts": 80289,
+                "amt": 1160984.99
+            }
+        },
+        "omar_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2145,
+                "receipts": 4603,
+                "amt": 35294.16
+            },
+            "all": {
+                "donors": 2145,
+                "receipts": 4603,
+                "amt": 35294.16
+            }
+        },
+        "pocan_house": {
+            "pre": {
+                "donors": 531,
+                "receipts": 1311,
+                "amt": 18858.07
+            },
+            "post": {
+                "donors": 4892,
+                "receipts": 7195,
+                "amt": 45583.26
+            },
+            "all": {
+                "donors": 5287,
+                "receipts": 8506,
+                "amt": 64441.33
+            }
+        },
+        "takano_house": {
+            "pre": {
+                "donors": 311,
+                "receipts": 575,
+                "amt": 24990.26
+            },
+            "post": {
+                "donors": 44,
+                "receipts": 80,
+                "amt": 5025.67
+            },
+            "all": {
+                "donors": 338,
+                "receipts": 655,
+                "amt": 30015.93
+            }
+        },
+        "tlaib_house": {
+            "pre": {
+                "donors": 6813,
+                "receipts": 9485,
+                "amt": 231709.19
+            },
+            "post": {
+                "donors": 27444,
+                "receipts": 45240,
+                "amt": 590693.33
+            },
+            "all": {
+                "donors": 32674,
+                "receipts": 54725,
+                "amt": 822402.52
+            }
+        },
+        "tlaib_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 77,
+                "receipts": 90,
+                "amt": 9016
+            },
+            "all": {
+                "donors": 77,
+                "receipts": 90,
+                "amt": 9016
+            }
+        },
+        "welch_house": {
+            "pre": {
+                "donors": 14,
+                "receipts": 14,
+                "amt": 20.32
+            },
+            "post": {
+                "donors": 4229,
+                "receipts": 5137,
+                "amt": 24419.57
+            },
+            "all": {
+                "donors": 4242,
+                "receipts": 5151,
+                "amt": 24439.89
+            }
+        },
+        "williamson_house": {
+            "pre": {
+                "donors": 19,
+                "receipts": 25,
+                "amt": 16150
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 19,
+                "receipts": 25,
+                "amt": 16150
+            }
+        },
+        "williamson_pres": {
+            "pre": {
+                "donors": 15443,
+                "receipts": 34297,
+                "amt": 577343.08
+            },
+            "post": {
+                "donors": 98,
+                "receipts": 150,
+                "amt": 8814.94
+            },
+            "all": {
+                "donors": 15479,
+                "receipts": 34447,
+                "amt": 586158.02
+            }
+        }
+    },
     "unfaithful": {
         "chuy_garcia_house": {
             "pre": {
@@ -6849,6 +7191,331 @@
                 "donors": 9982,
                 "receipts": 33363,
                 "amt": 639190.36
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "chuy_garcia_house": {
+            "pre": {
+                "donors": 34,
+                "receipts": 67,
+                "amt": 10598.55
+            },
+            "post": {
+                "donors": 19,
+                "receipts": 39,
+                "amt": 1165.2
+            },
+            "all": {
+                "donors": 45,
+                "receipts": 106,
+                "amt": 11763.75
+            }
+        },
+        "cortez_house": {
+            "pre": {
+                "donors": 8336,
+                "receipts": 17477,
+                "amt": 287346.71
+            },
+            "post": {
+                "donors": 20932,
+                "receipts": 61589,
+                "amt": 1007472.04
+            },
+            "all": {
+                "donors": 25018,
+                "receipts": 79066,
+                "amt": 1294818.75
+            }
+        },
+        "cortez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2088,
+                "receipts": 4127,
+                "amt": 56326.61
+            },
+            "all": {
+                "donors": 2088,
+                "receipts": 4127,
+                "amt": 56326.61
+            }
+        },
+        "de_blasio_leadership": {
+            "pre": {
+                "donors": 8,
+                "receipts": 8,
+                "amt": 5074
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 8,
+                "receipts": 8,
+                "amt": 5074
+            }
+        },
+        "de_blasio_pres": {
+            "pre": {
+                "donors": 302,
+                "receipts": 424,
+                "amt": 9690.84
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 302,
+                "receipts": 424,
+                "amt": 9690.84
+            }
+        },
+        "jayapal_house": {
+            "pre": {
+                "donors": 1274,
+                "receipts": 3115,
+                "amt": 55588.01
+            },
+            "post": {
+                "donors": 1525,
+                "receipts": 2751,
+                "amt": 31221.93
+            },
+            "all": {
+                "donors": 2616,
+                "receipts": 5866,
+                "amt": 86809.94
+            }
+        },
+        "jayapal_leadership": {
+            "pre": {
+                "donors": 790,
+                "receipts": 3039,
+                "amt": 25774.05
+            },
+            "post": {
+                "donors": 3067,
+                "receipts": 13138,
+                "amt": 114602.52
+            },
+            "all": {
+                "donors": 3505,
+                "receipts": 16177,
+                "amt": 140376.57
+            }
+        },
+        "khanna_house": {
+            "pre": {
+                "donors": 198,
+                "receipts": 446,
+                "amt": 28805.06
+            },
+            "post": {
+                "donors": 2145,
+                "receipts": 4414,
+                "amt": 80239.16
+            },
+            "all": {
+                "donors": 2278,
+                "receipts": 4860,
+                "amt": 109044.22
+            }
+        },
+        "leahy_leadership": {
+            "pre": {
+                "donors": 69,
+                "receipts": 94,
+                "amt": 2064.83
+            },
+            "post": {
+                "donors": 21,
+                "receipts": 24,
+                "amt": 417
+            },
+            "all": {
+                "donors": 83,
+                "receipts": 118,
+                "amt": 2481.83
+            }
+        },
+        "leahy_sen": {
+            "pre": {
+                "donors": 157,
+                "receipts": 231,
+                "amt": 4715.49
+            },
+            "post": {
+                "donors": 91,
+                "receipts": 125,
+                "amt": 1230.86
+            },
+            "all": {
+                "donors": 237,
+                "receipts": 356,
+                "amt": 5946.35
+            }
+        },
+        "omar_house": {
+            "pre": {
+                "donors": 5522,
+                "receipts": 9507,
+                "amt": 155432.69
+            },
+            "post": {
+                "donors": 6389,
+                "receipts": 14765,
+                "amt": 202142.08
+            },
+            "all": {
+                "donors": 10532,
+                "receipts": 24272,
+                "amt": 357574.77
+            }
+        },
+        "omar_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 683,
+                "receipts": 1661,
+                "amt": 12466.37
+            },
+            "all": {
+                "donors": 683,
+                "receipts": 1661,
+                "amt": 12466.37
+            }
+        },
+        "pocan_house": {
+            "pre": {
+                "donors": 459,
+                "receipts": 1161,
+                "amt": 15941.31
+            },
+            "post": {
+                "donors": 1453,
+                "receipts": 2679,
+                "amt": 22959.37
+            },
+            "all": {
+                "donors": 1788,
+                "receipts": 3840,
+                "amt": 38900.68
+            }
+        },
+        "takano_house": {
+            "pre": {
+                "donors": 231,
+                "receipts": 437,
+                "amt": 12825.96
+            },
+            "post": {
+                "donors": 28,
+                "receipts": 47,
+                "amt": 3909.67
+            },
+            "all": {
+                "donors": 246,
+                "receipts": 484,
+                "amt": 16735.63
+            }
+        },
+        "tlaib_house": {
+            "pre": {
+                "donors": 2576,
+                "receipts": 4146,
+                "amt": 98162.69
+            },
+            "post": {
+                "donors": 6358,
+                "receipts": 11667,
+                "amt": 158268.23
+            },
+            "all": {
+                "donors": 8257,
+                "receipts": 15813,
+                "amt": 256430.92
+            }
+        },
+        "tlaib_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 43,
+                "receipts": 51,
+                "amt": 7117
+            },
+            "all": {
+                "donors": 43,
+                "receipts": 51,
+                "amt": 7117
+            }
+        },
+        "welch_house": {
+            "pre": {
+                "donors": 7,
+                "receipts": 7,
+                "amt": 9.32
+            },
+            "post": {
+                "donors": 951,
+                "receipts": 1175,
+                "amt": 8044.46
+            },
+            "all": {
+                "donors": 957,
+                "receipts": 1182,
+                "amt": 8053.78
+            }
+        },
+        "williamson_house": {
+            "pre": {
+                "donors": 9,
+                "receipts": 10,
+                "amt": 7050
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 9,
+                "receipts": 10,
+                "amt": 7050
+            }
+        },
+        "williamson_pres": {
+            "pre": {
+                "donors": 3525,
+                "receipts": 11096,
+                "amt": 207685.16
+            },
+            "post": {
+                "donors": 35,
+                "receipts": 75,
+                "amt": 5129.9
+            },
+            "all": {
+                "donors": 3534,
+                "receipts": 11171,
+                "amt": 212815.06
             }
         }
     },
