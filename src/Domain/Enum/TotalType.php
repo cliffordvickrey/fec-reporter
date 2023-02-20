@@ -35,8 +35,8 @@ final class TotalType extends AbstractEnum
     public const TYPE_ELITE = 'elite';
     public const TYPE_ELITE_PARTY = 'eliteParty';
     public const TYPE_ELITE_PAC = 'elitePac';
-    public const TYPE_UNCOMMITTED = 'uncommitted';
-    public const TYPE_UNCOMMITTED_PARTY_ELITE = 'uncommittedPartyElite';
+    public const TYPE_UNCONNECTED = 'unconnected';
+    public const TYPE_UNCONNECTED_PARTY_ELITE = 'unconnectedPartyElite';
 
     /** @var array<non-empty-string, non-empty-string> */
     private static array $blurbs = [
@@ -77,8 +77,8 @@ final class TotalType extends AbstractEnum
         self::TYPE_ELITE_PARTY => 'Gave to candidate campaign committee in 2020 and National/State/County Political'
             . ' Party in 2020 or before',
         self::TYPE_ELITE_PAC => 'Gave to candidate campaign committee in 2020 and PAC in 2020 or before',
-        self::TYPE_UNCOMMITTED => 'Out-of-state, non-prior donors',
-        self::TYPE_UNCOMMITTED_PARTY_ELITE => 'Out-of-state, non-prior donors who are party elites'
+        self::TYPE_UNCONNECTED => 'Out-of-state, non-prior donors',
+        self::TYPE_UNCONNECTED_PARTY_ELITE => 'Out-of-state, non-prior donors who are party elites'
     ];
 
     /**
@@ -131,8 +131,8 @@ final class TotalType extends AbstractEnum
             self::TYPE_ELITE => 'Elite Donors',
             self::TYPE_ELITE_PARTY => 'Elite Party Donors',
             self::TYPE_ELITE_PAC => 'Elite PAC Donors',
-            self::TYPE_UNCOMMITTED => 'Uncommitted Donors',
-            self::TYPE_UNCOMMITTED_PARTY_ELITE => 'Uncommitted Party Elites'
+            self::TYPE_UNCONNECTED => 'Unconnected Donors',
+            self::TYPE_UNCONNECTED_PARTY_ELITE => 'Unconnected Party Elites'
         ];
     }
 }
