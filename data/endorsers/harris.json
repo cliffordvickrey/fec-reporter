@@ -3517,6 +3517,365 @@
             }
         }
     },
+    "outOfState": {
+        "al_green_house": {
+            "pre": {
+                "donors": 33,
+                "receipts": 71,
+                "amt": 16059.77
+            },
+            "post": {
+                "donors": 197,
+                "receipts": 473,
+                "amt": 11405.08
+            },
+            "all": {
+                "donors": 221,
+                "receipts": 544,
+                "amt": 27464.85
+            }
+        },
+        "al_green_house_alt": {
+            "pre": {
+                "donors": 18,
+                "receipts": 26,
+                "amt": 22597
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 18,
+                "receipts": 26,
+                "amt": 22597
+            }
+        },
+        "barbara_lee_house": {
+            "pre": {
+                "donors": 694,
+                "receipts": 2224,
+                "amt": 97688.34
+            },
+            "post": {
+                "donors": 322,
+                "receipts": 1106,
+                "amt": 32516.41
+            },
+            "all": {
+                "donors": 893,
+                "receipts": 3330,
+                "amt": 130204.75
+            }
+        },
+        "barbara_lee_leadership": {
+            "pre": {
+                "donors": 63,
+                "receipts": 64,
+                "amt": 6550.75
+            },
+            "post": {
+                "donors": 11,
+                "receipts": 23,
+                "amt": 6478.6
+            },
+            "all": {
+                "donors": 74,
+                "receipts": 87,
+                "amt": 13029.35
+            }
+        },
+        "barragan_house": {
+            "pre": {
+                "donors": 3133,
+                "receipts": 5476,
+                "amt": 67523.03
+            },
+            "post": {
+                "donors": 104,
+                "receipts": 338,
+                "amt": 6502.83
+            },
+            "all": {
+                "donors": 3173,
+                "receipts": 5814,
+                "amt": 74025.86
+            }
+        },
+        "brownley_house": {
+            "pre": {
+                "donors": 1403,
+                "receipts": 7486,
+                "amt": 127778.08
+            },
+            "post": {
+                "donors": 457,
+                "receipts": 1639,
+                "amt": 19166.93
+            },
+            "all": {
+                "donors": 1676,
+                "receipts": 9125,
+                "amt": 146945.01
+            }
+        },
+        "carbajal_house": {
+            "pre": {
+                "donors": 190,
+                "receipts": 312,
+                "amt": 22809.29
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 370
+            },
+            "all": {
+                "donors": 192,
+                "receipts": 315,
+                "amt": 23179.29
+            }
+        },
+        "costa_house": {
+            "pre": {
+                "donors": 21,
+                "receipts": 22,
+                "amt": 1628.87
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1250
+            },
+            "all": {
+                "donors": 23,
+                "receipts": 24,
+                "amt": 2878.87
+            }
+        },
+        "danny_davis_house": {
+            "pre": {
+                "donors": 7,
+                "receipts": 7,
+                "amt": 260.17
+            },
+            "post": {
+                "donors": 6,
+                "receipts": 6,
+                "amt": 1720
+            },
+            "all": {
+                "donors": 13,
+                "receipts": 13,
+                "amt": 1980.17
+            }
+        },
+        "fudge_house": {
+            "pre": {
+                "donors": 45,
+                "receipts": 57,
+                "amt": 20016.58
+            },
+            "post": {
+                "donors": 32,
+                "receipts": 46,
+                "amt": 3920
+            },
+            "all": {
+                "donors": 75,
+                "receipts": 103,
+                "amt": 23936.58
+            }
+        },
+        "fudge_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 3000
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 3000
+            }
+        },
+        "gallego_house": {
+            "pre": {
+                "donors": 1326,
+                "receipts": 4507,
+                "amt": 84989.75
+            },
+            "post": {
+                "donors": 1147,
+                "receipts": 4543,
+                "amt": 58296.42
+            },
+            "all": {
+                "donors": 2052,
+                "receipts": 9050,
+                "amt": 143286.17
+            }
+        },
+        "hastings_house": {
+            "pre": {
+                "donors": 61,
+                "receipts": 81,
+                "amt": 19094.92
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 2805
+            },
+            "all": {
+                "donors": 63,
+                "receipts": 84,
+                "amt": 21899.92
+            }
+        },
+        "hayes_house": {
+            "pre": {
+                "donors": 2735,
+                "receipts": 3652,
+                "amt": 191985.67
+            },
+            "post": {
+                "donors": 1033,
+                "receipts": 2056,
+                "amt": 113986.44
+            },
+            "all": {
+                "donors": 3502,
+                "receipts": 5708,
+                "amt": 305972.11
+            }
+        },
+        "hill_house": {
+            "pre": {
+                "donors": 1918,
+                "receipts": 3018,
+                "amt": 133475.55
+            },
+            "post": {
+                "donors": 1863,
+                "receipts": 3227,
+                "amt": 73907.63
+            },
+            "all": {
+                "donors": 3528,
+                "receipts": 6245,
+                "amt": 207383.18
+            }
+        },
+        "lacy_clay_house": {
+            "pre": {
+                "donors": 29,
+                "receipts": 31,
+                "amt": 4162.64
+            },
+            "post": {
+                "donors": 15,
+                "receipts": 18,
+                "amt": 16170
+            },
+            "all": {
+                "donors": 43,
+                "receipts": 49,
+                "amt": 20332.64
+            }
+        },
+        "lawrence_house": {
+            "pre": {
+                "donors": 251,
+                "receipts": 399,
+                "amt": 26021.33
+            },
+            "post": {
+                "donors": 51,
+                "receipts": 135,
+                "amt": 9505.92
+            },
+            "all": {
+                "donors": 274,
+                "receipts": 534,
+                "amt": 35527.25
+            }
+        },
+        "lawrence_house_alt": {
+            "pre": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 2150
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 2150
+            }
+        },
+        "lieu_house": {
+            "pre": {
+                "donors": 210,
+                "receipts": 366,
+                "amt": 17451.48
+            },
+            "post": {
+                "donors": 163,
+                "receipts": 314,
+                "amt": 12824.85
+            },
+            "all": {
+                "donors": 352,
+                "receipts": 680,
+                "amt": 30276.33
+            }
+        },
+        "lieu_leadership": {
+            "pre": {
+                "donors": 70,
+                "receipts": 81,
+                "amt": 11381.25
+            },
+            "post": {
+                "donors": 31,
+                "receipts": 41,
+                "amt": 3384
+            },
+            "all": {
+                "donors": 100,
+                "receipts": 122,
+                "amt": 14765.25
+            }
+        },
+        "rush_house": {
+            "pre": {
+                "donors": 11,
+                "receipts": 12,
+                "amt": 4883.18
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 310
+            },
+            "all": {
+                "donors": 15,
+                "receipts": 16,
+                "amt": 5193.18
+            }
+        }
+    },
     "unconnected": {
         "al_green_house": {
             "pre": {
@@ -3873,6 +4232,348 @@
                 "donors": 12,
                 "receipts": 13,
                 "amt": 5166.18
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "al_green_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1.62
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 2819.2
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 2820.82
+            }
+        },
+        "al_green_house_alt": {
+            "pre": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 3500
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 3500
+            }
+        },
+        "barbara_lee_house": {
+            "pre": {
+                "donors": 21,
+                "receipts": 41,
+                "amt": 3379
+            },
+            "post": {
+                "donors": 16,
+                "receipts": 50,
+                "amt": 1017.78
+            },
+            "all": {
+                "donors": 34,
+                "receipts": 91,
+                "amt": 4396.78
+            }
+        },
+        "barbara_lee_leadership": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 12
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 57.9
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 69.9
+            }
+        },
+        "barragan_house": {
+            "pre": {
+                "donors": 315,
+                "receipts": 406,
+                "amt": 6057.24
+            },
+            "post": {
+                "donors": 7,
+                "receipts": 10,
+                "amt": 282.12
+            },
+            "all": {
+                "donors": 320,
+                "receipts": 416,
+                "amt": 6339.36
+            }
+        },
+        "brownley_house": {
+            "pre": {
+                "donors": 16,
+                "receipts": 20,
+                "amt": 959.89
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 34.12
+            },
+            "all": {
+                "donors": 20,
+                "receipts": 24,
+                "amt": 994.01
+            }
+        },
+        "carbajal_house": {
+            "pre": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 13.99
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 13.99
+            }
+        },
+        "costa_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            }
+        },
+        "danny_davis_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 370
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 370
+            }
+        },
+        "fudge_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 5,
+                "amt": 6700
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 751
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 8,
+                "amt": 7451
+            }
+        },
+        "gallego_house": {
+            "pre": {
+                "donors": 34,
+                "receipts": 122,
+                "amt": 6548.89
+            },
+            "post": {
+                "donors": 34,
+                "receipts": 72,
+                "amt": 2087
+            },
+            "all": {
+                "donors": 63,
+                "receipts": 194,
+                "amt": 8635.89
+            }
+        },
+        "hastings_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 251
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 25
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 276
+            }
+        },
+        "hayes_house": {
+            "pre": {
+                "donors": 363,
+                "receipts": 453,
+                "amt": 24602.92
+            },
+            "post": {
+                "donors": 114,
+                "receipts": 175,
+                "amt": 9241.51
+            },
+            "all": {
+                "donors": 455,
+                "receipts": 628,
+                "amt": 33844.43
+            }
+        },
+        "hill_house": {
+            "pre": {
+                "donors": 208,
+                "receipts": 246,
+                "amt": 13048.36
+            },
+            "post": {
+                "donors": 175,
+                "receipts": 227,
+                "amt": 9574.46
+            },
+            "all": {
+                "donors": 380,
+                "receipts": 473,
+                "amt": 22622.82
+            }
+        },
+        "lacy_clay_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 250
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 1055
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 1305
+            }
+        },
+        "lawrence_house": {
+            "pre": {
+                "donors": 13,
+                "receipts": 17,
+                "amt": 3999.14
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1014
+            },
+            "all": {
+                "donors": 15,
+                "receipts": 19,
+                "amt": 5013.14
+            }
+        },
+        "lawrence_house_alt": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 25
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 25
+            }
+        },
+        "lieu_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 5,
+                "amt": 764.06
+            },
+            "post": {
+                "donors": 20,
+                "receipts": 28,
+                "amt": 987.96
+            },
+            "all": {
+                "donors": 22,
+                "receipts": 33,
+                "amt": 1752.02
+            }
+        },
+        "lieu_leadership": {
+            "pre": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 283
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 283
+            }
+        },
+        "rush_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 2500
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 2500
             }
         }
     },
@@ -5499,7 +6200,7 @@
             }
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "al_green_house": {
             "pre": {
                 "donors": 17,
@@ -7925,6 +8626,860 @@
             }
         }
     },
+    "connected": {
+        "al_green_house": {
+            "pre": {
+                "donors": 22,
+                "receipts": 42,
+                "amt": 1115.72
+            },
+            "post": {
+                "donors": 141,
+                "receipts": 322,
+                "amt": 3482.7
+            },
+            "all": {
+                "donors": 156,
+                "receipts": 364,
+                "amt": 4598.42
+            }
+        },
+        "al_green_house_alt": {
+            "pre": {
+                "donors": 6,
+                "receipts": 7,
+                "amt": 134
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 7,
+                "amt": 134
+            }
+        },
+        "barbara_lee_house": {
+            "pre": {
+                "donors": 2079,
+                "receipts": 9269,
+                "amt": 751695.06
+            },
+            "post": {
+                "donors": 1743,
+                "receipts": 7462,
+                "amt": 329944.95
+            },
+            "all": {
+                "donors": 2998,
+                "receipts": 16731,
+                "amt": 1081640.01
+            }
+        },
+        "barbara_lee_leadership": {
+            "pre": {
+                "donors": 76,
+                "receipts": 86,
+                "amt": 86106
+            },
+            "post": {
+                "donors": 35,
+                "receipts": 47,
+                "amt": 60525.03
+            },
+            "all": {
+                "donors": 104,
+                "receipts": 133,
+                "amt": 146631.03
+            }
+        },
+        "barragan_house": {
+            "pre": {
+                "donors": 2863,
+                "receipts": 6941,
+                "amt": 238912.28
+            },
+            "post": {
+                "donors": 225,
+                "receipts": 1057,
+                "amt": 71894.95
+            },
+            "all": {
+                "donors": 2936,
+                "receipts": 7998,
+                "amt": 310807.23
+            }
+        },
+        "barragan_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2500
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2500
+            }
+        },
+        "brownley_house": {
+            "pre": {
+                "donors": 3432,
+                "receipts": 22903,
+                "amt": 960053.92
+            },
+            "post": {
+                "donors": 1374,
+                "receipts": 6647,
+                "amt": 162073.55
+            },
+            "all": {
+                "donors": 4140,
+                "receipts": 29550,
+                "amt": 1122127.47
+            }
+        },
+        "carbajal_house": {
+            "pre": {
+                "donors": 470,
+                "receipts": 1528,
+                "amt": 389137.76
+            },
+            "post": {
+                "donors": 100,
+                "receipts": 281,
+                "amt": 53265
+            },
+            "all": {
+                "donors": 504,
+                "receipts": 1809,
+                "amt": 442402.76
+            }
+        },
+        "carbajal_leadership": {
+            "pre": {
+                "donors": 5,
+                "receipts": 7,
+                "amt": 22916
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 5,
+                "amt": 9742
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 12,
+                "amt": 32658
+            }
+        },
+        "costa_house": {
+            "pre": {
+                "donors": 57,
+                "receipts": 101,
+                "amt": 85166.5
+            },
+            "post": {
+                "donors": 28,
+                "receipts": 35,
+                "amt": 37081
+            },
+            "all": {
+                "donors": 74,
+                "receipts": 136,
+                "amt": 122247.5
+            }
+        },
+        "costa_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 10000
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 15200
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 6,
+                "amt": 25200
+            }
+        },
+        "danny_davis_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 4
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 376
+            },
+            "all": {
+                "donors": 7,
+                "receipts": 7,
+                "amt": 380
+            }
+        },
+        "fudge_house": {
+            "pre": {
+                "donors": 44,
+                "receipts": 60,
+                "amt": 10218.75
+            },
+            "post": {
+                "donors": 16,
+                "receipts": 28,
+                "amt": 2646.5
+            },
+            "all": {
+                "donors": 59,
+                "receipts": 88,
+                "amt": 12865.25
+            }
+        },
+        "gallego_house": {
+            "pre": {
+                "donors": 1075,
+                "receipts": 3632,
+                "amt": 75663.48
+            },
+            "post": {
+                "donors": 851,
+                "receipts": 3913,
+                "amt": 53417.95
+            },
+            "all": {
+                "donors": 1572,
+                "receipts": 7545,
+                "amt": 129081.43
+            }
+        },
+        "gallego_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            }
+        },
+        "hastings_house": {
+            "pre": {
+                "donors": 54,
+                "receipts": 72,
+                "amt": 4139.03
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 10
+            },
+            "all": {
+                "donors": 55,
+                "receipts": 73,
+                "amt": 4149.03
+            }
+        },
+        "hayes_house": {
+            "pre": {
+                "donors": 2459,
+                "receipts": 2996,
+                "amt": 96824.51
+            },
+            "post": {
+                "donors": 692,
+                "receipts": 1201,
+                "amt": 86551.97
+            },
+            "all": {
+                "donors": 3004,
+                "receipts": 4197,
+                "amt": 183376.48
+            }
+        },
+        "hill_house": {
+            "pre": {
+                "donors": 4544,
+                "receipts": 10691,
+                "amt": 925757.03
+            },
+            "post": {
+                "donors": 2828,
+                "receipts": 6540,
+                "amt": 320598.77
+            },
+            "all": {
+                "donors": 6383,
+                "receipts": 17231,
+                "amt": 1246355.8
+            }
+        },
+        "lacy_clay_house": {
+            "pre": {
+                "donors": 20,
+                "receipts": 37,
+                "amt": 2486.8
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 11,
+                "amt": 35
+            },
+            "all": {
+                "donors": 21,
+                "receipts": 48,
+                "amt": 2521.8
+            }
+        },
+        "lawrence_house": {
+            "pre": {
+                "donors": 195,
+                "receipts": 325,
+                "amt": 10856.2
+            },
+            "post": {
+                "donors": 20,
+                "receipts": 63,
+                "amt": 2741
+            },
+            "all": {
+                "donors": 199,
+                "receipts": 388,
+                "amt": 13597.2
+            }
+        },
+        "lawrence_house_alt": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1100
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1100
+            }
+        },
+        "lieu_house": {
+            "pre": {
+                "donors": 394,
+                "receipts": 743,
+                "amt": 294504.77
+            },
+            "post": {
+                "donors": 404,
+                "receipts": 820,
+                "amt": 133213.91
+            },
+            "all": {
+                "donors": 705,
+                "receipts": 1563,
+                "amt": 427718.68
+            }
+        },
+        "lieu_leadership": {
+            "pre": {
+                "donors": 181,
+                "receipts": 281,
+                "amt": 84720.58
+            },
+            "post": {
+                "donors": 114,
+                "receipts": 238,
+                "amt": 35615.6
+            },
+            "all": {
+                "donors": 268,
+                "receipts": 519,
+                "amt": 120336.18
+            }
+        },
+        "rush_house": {
+            "pre": {
+                "donors": 6,
+                "receipts": 10,
+                "amt": 2009
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 1054
+            },
+            "all": {
+                "donors": 11,
+                "receipts": 15,
+                "amt": 3063
+            }
+        },
+        "wilson_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 7.93
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 7.93
+            }
+        }
+    },
+    "connectedPartyElite": {
+        "al_green_house": {
+            "pre": {
+                "donors": 21,
+                "receipts": 37,
+                "amt": 1110.72
+            },
+            "post": {
+                "donors": 140,
+                "receipts": 321,
+                "amt": 3472.7
+            },
+            "all": {
+                "donors": 154,
+                "receipts": 358,
+                "amt": 4583.42
+            }
+        },
+        "al_green_house_alt": {
+            "pre": {
+                "donors": 6,
+                "receipts": 7,
+                "amt": 134
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 7,
+                "amt": 134
+            }
+        },
+        "barbara_lee_house": {
+            "pre": {
+                "donors": 1870,
+                "receipts": 8603,
+                "amt": 614728.4
+            },
+            "post": {
+                "donors": 1542,
+                "receipts": 6825,
+                "amt": 277916.68
+            },
+            "all": {
+                "donors": 2663,
+                "receipts": 15428,
+                "amt": 892645.08
+            }
+        },
+        "barbara_lee_leadership": {
+            "pre": {
+                "donors": 74,
+                "receipts": 84,
+                "amt": 85101
+            },
+            "post": {
+                "donors": 31,
+                "receipts": 43,
+                "amt": 60479.76
+            },
+            "all": {
+                "donors": 98,
+                "receipts": 127,
+                "amt": 145580.76
+            }
+        },
+        "barragan_house": {
+            "pre": {
+                "donors": 2585,
+                "receipts": 6513,
+                "amt": 195607.22
+            },
+            "post": {
+                "donors": 209,
+                "receipts": 982,
+                "amt": 63641.95
+            },
+            "all": {
+                "donors": 2648,
+                "receipts": 7495,
+                "amt": 259249.17
+            }
+        },
+        "barragan_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2500
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2500
+            }
+        },
+        "brownley_house": {
+            "pre": {
+                "donors": 3323,
+                "receipts": 22551,
+                "amt": 882164.87
+            },
+            "post": {
+                "donors": 1321,
+                "receipts": 6366,
+                "amt": 146759.05
+            },
+            "all": {
+                "donors": 3998,
+                "receipts": 28917,
+                "amt": 1028923.92
+            }
+        },
+        "carbajal_house": {
+            "pre": {
+                "donors": 430,
+                "receipts": 1442,
+                "amt": 329818.87
+            },
+            "post": {
+                "donors": 84,
+                "receipts": 254,
+                "amt": 42060
+            },
+            "all": {
+                "donors": 458,
+                "receipts": 1696,
+                "amt": 371878.87
+            }
+        },
+        "carbajal_leadership": {
+            "pre": {
+                "donors": 5,
+                "receipts": 7,
+                "amt": 22916
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 5,
+                "amt": 9742
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 12,
+                "amt": 32658
+            }
+        },
+        "costa_house": {
+            "pre": {
+                "donors": 51,
+                "receipts": 90,
+                "amt": 68316.5
+            },
+            "post": {
+                "donors": 21,
+                "receipts": 25,
+                "amt": 25306
+            },
+            "all": {
+                "donors": 62,
+                "receipts": 115,
+                "amt": 93622.5
+            }
+        },
+        "costa_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 10000
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 15200
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 6,
+                "amt": 25200
+            }
+        },
+        "danny_davis_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 4
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 376
+            },
+            "all": {
+                "donors": 7,
+                "receipts": 7,
+                "amt": 380
+            }
+        },
+        "fudge_house": {
+            "pre": {
+                "donors": 40,
+                "receipts": 55,
+                "amt": 6218.75
+            },
+            "post": {
+                "donors": 15,
+                "receipts": 27,
+                "amt": 2396.5
+            },
+            "all": {
+                "donors": 54,
+                "receipts": 82,
+                "amt": 8615.25
+            }
+        },
+        "gallego_house": {
+            "pre": {
+                "donors": 1053,
+                "receipts": 3590,
+                "amt": 58291.41
+            },
+            "post": {
+                "donors": 836,
+                "receipts": 3892,
+                "amt": 47460.95
+            },
+            "all": {
+                "donors": 1539,
+                "receipts": 7482,
+                "amt": 105752.36
+            }
+        },
+        "gallego_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            }
+        },
+        "hastings_house": {
+            "pre": {
+                "donors": 50,
+                "receipts": 68,
+                "amt": 2638.03
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 10
+            },
+            "all": {
+                "donors": 51,
+                "receipts": 69,
+                "amt": 2648.03
+            }
+        },
+        "hayes_house": {
+            "pre": {
+                "donors": 2085,
+                "receipts": 2587,
+                "amt": 84168.15
+            },
+            "post": {
+                "donors": 634,
+                "receipts": 1116,
+                "amt": 81351.43
+            },
+            "all": {
+                "donors": 2578,
+                "receipts": 3703,
+                "amt": 165519.58
+            }
+        },
+        "hill_house": {
+            "pre": {
+                "donors": 3917,
+                "receipts": 9539,
+                "amt": 732059.18
+            },
+            "post": {
+                "donors": 2599,
+                "receipts": 6092,
+                "amt": 283890.05
+            },
+            "all": {
+                "donors": 5592,
+                "receipts": 15631,
+                "amt": 1015949.23
+            }
+        },
+        "lacy_clay_house": {
+            "pre": {
+                "donors": 19,
+                "receipts": 21,
+                "amt": 2470.8
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 19,
+                "receipts": 21,
+                "amt": 2470.8
+            }
+        },
+        "lawrence_house": {
+            "pre": {
+                "donors": 191,
+                "receipts": 318,
+                "amt": 10817.08
+            },
+            "post": {
+                "donors": 20,
+                "receipts": 63,
+                "amt": 2741
+            },
+            "all": {
+                "donors": 195,
+                "receipts": 381,
+                "amt": 13558.08
+            }
+        },
+        "lawrence_house_alt": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1100
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1100
+            }
+        },
+        "lieu_house": {
+            "pre": {
+                "donors": 341,
+                "receipts": 673,
+                "amt": 244962.2
+            },
+            "post": {
+                "donors": 366,
+                "receipts": 743,
+                "amt": 104162.91
+            },
+            "all": {
+                "donors": 621,
+                "receipts": 1416,
+                "amt": 349125.11
+            }
+        },
+        "lieu_leadership": {
+            "pre": {
+                "donors": 167,
+                "receipts": 262,
+                "amt": 62005.4
+            },
+            "post": {
+                "donors": 109,
+                "receipts": 233,
+                "amt": 30110.6
+            },
+            "all": {
+                "donors": 249,
+                "receipts": 495,
+                "amt": 92116
+            }
+        },
+        "rush_house": {
+            "pre": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 2003
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 54
+            },
+            "all": {
+                "donors": 8,
+                "receipts": 8,
+                "amt": 2057
+            }
+        },
+        "wilson_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 7.93
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 7.93
+            }
+        }
+    },
     "dayOneLaunch": {
         "al_green_house": {
             "pre": {
@@ -8643,6 +10198,297 @@
             }
         }
     },
+    "connectedNonPartyElite": {
+        "al_green_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 5,
+                "amt": 5
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 10
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 6,
+                "amt": 15
+            }
+        },
+        "barbara_lee_house": {
+            "pre": {
+                "donors": 209,
+                "receipts": 666,
+                "amt": 136966.66
+            },
+            "post": {
+                "donors": 201,
+                "receipts": 637,
+                "amt": 52028.27
+            },
+            "all": {
+                "donors": 335,
+                "receipts": 1303,
+                "amt": 188994.93
+            }
+        },
+        "barbara_lee_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1005
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 45.27
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 6,
+                "amt": 1050.27
+            }
+        },
+        "barragan_house": {
+            "pre": {
+                "donors": 278,
+                "receipts": 428,
+                "amt": 43305.06
+            },
+            "post": {
+                "donors": 16,
+                "receipts": 75,
+                "amt": 8253
+            },
+            "all": {
+                "donors": 288,
+                "receipts": 503,
+                "amt": 51558.06
+            }
+        },
+        "brownley_house": {
+            "pre": {
+                "donors": 109,
+                "receipts": 352,
+                "amt": 77889.05
+            },
+            "post": {
+                "donors": 53,
+                "receipts": 281,
+                "amt": 15314.5
+            },
+            "all": {
+                "donors": 142,
+                "receipts": 633,
+                "amt": 93203.55
+            }
+        },
+        "carbajal_house": {
+            "pre": {
+                "donors": 40,
+                "receipts": 86,
+                "amt": 59318.89
+            },
+            "post": {
+                "donors": 16,
+                "receipts": 27,
+                "amt": 11205
+            },
+            "all": {
+                "donors": 46,
+                "receipts": 113,
+                "amt": 70523.89
+            }
+        },
+        "costa_house": {
+            "pre": {
+                "donors": 6,
+                "receipts": 11,
+                "amt": 16850
+            },
+            "post": {
+                "donors": 7,
+                "receipts": 10,
+                "amt": 11775
+            },
+            "all": {
+                "donors": 12,
+                "receipts": 21,
+                "amt": 28625
+            }
+        },
+        "fudge_house": {
+            "pre": {
+                "donors": 4,
+                "receipts": 5,
+                "amt": 4000
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 6,
+                "amt": 4250
+            }
+        },
+        "gallego_house": {
+            "pre": {
+                "donors": 22,
+                "receipts": 42,
+                "amt": 17372.07
+            },
+            "post": {
+                "donors": 15,
+                "receipts": 21,
+                "amt": 5957
+            },
+            "all": {
+                "donors": 33,
+                "receipts": 63,
+                "amt": 23329.07
+            }
+        },
+        "hastings_house": {
+            "pre": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 1501
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 1501
+            }
+        },
+        "hayes_house": {
+            "pre": {
+                "donors": 374,
+                "receipts": 409,
+                "amt": 12656.36
+            },
+            "post": {
+                "donors": 58,
+                "receipts": 85,
+                "amt": 5200.54
+            },
+            "all": {
+                "donors": 426,
+                "receipts": 494,
+                "amt": 17856.9
+            }
+        },
+        "hill_house": {
+            "pre": {
+                "donors": 627,
+                "receipts": 1152,
+                "amt": 193697.85
+            },
+            "post": {
+                "donors": 229,
+                "receipts": 448,
+                "amt": 36708.72
+            },
+            "all": {
+                "donors": 791,
+                "receipts": 1600,
+                "amt": 230406.57
+            }
+        },
+        "lacy_clay_house": {
+            "pre": {
+                "donors": 1,
+                "receipts": 16,
+                "amt": 16
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 11,
+                "amt": 35
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 27,
+                "amt": 51
+            }
+        },
+        "lawrence_house": {
+            "pre": {
+                "donors": 4,
+                "receipts": 7,
+                "amt": 39.12
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 7,
+                "amt": 39.12
+            }
+        },
+        "lieu_house": {
+            "pre": {
+                "donors": 53,
+                "receipts": 70,
+                "amt": 49542.57
+            },
+            "post": {
+                "donors": 38,
+                "receipts": 77,
+                "amt": 29051
+            },
+            "all": {
+                "donors": 84,
+                "receipts": 147,
+                "amt": 78593.57
+            }
+        },
+        "lieu_leadership": {
+            "pre": {
+                "donors": 14,
+                "receipts": 19,
+                "amt": 22715.18
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 5505
+            },
+            "all": {
+                "donors": 19,
+                "receipts": 24,
+                "amt": 28220.18
+            }
+        },
+        "rush_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 6,
+                "amt": 6
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 1000
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 7,
+                "amt": 1006
+            }
+        }
+    },
     "priorLeadershipPac": {
         "al_green_house": {
             "pre": {
@@ -9239,6 +11085,416 @@
                 "donors": 1,
                 "receipts": 1,
                 "amt": 5.93
+            }
+        }
+    },
+    "inState": {
+        "al_green_house": {
+            "pre": {
+                "donors": 7,
+                "receipts": 24,
+                "amt": 949.72
+            },
+            "post": {
+                "donors": 39,
+                "receipts": 70,
+                "amt": 1035
+            },
+            "all": {
+                "donors": 44,
+                "receipts": 94,
+                "amt": 1984.72
+            }
+        },
+        "al_green_house_alt": {
+            "pre": {
+                "donors": 4,
+                "receipts": 5,
+                "amt": 132
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 5,
+                "amt": 132
+            }
+        },
+        "barbara_lee_house": {
+            "pre": {
+                "donors": 1702,
+                "receipts": 7798,
+                "amt": 688294.62
+            },
+            "post": {
+                "donors": 1568,
+                "receipts": 6767,
+                "amt": 314635.42
+            },
+            "all": {
+                "donors": 2532,
+                "receipts": 14565,
+                "amt": 1002930.04
+            }
+        },
+        "barbara_lee_leadership": {
+            "pre": {
+                "donors": 38,
+                "receipts": 47,
+                "amt": 79695
+            },
+            "post": {
+                "donors": 29,
+                "receipts": 41,
+                "amt": 59192.65
+            },
+            "all": {
+                "donors": 60,
+                "receipts": 88,
+                "amt": 138887.65
+            }
+        },
+        "barragan_house": {
+            "pre": {
+                "donors": 1746,
+                "receipts": 4234,
+                "amt": 206708.92
+            },
+            "post": {
+                "donors": 162,
+                "receipts": 806,
+                "amt": 68888.26
+            },
+            "all": {
+                "donors": 1806,
+                "receipts": 5040,
+                "amt": 275597.18
+            }
+        },
+        "barragan_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2500
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2500
+            }
+        },
+        "brownley_house": {
+            "pre": {
+                "donors": 2681,
+                "receipts": 17929,
+                "amt": 884054.98
+            },
+            "post": {
+                "donors": 1131,
+                "receipts": 5639,
+                "amt": 151003.05
+            },
+            "all": {
+                "donors": 3270,
+                "receipts": 23568,
+                "amt": 1035058.03
+            }
+        },
+        "carbajal_house": {
+            "pre": {
+                "donors": 373,
+                "receipts": 1337,
+                "amt": 386281.18
+            },
+            "post": {
+                "donors": 100,
+                "receipts": 281,
+                "amt": 53265
+            },
+            "all": {
+                "donors": 407,
+                "receipts": 1618,
+                "amt": 439546.18
+            }
+        },
+        "carbajal_leadership": {
+            "pre": {
+                "donors": 5,
+                "receipts": 7,
+                "amt": 22916
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 5,
+                "amt": 9742
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 12,
+                "amt": 32658
+            }
+        },
+        "costa_house": {
+            "pre": {
+                "donors": 45,
+                "receipts": 89,
+                "amt": 85105.55
+            },
+            "post": {
+                "donors": 27,
+                "receipts": 34,
+                "amt": 36831
+            },
+            "all": {
+                "donors": 61,
+                "receipts": 123,
+                "amt": 121936.55
+            }
+        },
+        "costa_leadership": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 10000
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 15200
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 6,
+                "amt": 25200
+            }
+        },
+        "danny_davis_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 2
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 26
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 28
+            }
+        },
+        "fudge_house": {
+            "pre": {
+                "donors": 20,
+                "receipts": 28,
+                "amt": 8623.25
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 53
+            },
+            "all": {
+                "donors": 24,
+                "receipts": 32,
+                "amt": 8676.25
+            }
+        },
+        "gallego_house": {
+            "pre": {
+                "donors": 383,
+                "receipts": 914,
+                "amt": 44792.46
+            },
+            "post": {
+                "donors": 365,
+                "receipts": 1405,
+                "amt": 27520.3
+            },
+            "all": {
+                "donors": 635,
+                "receipts": 2319,
+                "amt": 72312.76
+            }
+        },
+        "gallego_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            }
+        },
+        "hastings_house": {
+            "pre": {
+                "donors": 25,
+                "receipts": 31,
+                "amt": 2065.34
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 10
+            },
+            "all": {
+                "donors": 26,
+                "receipts": 32,
+                "amt": 2075.34
+            }
+        },
+        "hayes_house": {
+            "pre": {
+                "donors": 1260,
+                "receipts": 1437,
+                "amt": 47742.13
+            },
+            "post": {
+                "donors": 389,
+                "receipts": 536,
+                "amt": 44578.39
+            },
+            "all": {
+                "donors": 1593,
+                "receipts": 1973,
+                "amt": 92320.52
+            }
+        },
+        "hill_house": {
+            "pre": {
+                "donors": 3777,
+                "receipts": 9238,
+                "amt": 892152.27
+            },
+            "post": {
+                "donors": 2095,
+                "receipts": 5024,
+                "amt": 297503.48
+            },
+            "all": {
+                "donors": 5047,
+                "receipts": 14262,
+                "amt": 1189655.75
+            }
+        },
+        "lacy_clay_house": {
+            "pre": {
+                "donors": 7,
+                "receipts": 23,
+                "amt": 1374.25
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 11,
+                "amt": 35
+            },
+            "all": {
+                "donors": 8,
+                "receipts": 34,
+                "amt": 1409.25
+            }
+        },
+        "lawrence_house": {
+            "pre": {
+                "donors": 66,
+                "receipts": 97,
+                "amt": 1734.63
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 217
+            },
+            "all": {
+                "donors": 67,
+                "receipts": 98,
+                "amt": 1951.63
+            }
+        },
+        "lieu_house": {
+            "pre": {
+                "donors": 268,
+                "receipts": 491,
+                "amt": 286512.14
+            },
+            "post": {
+                "donors": 342,
+                "receipts": 670,
+                "amt": 131467.07
+            },
+            "all": {
+                "donors": 531,
+                "receipts": 1161,
+                "amt": 417979.21
+            }
+        },
+        "lieu_leadership": {
+            "pre": {
+                "donors": 129,
+                "receipts": 219,
+                "amt": 73926.33
+            },
+            "post": {
+                "donors": 95,
+                "receipts": 217,
+                "amt": 32901.2
+            },
+            "all": {
+                "donors": 198,
+                "receipts": 436,
+                "amt": 106827.53
+            }
+        },
+        "rush_house": {
+            "pre": {
+                "donors": 4,
+                "receipts": 8,
+                "amt": 2007
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 1029
+            },
+            "all": {
+                "donors": 8,
+                "receipts": 12,
+                "amt": 3036
+            }
+        },
+        "wilson_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 7.93
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 7.93
             }
         }
     }

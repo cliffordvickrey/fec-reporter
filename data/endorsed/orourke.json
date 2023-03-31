@@ -1897,6 +1897,420 @@
             }
         }
     },
+    "outOfState": {
+        "carbajal_house": {
+            "pre": {
+                "donors": 144,
+                "receipts": 304,
+                "amt": 23740
+            },
+            "post": {
+                "donors": 118,
+                "receipts": 321,
+                "amt": 9777.41
+            },
+            "all": {
+                "donors": 210,
+                "receipts": 625,
+                "amt": 33517.41
+            }
+        },
+        "escobar_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 387,
+                "receipts": 1521,
+                "amt": 31596.98
+            },
+            "all": {
+                "donors": 387,
+                "receipts": 1521,
+                "amt": 31596.98
+            }
+        },
+        "escobar_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 7,
+                "amt": 31.67
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 7,
+                "amt": 31.67
+            }
+        },
+        "joint_eldridge_and_sean_maloney": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 5,
+                "amt": 76
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 5,
+                "amt": 76
+            }
+        },
+        "rice_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 308,
+                "receipts": 1080,
+                "amt": 43729.31
+            },
+            "all": {
+                "donors": 308,
+                "receipts": 1080,
+                "amt": 43729.31
+            }
+        },
+        "rice_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 16,
+                "amt": 7666
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 16,
+                "amt": 7666
+            }
+        },
+        "sean_maloney_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2316,
+                "receipts": 7502,
+                "amt": 198501.94
+            },
+            "all": {
+                "donors": 2316,
+                "receipts": 7502,
+                "amt": 198501.94
+            }
+        },
+        "stephanie_murphy_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 429,
+                "receipts": 1352,
+                "amt": 66365.14
+            },
+            "all": {
+                "donors": 429,
+                "receipts": 1352,
+                "amt": 66365.14
+            }
+        }
+    },
+    "connected": {
+        "carbajal_house": {
+            "pre": {
+                "donors": 120,
+                "receipts": 274,
+                "amt": 20424
+            },
+            "post": {
+                "donors": 95,
+                "receipts": 339,
+                "amt": 10648.81
+            },
+            "all": {
+                "donors": 171,
+                "receipts": 613,
+                "amt": 31072.81
+            }
+        },
+        "escobar_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 856,
+                "receipts": 3867,
+                "amt": 249476.79
+            },
+            "all": {
+                "donors": 856,
+                "receipts": 3867,
+                "amt": 249476.79
+            }
+        },
+        "escobar_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 9,
+                "receipts": 114,
+                "amt": 12293.89
+            },
+            "all": {
+                "donors": 9,
+                "receipts": 114,
+                "amt": 12293.89
+            }
+        },
+        "joint_eldridge_and_sean_maloney": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5
+            }
+        },
+        "rice_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 256,
+                "receipts": 1102,
+                "amt": 40960.67
+            },
+            "all": {
+                "donors": 256,
+                "receipts": 1102,
+                "amt": 40960.67
+            }
+        },
+        "rice_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 6,
+                "amt": 4000
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 6,
+                "amt": 4000
+            }
+        },
+        "sean_maloney_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1935,
+                "receipts": 7283,
+                "amt": 194398.38
+            },
+            "all": {
+                "donors": 1935,
+                "receipts": 7283,
+                "amt": 194398.38
+            }
+        },
+        "stephanie_murphy_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 373,
+                "receipts": 1300,
+                "amt": 70987.61
+            },
+            "all": {
+                "donors": 373,
+                "receipts": 1300,
+                "amt": 70987.61
+            }
+        }
+    },
+    "connectedPartyElite": {
+        "carbajal_house": {
+            "pre": {
+                "donors": 116,
+                "receipts": 269,
+                "amt": 19074
+            },
+            "post": {
+                "donors": 94,
+                "receipts": 338,
+                "amt": 10148.81
+            },
+            "all": {
+                "donors": 167,
+                "receipts": 607,
+                "amt": 29222.81
+            }
+        },
+        "escobar_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 614,
+                "receipts": 3145,
+                "amt": 147743.31
+            },
+            "all": {
+                "donors": 614,
+                "receipts": 3145,
+                "amt": 147743.31
+            }
+        },
+        "escobar_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 7,
+                "receipts": 112,
+                "amt": 11193.89
+            },
+            "all": {
+                "donors": 7,
+                "receipts": 112,
+                "amt": 11193.89
+            }
+        },
+        "joint_eldridge_and_sean_maloney": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5
+            }
+        },
+        "rice_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 251,
+                "receipts": 1094,
+                "amt": 33735.67
+            },
+            "all": {
+                "donors": 251,
+                "receipts": 1094,
+                "amt": 33735.67
+            }
+        },
+        "rice_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 3000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 4,
+                "amt": 3000
+            }
+        },
+        "sean_maloney_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1899,
+                "receipts": 7212,
+                "amt": 187406.88
+            },
+            "all": {
+                "donors": 1899,
+                "receipts": 7212,
+                "amt": 187406.88
+            }
+        },
+        "stephanie_murphy_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 360,
+                "receipts": 1275,
+                "amt": 66727.61
+            },
+            "all": {
+                "donors": 360,
+                "receipts": 1275,
+                "amt": 66727.61
+            }
+        }
+    },
     "dayOneLaunch": {
         "carbajal_house": {
             "pre": {
@@ -2294,7 +2708,7 @@
             }
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "carbajal_house": {
             "pre": {
                 "donors": 31,
@@ -2570,6 +2984,127 @@
             }
         }
     },
+    "connectedNonPartyElite": {
+        "carbajal_house": {
+            "pre": {
+                "donors": 4,
+                "receipts": 5,
+                "amt": 1350
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 500
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 6,
+                "amt": 1850
+            }
+        },
+        "escobar_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 242,
+                "receipts": 722,
+                "amt": 101733.48
+            },
+            "all": {
+                "donors": 242,
+                "receipts": 722,
+                "amt": 101733.48
+            }
+        },
+        "escobar_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1100
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1100
+            }
+        },
+        "rice_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 8,
+                "amt": 7225
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 8,
+                "amt": 7225
+            }
+        },
+        "rice_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 1000
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 1000
+            }
+        },
+        "sean_maloney_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 36,
+                "receipts": 71,
+                "amt": 6991.5
+            },
+            "all": {
+                "donors": 36,
+                "receipts": 71,
+                "amt": 6991.5
+            }
+        },
+        "stephanie_murphy_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 13,
+                "receipts": 25,
+                "amt": 4260
+            },
+            "all": {
+                "donors": 13,
+                "receipts": 25,
+                "amt": 4260
+            }
+        }
+    },
     "endorsementPre": {
         "carbajal_house": {
             "pre": {
@@ -2744,6 +3279,93 @@
             }
         }
     },
+    "unconnectedPartyElite": {
+        "carbajal_house": {
+            "pre": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 685
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 25
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 6,
+                "amt": 710
+            }
+        },
+        "escobar_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 13,
+                "receipts": 72,
+                "amt": 2286.23
+            },
+            "all": {
+                "donors": 13,
+                "receipts": 72,
+                "amt": 2286.23
+            }
+        },
+        "rice_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 6,
+                "receipts": 8,
+                "amt": 145
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 8,
+                "amt": 145
+            }
+        },
+        "sean_maloney_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 34,
+                "receipts": 113,
+                "amt": 6778.45
+            },
+            "all": {
+                "donors": 34,
+                "receipts": 113,
+                "amt": 6778.45
+            }
+        },
+        "stephanie_murphy_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 14,
+                "receipts": 17,
+                "amt": 360
+            },
+            "all": {
+                "donors": 14,
+                "receipts": 17,
+                "amt": 360
+            }
+        }
+    },
     "traitor": {
         "carbajal_house": {
             "pre": {
@@ -2828,6 +3450,110 @@
                 "donors": 5,
                 "receipts": 23,
                 "amt": 2965.5
+            }
+        }
+    },
+    "inState": {
+        "carbajal_house": {
+            "pre": {
+                "donors": 12,
+                "receipts": 40,
+                "amt": 1034
+            },
+            "post": {
+                "donors": 9,
+                "receipts": 66,
+                "amt": 1812.78
+            },
+            "all": {
+                "donors": 17,
+                "receipts": 106,
+                "amt": 2846.78
+            }
+        },
+        "escobar_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 519,
+                "receipts": 2534,
+                "amt": 227370.92
+            },
+            "all": {
+                "donors": 519,
+                "receipts": 2534,
+                "amt": 227370.92
+            }
+        },
+        "escobar_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 9,
+                "receipts": 114,
+                "amt": 12293.89
+            },
+            "all": {
+                "donors": 9,
+                "receipts": 114,
+                "amt": 12293.89
+            }
+        },
+        "rice_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 20,
+                "receipts": 226,
+                "amt": 4163.99
+            },
+            "all": {
+                "donors": 20,
+                "receipts": 226,
+                "amt": 4163.99
+            }
+        },
+        "sean_maloney_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 260,
+                "receipts": 1498,
+                "amt": 36455.94
+            },
+            "all": {
+                "donors": 260,
+                "receipts": 1498,
+                "amt": 36455.94
+            }
+        },
+        "stephanie_murphy_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 46,
+                "receipts": 175,
+                "amt": 18014.61
+            },
+            "all": {
+                "donors": 46,
+                "receipts": 175,
+                "amt": 18014.61
             }
         }
     }

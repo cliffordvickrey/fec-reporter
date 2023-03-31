@@ -16,6 +16,7 @@ final class Candidate implements ToArray
     public string $homeState = '';
     public string $fecCandidateId = '';
     public string $fecCommitteeId = '';
+    public ?DateTimeImmutable $exploratoryDate = null;
     public ?DateTimeImmutable $fecFilingDate = null;
     public ?DateTimeImmutable $withdrawalDate = null;
 
@@ -31,6 +32,7 @@ final class Candidate implements ToArray
         $self->homeState = CastingUtilities::toString($data['homeState'] ?? null);
         $self->fecCandidateId = CastingUtilities::toString($data['fecCandidateId'] ?? null);
         $self->fecCommitteeId = CastingUtilities::toString($data['fecCommitteeId'] ?? null);
+        $self->exploratoryDate = CastingUtilities::toDateTimeImmutable($data['exploratoryDate'] ?? null);
         $self->fecFilingDate = CastingUtilities::toDateTimeImmutable($data['fecFilingDate'] ?? null);
         $self->withdrawalDate = CastingUtilities::toDateTimeImmutable($data['withdrawalDate'] ?? null);
         return $self;
@@ -41,6 +43,10 @@ final class Candidate implements ToArray
      */
     public function __clone(): void
     {
+        if (null !== $this->exploratoryDate) {
+            $this->exploratoryDate = clone $this->exploratoryDate;
+        }
+
         if (null !== $this->fecFilingDate) {
             $this->fecFilingDate = clone $this->fecFilingDate;
         }
@@ -59,6 +65,7 @@ final class Candidate implements ToArray
         'homeState' => "string",
         'fecCandidateId' => "string",
         'fecCommitteeId' => "string",
+        'exploratoryDate' => "\DateTimeImmutable|null",
         'fecFilingDate' => "\DateTimeImmutable|null",
         'withdrawalDate' => "\DateTimeImmutable|null"
     ])]
@@ -70,6 +77,7 @@ final class Candidate implements ToArray
             'homeState' => $this->homeState,
             'fecCandidateId' => $this->fecCandidateId,
             'fecCommitteeId' => $this->fecCommitteeId,
+            'exploratoryDate' => $this->exploratoryDate,
             'fecFilingDate' => $this->fecFilingDate,
             'withdrawalDate' => $this->withdrawalDate
         ];

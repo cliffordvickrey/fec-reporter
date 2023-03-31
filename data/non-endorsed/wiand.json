@@ -961,6 +961,53 @@
             "amt": 10
         }
     },
+    "outOfState": {
+        "carper_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 150
+        },
+        "coons_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 150
+        },
+        "crist_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 50
+        },
+        "orourke_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "rochester_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 150
+        },
+        "sanders_leadership": {
+            "donors": 1,
+            "receipts": 6,
+            "amt": 300
+        },
+        "sanders_sen": {
+            "donors": 1,
+            "receipts": 6,
+            "amt": 300
+        },
+        "steyer_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "warren_pres": {
+            "donors": 2,
+            "receipts": 7,
+            "amt": 320.2
+        }
+    },
     "unconnected": {
         "carper_sen": {
             "donors": 1,
@@ -1008,7 +1055,7 @@
             "amt": 320.2
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "sanders_leadership": {
             "donors": 1,
             "receipts": 6,
@@ -1030,6 +1077,38 @@
             "donors": 1,
             "receipts": 1,
             "amt": 50
+        }
+    },
+    "unconnectedPartyElite": {
+        "carper_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 150
+        },
+        "coons_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 150
+        },
+        "crist_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 50
+        },
+        "orourke_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "rochester_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 150
+        },
+        "steyer_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
         }
     },
     "donor2016": {
@@ -1091,6 +1170,459 @@
             "amt": 10
         },
         "mcginty_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        }
+    },
+    "inState": {
+        "baldwin_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "deborah_ross_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "doug_jones_sen": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 20
+        },
+        "gillibrand_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "golden_house": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 20
+        },
+        "hassan_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "heitkamp_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "hoyer_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "inslee_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "king_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "kuster_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "lamb_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "masto_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "mccaskill_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "mcginty_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "nelson_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "ojeda_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "orourke_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "orourke_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "pelosi_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "pelosi_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "pingree_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "sanders_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "sanders_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "slotkin_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "steyer_leadership_alt": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "tester_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "warren_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "whitehouse_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        }
+    },
+    "connected": {
+        "baldwin_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "deborah_ross_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "doug_jones_sen": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 20
+        },
+        "gillibrand_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "golden_house": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 20
+        },
+        "hassan_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "heitkamp_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "hoyer_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "inslee_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "king_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "kuster_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "lamb_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "masto_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "mccaskill_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "mcginty_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "nelson_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "ojeda_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "orourke_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "orourke_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "pelosi_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "pelosi_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "pingree_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "sanders_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "sanders_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "slotkin_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "steyer_leadership_alt": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "tester_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "warren_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "whitehouse_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        }
+    },
+    "connectedNonPartyElite": {
+        "deborah_ross_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "doug_jones_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "golden_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "hassan_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "masto_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "mcginty_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        }
+    },
+    "connectedPartyElite": {
+        "baldwin_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "doug_jones_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "gillibrand_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "golden_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "heitkamp_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "hoyer_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "inslee_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "king_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "kuster_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "lamb_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "mccaskill_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "nelson_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "ojeda_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "orourke_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "orourke_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "pelosi_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "pelosi_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "pingree_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "sanders_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "sanders_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "slotkin_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "steyer_leadership_alt": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "tester_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "warren_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "whitehouse_sen": {
             "donors": 1,
             "receipts": 1,
             "amt": 10

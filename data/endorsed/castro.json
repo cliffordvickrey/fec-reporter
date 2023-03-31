@@ -765,6 +765,93 @@
             }
         }
     },
+    "outOfState": {
+        "allred_house": {
+            "pre": {
+                "donors": 87,
+                "receipts": 140,
+                "amt": 10131.18
+            },
+            "post": {
+                "donors": 4864,
+                "receipts": 17757,
+                "amt": 313854.26
+            },
+            "all": {
+                "donors": 4886,
+                "receipts": 17897,
+                "amt": 323985.44
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 6,
+                "receipts": 7,
+                "amt": 1120
+            },
+            "post": {
+                "donors": 112,
+                "receipts": 1133,
+                "amt": 12318.14
+            },
+            "all": {
+                "donors": 115,
+                "receipts": 1140,
+                "amt": 13438.14
+            }
+        },
+        "gonzalez_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 3,
+                "amt": 1200
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 3,
+                "amt": 1200
+            }
+        },
+        "joaquin_castro_house": {
+            "pre": {
+                "donors": 77,
+                "receipts": 100,
+                "amt": 10328.1
+            },
+            "post": {
+                "donors": 1561,
+                "receipts": 11377,
+                "amt": 249986.63
+            },
+            "all": {
+                "donors": 1570,
+                "receipts": 11477,
+                "amt": 260314.73
+            }
+        },
+        "joaquin_castro_leadership": {
+            "pre": {
+                "donors": 3,
+                "receipts": 4,
+                "amt": 141.85
+            },
+            "post": {
+                "donors": 31,
+                "receipts": 280,
+                "amt": 11961.6
+            },
+            "all": {
+                "donors": 31,
+                "receipts": 284,
+                "amt": 12103.45
+            }
+        }
+    },
     "unconnected": {
         "allred_house": {
             "pre": {
@@ -852,7 +939,7 @@
             }
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "allred_house": {
             "pre": {
                 "donors": 58,
@@ -1110,6 +1197,76 @@
                 "donors": 42,
                 "receipts": 334,
                 "amt": 19117.25
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "allred_house": {
+            "pre": {
+                "donors": 11,
+                "receipts": 16,
+                "amt": 7030
+            },
+            "post": {
+                "donors": 535,
+                "receipts": 1306,
+                "amt": 27061.9
+            },
+            "all": {
+                "donors": 538,
+                "receipts": 1322,
+                "amt": 34091.9
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 6,
+                "receipts": 17,
+                "amt": 231
+            },
+            "all": {
+                "donors": 6,
+                "receipts": 17,
+                "amt": 231
+            }
+        },
+        "joaquin_castro_house": {
+            "pre": {
+                "donors": 10,
+                "receipts": 12,
+                "amt": 1080
+            },
+            "post": {
+                "donors": 243,
+                "receipts": 1284,
+                "amt": 53451.55
+            },
+            "all": {
+                "donors": 245,
+                "receipts": 1296,
+                "amt": 54531.55
+            }
+        },
+        "joaquin_castro_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 8,
+                "amt": 2705
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 8,
+                "amt": 2705
             }
         }
     },
@@ -1550,6 +1707,146 @@
             }
         }
     },
+    "connected": {
+        "allred_house": {
+            "pre": {
+                "donors": 107,
+                "receipts": 182,
+                "amt": 39187.19
+            },
+            "post": {
+                "donors": 1215,
+                "receipts": 5399,
+                "amt": 140355.76
+            },
+            "all": {
+                "donors": 1237,
+                "receipts": 5581,
+                "amt": 179542.95
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 24,
+                "receipts": 38,
+                "amt": 3695
+            },
+            "post": {
+                "donors": 220,
+                "receipts": 1866,
+                "amt": 71841.19
+            },
+            "all": {
+                "donors": 222,
+                "receipts": 1904,
+                "amt": 75536.19
+            }
+        },
+        "joaquin_castro_house": {
+            "pre": {
+                "donors": 260,
+                "receipts": 311,
+                "amt": 139577
+            },
+            "post": {
+                "donors": 2151,
+                "receipts": 14021,
+                "amt": 522512.34
+            },
+            "all": {
+                "donors": 2196,
+                "receipts": 14332,
+                "amt": 662089.34
+            }
+        },
+        "joaquin_castro_leadership": {
+            "pre": {
+                "donors": 15,
+                "receipts": 18,
+                "amt": 15698
+            },
+            "post": {
+                "donors": 58,
+                "receipts": 411,
+                "amt": 24949.7
+            },
+            "all": {
+                "donors": 61,
+                "receipts": 429,
+                "amt": 40647.7
+            }
+        }
+    },
+    "connectedPartyElite": {
+        "allred_house": {
+            "pre": {
+                "donors": 99,
+                "receipts": 173,
+                "amt": 30732.19
+            },
+            "post": {
+                "donors": 1033,
+                "receipts": 4984,
+                "amt": 126342.86
+            },
+            "all": {
+                "donors": 1051,
+                "receipts": 5157,
+                "amt": 157075.05
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 24,
+                "receipts": 38,
+                "amt": 3695
+            },
+            "post": {
+                "donors": 194,
+                "receipts": 1815,
+                "amt": 32344.19
+            },
+            "all": {
+                "donors": 196,
+                "receipts": 1853,
+                "amt": 36039.19
+            }
+        },
+        "joaquin_castro_house": {
+            "pre": {
+                "donors": 187,
+                "receipts": 231,
+                "amt": 83901
+            },
+            "post": {
+                "donors": 1658,
+                "receipts": 11662,
+                "amt": 351801.15
+            },
+            "all": {
+                "donors": 1676,
+                "receipts": 11893,
+                "amt": 435702.15
+            }
+        },
+        "joaquin_castro_leadership": {
+            "pre": {
+                "donors": 11,
+                "receipts": 13,
+                "amt": 10898
+            },
+            "post": {
+                "donors": 48,
+                "receipts": 389,
+                "amt": 19628.7
+            },
+            "all": {
+                "donors": 51,
+                "receipts": 402,
+                "amt": 30526.7
+            }
+        }
+    },
     "traitor": {
         "allred_house": {
             "pre": {
@@ -1620,126 +1917,406 @@
             }
         }
     },
-    "weekOneLaunch": {
+    "dayOneLaunch": {
         "allred_house": {
             "pre": {
                 "donors": 22,
-                "receipts": 67,
-                "amt": 13854
+                "receipts": 55,
+                "amt": 1599
             },
             "post": {
                 "donors": 19,
-                "receipts": 379,
-                "amt": 4921.5
+                "receipts": 276,
+                "amt": 2584
             },
             "all": {
                 "donors": 22,
-                "receipts": 446,
-                "amt": 18775.5
+                "receipts": 331,
+                "amt": 4183
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 2,
+                "receipts": 4,
+                "amt": 55
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 64,
+                "amt": 1568
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 68,
+                "amt": 1623
+            }
+        },
+        "joaquin_castro_house": {
+            "pre": {
+                "donors": 12,
+                "receipts": 22,
+                "amt": 1298
+            },
+            "post": {
+                "donors": 63,
+                "receipts": 868,
+                "amt": 23895.9
+            },
+            "all": {
+                "donors": 63,
+                "receipts": 890,
+                "amt": 25193.9
+            }
+        },
+        "joaquin_castro_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 7,
+                "amt": 120.7
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 7,
+                "amt": 120.7
+            }
+        }
+    },
+    "weekOneLaunch": {
+        "allred_house": {
+            "pre": {
+                "donors": 50,
+                "receipts": 125,
+                "amt": 8197
+            },
+            "post": {
+                "donors": 40,
+                "receipts": 523,
+                "amt": 9315.64
+            },
+            "all": {
+                "donors": 50,
+                "receipts": 648,
+                "amt": 17512.64
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 5,
+                "receipts": 15,
+                "amt": 605
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 173,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 188,
+                "amt": 5605
+            }
+        },
+        "joaquin_castro_house": {
+            "pre": {
+                "donors": 44,
+                "receipts": 72,
+                "amt": 4163
+            },
+            "post": {
+                "donors": 144,
+                "receipts": 1997,
+                "amt": 61041.54
+            },
+            "all": {
+                "donors": 144,
+                "receipts": 2069,
+                "amt": 65204.54
+            }
+        },
+        "joaquin_castro_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 25
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 45,
+                "amt": 782.7
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 46,
+                "amt": 807.7
+            }
+        }
+    },
+    "connectedNonPartyElite": {
+        "allred_house": {
+            "pre": {
+                "donors": 8,
+                "receipts": 9,
+                "amt": 8455
+            },
+            "post": {
+                "donors": 182,
+                "receipts": 415,
+                "amt": 14012.9
+            },
+            "all": {
+                "donors": 186,
+                "receipts": 424,
+                "amt": 22467.9
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 26,
+                "receipts": 51,
+                "amt": 39497
+            },
+            "all": {
+                "donors": 26,
+                "receipts": 51,
+                "amt": 39497
+            }
+        },
+        "joaquin_castro_house": {
+            "pre": {
+                "donors": 73,
+                "receipts": 80,
+                "amt": 55676
+            },
+            "post": {
+                "donors": 493,
+                "receipts": 2359,
+                "amt": 170711.19
+            },
+            "all": {
+                "donors": 520,
+                "receipts": 2439,
+                "amt": 226387.19
+            }
+        },
+        "joaquin_castro_leadership": {
+            "pre": {
+                "donors": 4,
+                "receipts": 5,
+                "amt": 4800
+            },
+            "post": {
+                "donors": 10,
+                "receipts": 22,
+                "amt": 5321
+            },
+            "all": {
+                "donors": 10,
+                "receipts": 27,
+                "amt": 10121
+            }
+        }
+    },
+    "weekOneExploratory": {
+        "allred_house": {
+            "pre": {
+                "donors": 24,
+                "receipts": 60,
+                "amt": 15265
+            },
+            "post": {
+                "donors": 19,
+                "receipts": 190,
+                "amt": 6162
+            },
+            "all": {
+                "donors": 24,
+                "receipts": 250,
+                "amt": 21427
             }
         },
         "gonzalez_house": {
             "pre": {
                 "donors": 1,
                 "receipts": 1,
-                "amt": 2
+                "amt": 2700
             },
             "post": {
                 "donors": 1,
-                "receipts": 10,
-                "amt": 18
+                "receipts": 2,
+                "amt": 1000
             },
             "all": {
                 "donors": 1,
-                "receipts": 11,
-                "amt": 20
+                "receipts": 3,
+                "amt": 3700
             }
         },
         "joaquin_castro_house": {
             "pre": {
-                "donors": 54,
-                "receipts": 76,
-                "amt": 30818.2
+                "donors": 98,
+                "receipts": 132,
+                "amt": 49343
             },
             "post": {
-                "donors": 46,
-                "receipts": 738,
-                "amt": 32552.83
+                "donors": 80,
+                "receipts": 832,
+                "amt": 47439
             },
             "all": {
-                "donors": 54,
-                "receipts": 814,
-                "amt": 63371.03
+                "donors": 98,
+                "receipts": 964,
+                "amt": 96782
             }
         },
         "joaquin_castro_leadership": {
             "pre": {
-                "donors": 6,
-                "receipts": 6,
-                "amt": 3875.2
-            },
-            "post": {
-                "donors": 5,
-                "receipts": 64,
-                "amt": 1279
-            },
-            "all": {
-                "donors": 6,
-                "receipts": 70,
-                "amt": 5154.2
-            }
-        }
-    },
-    "dayOneLaunch": {
-        "allred_house": {
-            "pre": {
                 "donors": 4,
-                "receipts": 21,
-                "amt": 7015
+                "receipts": 6,
+                "amt": 5435
             },
             "post": {
                 "donors": 3,
-                "receipts": 134,
-                "amt": 1559
+                "receipts": 33,
+                "amt": 1366
             },
             "all": {
                 "donors": 4,
-                "receipts": 155,
-                "amt": 8574
+                "receipts": 39,
+                "amt": 6801
+            }
+        }
+    },
+    "dayOneExploratory": {
+        "allred_house": {
+            "pre": {
+                "donors": 10,
+                "receipts": 19,
+                "amt": 11895
+            },
+            "post": {
+                "donors": 7,
+                "receipts": 43,
+                "amt": 4426
+            },
+            "all": {
+                "donors": 10,
+                "receipts": 62,
+                "amt": 16321
             }
         },
         "joaquin_castro_house": {
             "pre": {
-                "donors": 7,
-                "receipts": 14,
-                "amt": 6740
+                "donors": 51,
+                "receipts": 69,
+                "amt": 22350
             },
             "post": {
-                "donors": 6,
-                "receipts": 151,
-                "amt": 6019
+                "donors": 44,
+                "receipts": 455,
+                "amt": 26796.5
             },
             "all": {
-                "donors": 7,
-                "receipts": 165,
-                "amt": 12759
+                "donors": 51,
+                "receipts": 524,
+                "amt": 49146.5
             }
         },
         "joaquin_castro_leadership": {
             "pre": {
-                "donors": 2,
+                "donors": 1,
                 "receipts": 2,
-                "amt": 3700
+                "amt": 20
             },
             "post": {
                 "donors": 1,
-                "receipts": 1,
-                "amt": 100
+                "receipts": 23,
+                "amt": 255
             },
             "all": {
-                "donors": 2,
-                "receipts": 3,
-                "amt": 3800
+                "donors": 1,
+                "receipts": 25,
+                "amt": 275
+            }
+        }
+    },
+    "inState": {
+        "allred_house": {
+            "pre": {
+                "donors": 89,
+                "receipts": 145,
+                "amt": 37907.19
+            },
+            "post": {
+                "donors": 1166,
+                "receipts": 4903,
+                "amt": 134434.76
+            },
+            "all": {
+                "donors": 1184,
+                "receipts": 5048,
+                "amt": 172341.95
+            }
+        },
+        "gonzalez_house": {
+            "pre": {
+                "donors": 21,
+                "receipts": 34,
+                "amt": 3584
+            },
+            "post": {
+                "donors": 217,
+                "receipts": 1761,
+                "amt": 71063.19
+            },
+            "all": {
+                "donors": 218,
+                "receipts": 1795,
+                "amt": 74647.19
+            }
+        },
+        "joaquin_castro_house": {
+            "pre": {
+                "donors": 244,
+                "receipts": 281,
+                "amt": 135347
+            },
+            "post": {
+                "donors": 2105,
+                "receipts": 13264,
+                "amt": 504953.14
+            },
+            "all": {
+                "donors": 2148,
+                "receipts": 13545,
+                "amt": 640300.14
+            }
+        },
+        "joaquin_castro_leadership": {
+            "pre": {
+                "donors": 15,
+                "receipts": 18,
+                "amt": 15698
+            },
+            "post": {
+                "donors": 53,
+                "receipts": 309,
+                "amt": 21386
+            },
+            "all": {
+                "donors": 56,
+                "receipts": 327,
+                "amt": 37084
             }
         }
     }

@@ -60,6 +60,16 @@
             "receipts": 2,
             "amt": 51
         },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
         "day1": {
             "donors": 1615,
             "receipts": 1617,
@@ -206,9 +216,528 @@
             "amt": 3534903.17
         },
         "unconnectedPartyElite": {
+            "donors": 18339,
+            "receipts": 28816,
+            "amt": 1775890.02
+        },
+        "unconnectedNonPartyElite": {
             "donors": 20885,
             "receipts": 45066,
             "amt": 1759013.15
+        },
+        "connected": {
+            "donors": 6564,
+            "receipts": 14828,
+            "amt": 1172885.47
+        },
+        "connectedPartyElite": {
+            "donors": 2699,
+            "receipts": 8389,
+            "amt": 587455.74
+        },
+        "connectedNonPartyElite": {
+            "donors": 3865,
+            "receipts": 6439,
+            "amt": 585429.73
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        }
+    },
+    "dayOneExploratory": {
+        "oneDollar": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "oneToTwoHundredDollars": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "twoHundredToOneThousandDollars": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "oneThousandToTwentyEightHundredDollars": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "twentyEightHundredDollars": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "full2020PrimaryCycle": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "pre2019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q12019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q22019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q32019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q42019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "day1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "week1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "invisiblePrimary": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate2": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate3": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate4": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate5": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate6": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate7": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "inState": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "outOfState": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "prior": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "loyal": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "donor2016": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "clinton2016": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "sanders2016": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "obama2012": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "traitor": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "elite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "party": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "nationalParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "stateParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "localParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "competitorEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "congressionalEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "senateEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "houseEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        }
+    },
+    "weekOneExploratory": {
+        "oneDollar": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "oneToTwoHundredDollars": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "twoHundredToOneThousandDollars": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "oneThousandToTwentyEightHundredDollars": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "twentyEightHundredDollars": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "full2020PrimaryCycle": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "pre2019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q12019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q22019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q32019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q42019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "day1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "week1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "invisiblePrimary": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate2": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate3": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate4": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate5": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate6": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "debate7": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "inState": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "outOfState": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "prior": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "loyal": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "donor2016": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "clinton2016": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "sanders2016": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "obama2012": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "traitor": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "elite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "party": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "nationalParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "stateParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "localParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "competitorEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "congressionalEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "senateEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "houseEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "dayOneLaunch": {
@@ -271,6 +800,16 @@
             "donors": 1,
             "receipts": 1,
             "amt": 50
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         },
         "day1": {
             "donors": 1615,
@@ -418,9 +957,34 @@
             "amt": 278035.96
         },
         "unconnectedPartyElite": {
+            "donors": 601,
+            "receipts": 1336,
+            "amt": 153995.7
+        },
+        "unconnectedNonPartyElite": {
             "donors": 512,
             "receipts": 1681,
             "amt": 124040.26
+        },
+        "connected": {
+            "donors": 502,
+            "receipts": 1843,
+            "amt": 240666.62
+        },
+        "connectedPartyElite": {
+            "donors": 238,
+            "receipts": 1217,
+            "amt": 129930.62
+        },
+        "connectedNonPartyElite": {
+            "donors": 264,
+            "receipts": 626,
+            "amt": 110736
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "weekOneLaunch": {
@@ -483,6 +1047,16 @@
             "donors": 1,
             "receipts": 1,
             "amt": 50
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         },
         "day1": {
             "donors": 1615,
@@ -630,9 +1204,528 @@
             "amt": 582360.18
         },
         "unconnectedPartyElite": {
+            "donors": 1615,
+            "receipts": 3374,
+            "amt": 311154.46
+        },
+        "unconnectedNonPartyElite": {
             "donors": 2040,
             "receipts": 6632,
             "amt": 271205.72
+        },
+        "connected": {
+            "donors": 1538,
+            "receipts": 5324,
+            "amt": 490970.29
+        },
+        "connectedPartyElite": {
+            "donors": 762,
+            "receipts": 3547,
+            "amt": 251244.87
+        },
+        "connectedNonPartyElite": {
+            "donors": 776,
+            "receipts": 1777,
+            "amt": 239725.42
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        }
+    },
+    "inState": {
+        "oneDollar": {
+            "donors": 461,
+            "receipts": 461,
+            "amt": 461
+        },
+        "oneToTwoHundredDollars": {
+            "donors": 4540,
+            "receipts": 8508,
+            "amt": 160875.66
+        },
+        "twoHundredToOneThousandDollars": {
+            "donors": 390,
+            "receipts": 1680,
+            "amt": 143050.13
+        },
+        "oneThousandToTwentyEightHundredDollars": {
+            "donors": 87,
+            "receipts": 263,
+            "amt": 111027
+        },
+        "twentyEightHundredDollars": {
+            "donors": 81,
+            "receipts": 111,
+            "amt": 230900
+        },
+        "full2020PrimaryCycle": {
+            "donors": 5559,
+            "receipts": 11023,
+            "amt": 646313.79
+        },
+        "pre2019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q12019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q22019": {
+            "donors": 3558,
+            "receipts": 4944,
+            "amt": 333763.16
+        },
+        "q32019": {
+            "donors": 3011,
+            "receipts": 5106,
+            "amt": 235576.63
+        },
+        "q42019": {
+            "donors": 525,
+            "receipts": 973,
+            "amt": 76974
+        },
+        "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "day1": {
+            "donors": 358,
+            "receipts": 360,
+            "amt": 49876.99
+        },
+        "week1": {
+            "donors": 1158,
+            "receipts": 1215,
+            "amt": 139410.99
+        },
+        "invisiblePrimary": {
+            "donors": 1951,
+            "receipts": 5464,
+            "amt": 184893.79
+        },
+        "debate1": {
+            "donors": 2990,
+            "receipts": 3547,
+            "amt": 268369.77
+        },
+        "debate2": {
+            "donors": 1448,
+            "receipts": 1946,
+            "amt": 91830.7
+        },
+        "debate3": {
+            "donors": 2132,
+            "receipts": 2823,
+            "amt": 102832.82
+        },
+        "debate4": {
+            "donors": 1344,
+            "receipts": 1774,
+            "amt": 108557.5
+        },
+        "debate5": {
+            "donors": 448,
+            "receipts": 639,
+            "amt": 48858.5
+        },
+        "debate6": {
+            "donors": 239,
+            "receipts": 294,
+            "amt": 25864.5
+        },
+        "debate7": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "inState": {
+            "donors": 5559,
+            "receipts": 11023,
+            "amt": 646313.79
+        },
+        "outOfState": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "prior": {
+            "donors": 446,
+            "receipts": 1576,
+            "amt": 101241.85
+        },
+        "loyal": {
+            "donors": 3184,
+            "receipts": 5168,
+            "amt": 428823.61
+        },
+        "donor2016": {
+            "donors": 755,
+            "receipts": 2072,
+            "amt": 90894.21
+        },
+        "clinton2016": {
+            "donors": 228,
+            "receipts": 756,
+            "amt": 59210.71
+        },
+        "sanders2016": {
+            "donors": 568,
+            "receipts": 1482,
+            "amt": 38178.21
+        },
+        "obama2012": {
+            "donors": 93,
+            "receipts": 204,
+            "amt": 54853
+        },
+        "traitor": {
+            "donors": 18,
+            "receipts": 35,
+            "amt": 3986
+        },
+        "elite": {
+            "donors": 3091,
+            "receipts": 7412,
+            "amt": 472849.18
+        },
+        "party": {
+            "donors": 1949,
+            "receipts": 5199,
+            "amt": 296255.97
+        },
+        "nationalParty": {
+            "donors": 1466,
+            "receipts": 4276,
+            "amt": 165096.04
+        },
+        "stateParty": {
+            "donors": 1127,
+            "receipts": 3162,
+            "amt": 237960.26
+        },
+        "localParty": {
+            "donors": 2,
+            "receipts": 3,
+            "amt": 155
+        },
+        "competitorEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "congressionalEndorsement": {
+            "donors": 2099,
+            "receipts": 5333,
+            "amt": 327026.08
+        },
+        "senateEndorsement": {
+            "donors": 2099,
+            "receipts": 5333,
+            "amt": 327026.08
+        },
+        "houseEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 5559,
+            "receipts": 11023,
+            "amt": 646313.79
+        },
+        "connectedPartyElite": {
+            "donors": 1949,
+            "receipts": 5199,
+            "amt": 296255.97
+        },
+        "connectedNonPartyElite": {
+            "donors": 3610,
+            "receipts": 5824,
+            "amt": 350057.82
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        }
+    },
+    "outOfState": {
+        "oneDollar": {
+            "donors": 4651,
+            "receipts": 4651,
+            "amt": 4651
+        },
+        "oneToTwoHundredDollars": {
+            "donors": 31794,
+            "receipts": 57898,
+            "amt": 918289.17
+        },
+        "twoHundredToOneThousandDollars": {
+            "donors": 2781,
+            "receipts": 12521,
+            "amt": 1036676.97
+        },
+        "oneThousandToTwentyEightHundredDollars": {
+            "donors": 553,
+            "receipts": 1942,
+            "amt": 770836.71
+        },
+        "twentyEightHundredDollars": {
+            "donors": 450,
+            "receipts": 675,
+            "amt": 1331021
+        },
+        "full2020PrimaryCycle": {
+            "donors": 40229,
+            "receipts": 77687,
+            "amt": 4061474.85
+        },
+        "pre2019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q12019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q22019": {
+            "donors": 13459,
+            "receipts": 20030,
+            "amt": 1522093.59
+        },
+        "q32019": {
+            "donors": 29686,
+            "receipts": 49345,
+            "amt": 1789830.04
+        },
+        "q42019": {
+            "donors": 4681,
+            "receipts": 8310,
+            "amt": 749500.22
+        },
+        "q12020": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 51
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "day1": {
+            "donors": 1257,
+            "receipts": 1257,
+            "amt": 298968.59
+        },
+        "week1": {
+            "donors": 4035,
+            "receipts": 4279,
+            "amt": 559988.06
+        },
+        "invisiblePrimary": {
+            "donors": 13261,
+            "receipts": 37458,
+            "amt": 1353389.49
+        },
+        "debate1": {
+            "donors": 9808,
+            "receipts": 12344,
+            "amt": 1101912.68
+        },
+        "debate2": {
+            "donors": 8365,
+            "receipts": 11983,
+            "amt": 555867.02
+        },
+        "debate3": {
+            "donors": 22541,
+            "receipts": 29778,
+            "amt": 1058853.96
+        },
+        "debate4": {
+            "donors": 11089,
+            "receipts": 15693,
+            "amt": 609552.41
+        },
+        "debate5": {
+            "donors": 4118,
+            "receipts": 6031,
+            "amt": 532032.55
+        },
+        "debate6": {
+            "donors": 1345,
+            "receipts": 1841,
+            "amt": 201619.51
+        },
+        "debate7": {
+            "donors": 17,
+            "receipts": 17,
+            "amt": 1636.72
+        },
+        "inState": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "outOfState": {
+            "donors": 40229,
+            "receipts": 77687,
+            "amt": 4061474.85
+        },
+        "prior": {
+            "donors": 1005,
+            "receipts": 3805,
+            "amt": 526571.68
+        },
+        "loyal": {
+            "donors": 8634,
+            "receipts": 13337,
+            "amt": 1488063.67
+        },
+        "donor2016": {
+            "donors": 10195,
+            "receipts": 23137,
+            "amt": 1171815.79
+        },
+        "clinton2016": {
+            "donors": 5104,
+            "receipts": 12611,
+            "amt": 939078.01
+        },
+        "sanders2016": {
+            "donors": 6099,
+            "receipts": 13547,
+            "amt": 276667.48
+        },
+        "obama2012": {
+            "donors": 1952,
+            "receipts": 4495,
+            "amt": 458198.62
+        },
+        "traitor": {
+            "donors": 331,
+            "receipts": 743,
+            "amt": 30636.78
+        },
+        "elite": {
+            "donors": 30027,
+            "receipts": 63562,
+            "amt": 3414554.99
+        },
+        "party": {
+            "donors": 21635,
+            "receipts": 48256,
+            "amt": 2050212.92
+        },
+        "nationalParty": {
+            "donors": 19968,
+            "receipts": 45368,
+            "amt": 1786784.62
+        },
+        "stateParty": {
+            "donors": 9061,
+            "receipts": 21703,
+            "amt": 1065912.68
+        },
+        "localParty": {
+            "donors": 414,
+            "receipts": 937,
+            "amt": 72452.59
+        },
+        "competitorEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "congressionalEndorsement": {
+            "donors": 4285,
+            "receipts": 12351,
+            "amt": 618031.25
+        },
+        "senateEndorsement": {
+            "donors": 4285,
+            "receipts": 12351,
+            "amt": 618031.25
+        },
+        "houseEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnected": {
+            "donors": 39224,
+            "receipts": 73882,
+            "amt": 3534903.17
+        },
+        "unconnectedPartyElite": {
+            "donors": 18339,
+            "receipts": 28816,
+            "amt": 1775890.02
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 20885,
+            "receipts": 45066,
+            "amt": 1759013.15
+        },
+        "connected": {
+            "donors": 1005,
+            "receipts": 3805,
+            "amt": 526571.68
+        },
+        "connectedPartyElite": {
+            "donors": 750,
+            "receipts": 3190,
+            "amt": 291199.77
+        },
+        "connectedNonPartyElite": {
+            "donors": 255,
+            "receipts": 615,
+            "amt": 235371.91
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "firstTime": {
@@ -692,6 +1785,16 @@
             "amt": 90842
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -842,6 +1945,31 @@
             "amt": 434789.58
         },
         "unconnectedPartyElite": {
+            "donors": 4606,
+            "receipts": 6296,
+            "amt": 434789.58
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 1636,
+            "receipts": 2310,
+            "amt": 121229.3
+        },
+        "connectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedNonPartyElite": {
+            "donors": 1636,
+            "receipts": 2310,
+            "amt": 121229.3
+        },
+        "selfFinanced": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -908,6 +2036,16 @@
             "receipts": 0,
             "amt": 0
         },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
         "day1": {
             "donors": 189,
             "receipts": 189,
@@ -1054,6 +2192,31 @@
             "amt": 0
         },
         "unconnectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 1451,
+            "receipts": 5381,
+            "amt": 627813.53
+        },
+        "connectedPartyElite": {
+            "donors": 1063,
+            "receipts": 4479,
+            "amt": 368540.91
+        },
+        "connectedNonPartyElite": {
+            "donors": 388,
+            "receipts": 902,
+            "amt": 259272.62
+        },
+        "selfFinanced": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -1120,6 +2283,16 @@
             "receipts": 0,
             "amt": 0
         },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
         "day1": {
             "donors": 0,
             "receipts": 0,
@@ -1269,6 +2442,31 @@
             "donors": 0,
             "receipts": 0,
             "amt": 0
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "priorLeadershipPac": {
@@ -1328,6 +2526,16 @@
             "amt": 77273.56
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -1481,6 +2689,31 @@
             "donors": 0,
             "receipts": 0,
             "amt": 0
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 1451,
+            "receipts": 5381,
+            "amt": 627813.53
+        },
+        "connectedPartyElite": {
+            "donors": 1063,
+            "receipts": 4479,
+            "amt": 368540.91
+        },
+        "connectedNonPartyElite": {
+            "donors": 388,
+            "receipts": 902,
+            "amt": 259272.62
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "endorsement": {
@@ -1544,6 +2777,16 @@
             "receipts": 0,
             "amt": 0
         },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
         "day1": {
             "donors": 338,
             "receipts": 340,
@@ -1690,9 +2933,34 @@
             "amt": 472245.08
         },
         "unconnectedPartyElite": {
+            "donors": 387,
+            "receipts": 781,
+            "amt": 76599.2
+        },
+        "unconnectedNonPartyElite": {
             "donors": 3427,
             "receipts": 9358,
             "amt": 395645.88
+        },
+        "connected": {
+            "donors": 2570,
+            "receipts": 7545,
+            "amt": 472812.25
+        },
+        "connectedPartyElite": {
+            "donors": 1743,
+            "receipts": 5963,
+            "amt": 362464.53
+        },
+        "connectedNonPartyElite": {
+            "donors": 827,
+            "receipts": 1582,
+            "amt": 110347.72
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "endorsementPre": {
@@ -1756,6 +3024,16 @@
             "receipts": 0,
             "amt": 0
         },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
         "day1": {
             "donors": 338,
             "receipts": 340,
@@ -1902,9 +3180,34 @@
             "amt": 168247.77
         },
         "unconnectedPartyElite": {
+            "donors": 130,
+            "receipts": 334,
+            "amt": 30438.43
+        },
+        "unconnectedNonPartyElite": {
             "donors": 921,
             "receipts": 3613,
             "amt": 137809.34
+        },
+        "connected": {
+            "donors": 1373,
+            "receipts": 5030,
+            "amt": 313220.14
+        },
+        "connectedPartyElite": {
+            "donors": 958,
+            "receipts": 4095,
+            "amt": 243744.23
+        },
+        "connectedNonPartyElite": {
+            "donors": 415,
+            "receipts": 935,
+            "amt": 69475.91
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "endorsementPost": {
@@ -1964,6 +3267,16 @@
             "amt": 167825.07
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -2114,9 +3427,34 @@
             "amt": 418544.08
         },
         "unconnectedPartyElite": {
+            "donors": 312,
+            "receipts": 703,
+            "amt": 56557.2
+        },
+        "unconnectedNonPartyElite": {
             "donors": 3057,
             "receipts": 8941,
             "amt": 361986.88
+        },
+        "connected": {
+            "donors": 1976,
+            "receipts": 6896,
+            "amt": 343485.25
+        },
+        "connectedPartyElite": {
+            "donors": 1382,
+            "receipts": 5558,
+            "amt": 264552.53
+        },
+        "connectedNonPartyElite": {
+            "donors": 594,
+            "receipts": 1338,
+            "amt": 78932.72
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "congressionalEndorsement": {
@@ -2176,6 +3514,16 @@
             "amt": 167825.07
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -2326,9 +3674,34 @@
             "amt": 472245.08
         },
         "unconnectedPartyElite": {
+            "donors": 387,
+            "receipts": 781,
+            "amt": 76599.2
+        },
+        "unconnectedNonPartyElite": {
             "donors": 3427,
             "receipts": 9358,
             "amt": 395645.88
+        },
+        "connected": {
+            "donors": 2570,
+            "receipts": 7545,
+            "amt": 472812.25
+        },
+        "connectedPartyElite": {
+            "donors": 1743,
+            "receipts": 5963,
+            "amt": 362464.53
+        },
+        "connectedNonPartyElite": {
+            "donors": 827,
+            "receipts": 1582,
+            "amt": 110347.72
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "congressionalEndorsementPre": {
@@ -2388,6 +3761,16 @@
             "amt": 44419.78
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -2538,9 +3921,34 @@
             "amt": 168247.77
         },
         "unconnectedPartyElite": {
+            "donors": 130,
+            "receipts": 334,
+            "amt": 30438.43
+        },
+        "unconnectedNonPartyElite": {
             "donors": 921,
             "receipts": 3613,
             "amt": 137809.34
+        },
+        "connected": {
+            "donors": 1373,
+            "receipts": 5030,
+            "amt": 313220.14
+        },
+        "connectedPartyElite": {
+            "donors": 958,
+            "receipts": 4095,
+            "amt": 243744.23
+        },
+        "connectedNonPartyElite": {
+            "donors": 415,
+            "receipts": 935,
+            "amt": 69475.91
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "congressionalEndorsementPost": {
@@ -2600,6 +4008,16 @@
             "amt": 167825.07
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -2750,9 +4168,34 @@
             "amt": 418544.08
         },
         "unconnectedPartyElite": {
+            "donors": 312,
+            "receipts": 703,
+            "amt": 56557.2
+        },
+        "unconnectedNonPartyElite": {
             "donors": 3057,
             "receipts": 8941,
             "amt": 361986.88
+        },
+        "connected": {
+            "donors": 1976,
+            "receipts": 6896,
+            "amt": 343485.25
+        },
+        "connectedPartyElite": {
+            "donors": 1382,
+            "receipts": 5558,
+            "amt": 264552.53
+        },
+        "connectedNonPartyElite": {
+            "donors": 594,
+            "receipts": 1338,
+            "amt": 78932.72
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "competitorEndorsement": {
@@ -2812,6 +4255,16 @@
             "amt": 0
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -2962,6 +4415,31 @@
             "amt": 0
         },
         "unconnectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "selfFinanced": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -3027,6 +4505,16 @@
             "donors": 2,
             "receipts": 2,
             "amt": 51
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         },
         "day1": {
             "donors": 1277,
@@ -3174,9 +4662,34 @@
             "amt": 3062658.09
         },
         "unconnectedPartyElite": {
+            "donors": 17952,
+            "receipts": 28035,
+            "amt": 1699290.82
+        },
+        "unconnectedNonPartyElite": {
             "donors": 17458,
             "receipts": 35708,
             "amt": 1363367.27
+        },
+        "connected": {
+            "donors": 3994,
+            "receipts": 7283,
+            "amt": 700073.22
+        },
+        "connectedPartyElite": {
+            "donors": 956,
+            "receipts": 2426,
+            "amt": 224991.21
+        },
+        "connectedNonPartyElite": {
+            "donors": 3038,
+            "receipts": 4857,
+            "amt": 475082.01
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "unfaithful": {
@@ -3239,6 +4752,16 @@
             "donors": 2,
             "receipts": 2,
             "amt": 51
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         },
         "day1": {
             "donors": 1106,
@@ -3386,9 +4909,34 @@
             "amt": 2271754.7
         },
         "unconnectedPartyElite": {
+            "donors": 11478,
+            "receipts": 18658,
+            "amt": 790821.16
+        },
+        "unconnectedNonPartyElite": {
             "donors": 19310,
             "receipts": 42325,
             "amt": 1480933.54
+        },
+        "connected": {
+            "donors": 3182,
+            "receipts": 9222,
+            "amt": 519146.66
+        },
+        "connectedPartyElite": {
+            "donors": 2009,
+            "receipts": 6965,
+            "amt": 387888.24
+        },
+        "connectedNonPartyElite": {
+            "donors": 1173,
+            "receipts": 2257,
+            "amt": 131258.42
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "loyal": {
@@ -3448,6 +4996,16 @@
             "amt": 309546
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -3598,9 +5156,34 @@
             "amt": 1263148.47
         },
         "unconnectedPartyElite": {
+            "donors": 6861,
+            "receipts": 10158,
+            "amt": 985068.86
+        },
+        "unconnectedNonPartyElite": {
             "donors": 1575,
             "receipts": 2741,
             "amt": 278079.61
+        },
+        "connected": {
+            "donors": 3382,
+            "receipts": 5606,
+            "amt": 653738.81
+        },
+        "connectedPartyElite": {
+            "donors": 690,
+            "receipts": 1424,
+            "amt": 199567.5
+        },
+        "connectedNonPartyElite": {
+            "donors": 2692,
+            "receipts": 4182,
+            "amt": 454171.31
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "donor2016": {
@@ -3660,6 +5243,16 @@
             "amt": 242043.46
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -3810,9 +5403,34 @@
             "amt": 1009334.46
         },
         "unconnectedPartyElite": {
+            "donors": 1956,
+            "receipts": 3286,
+            "amt": 243467.17
+        },
+        "unconnectedNonPartyElite": {
             "donors": 7795,
             "receipts": 17848,
             "amt": 765867.29
+        },
+        "connected": {
+            "donors": 1199,
+            "receipts": 4075,
+            "amt": 253375.54
+        },
+        "connectedPartyElite": {
+            "donors": 922,
+            "receipts": 3527,
+            "amt": 220707.34
+        },
+        "connectedNonPartyElite": {
+            "donors": 277,
+            "receipts": 548,
+            "amt": 32668.2
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "clinton2016": {
@@ -3872,6 +5490,16 @@
             "amt": 191623.03
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -4022,9 +5650,34 @@
             "amt": 794577.02
         },
         "unconnectedPartyElite": {
+            "donors": 580,
+            "receipts": 985,
+            "amt": 179043.6
+        },
+        "unconnectedNonPartyElite": {
             "donors": 4255,
             "receipts": 10322,
             "amt": 615533.42
+        },
+        "connected": {
+            "donors": 497,
+            "receipts": 2060,
+            "amt": 203711.7
+        },
+        "connectedPartyElite": {
+            "donors": 453,
+            "receipts": 1964,
+            "amt": 180088.5
+        },
+        "connectedNonPartyElite": {
+            "donors": 44,
+            "receipts": 96,
+            "amt": 23623.2
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "sanders2016": {
@@ -4084,6 +5737,16 @@
             "amt": 58099.34
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -4234,9 +5897,34 @@
             "amt": 251336.26
         },
         "unconnectedPartyElite": {
+            "donors": 1396,
+            "receipts": 2330,
+            "amt": 53105.07
+        },
+        "unconnectedNonPartyElite": {
             "donors": 4431,
             "receipts": 9907,
             "amt": 198231.19
+        },
+        "connected": {
+            "donors": 840,
+            "receipts": 2792,
+            "amt": 63509.43
+        },
+        "connectedPartyElite": {
+            "donors": 602,
+            "receipts": 2306,
+            "amt": 53877.43
+        },
+        "connectedNonPartyElite": {
+            "donors": 238,
+            "receipts": 486,
+            "amt": 9632
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "traitor": {
@@ -4296,6 +5984,16 @@
             "amt": 4530
         },
         "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
             "donors": 0,
             "receipts": 0,
             "amt": 0
@@ -4446,9 +6144,34 @@
             "amt": 29179.32
         },
         "unconnectedPartyElite": {
+            "donors": 189,
+            "receipts": 320,
+            "amt": 17564.46
+        },
+        "unconnectedNonPartyElite": {
             "donors": 136,
             "receipts": 378,
             "amt": 11614.86
+        },
+        "connected": {
+            "donors": 24,
+            "receipts": 80,
+            "amt": 5443.46
+        },
+        "connectedPartyElite": {
+            "donors": 11,
+            "receipts": 60,
+            "amt": 1896.46
+        },
+        "connectedNonPartyElite": {
+            "donors": 13,
+            "receipts": 20,
+            "amt": 3547
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "elite": {
@@ -4511,6 +6234,16 @@
             "donors": 2,
             "receipts": 2,
             "amt": 51
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         },
         "day1": {
             "donors": 1152,
@@ -4658,9 +6391,34 @@
             "amt": 2887983.31
         },
         "unconnectedPartyElite": {
+            "donors": 8137,
+            "receipts": 14691,
+            "amt": 1128970.16
+        },
+        "unconnectedNonPartyElite": {
             "donors": 20885,
             "receipts": 45066,
             "amt": 1759013.15
+        },
+        "connected": {
+            "donors": 4096,
+            "receipts": 11217,
+            "amt": 999420.86
+        },
+        "connectedPartyElite": {
+            "donors": 2699,
+            "receipts": 8389,
+            "amt": 587455.74
+        },
+        "connectedNonPartyElite": {
+            "donors": 1397,
+            "receipts": 2828,
+            "amt": 411965.12
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "eliteParty": {
@@ -4723,6 +6481,16 @@
             "donors": 1,
             "receipts": 1,
             "amt": 1
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         },
         "day1": {
             "donors": 750,
@@ -4870,9 +6638,34 @@
             "amt": 1759013.15
         },
         "unconnectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedNonPartyElite": {
             "donors": 20885,
             "receipts": 45066,
             "amt": 1759013.15
+        },
+        "connected": {
+            "donors": 2699,
+            "receipts": 8389,
+            "amt": 587455.74
+        },
+        "connectedPartyElite": {
+            "donors": 2699,
+            "receipts": 8389,
+            "amt": 587455.74
+        },
+        "connectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "elitePac": {
@@ -4935,6 +6728,16 @@
             "donors": 2,
             "receipts": 2,
             "amt": 51
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         },
         "day1": {
             "donors": 1083,
@@ -5082,9 +6885,34 @@
             "amt": 2823878.47
         },
         "unconnectedPartyElite": {
+            "donors": 8137,
+            "receipts": 14691,
+            "amt": 1128970.16
+        },
+        "unconnectedNonPartyElite": {
             "donors": 19321,
             "receipts": 42671,
             "amt": 1694908.31
+        },
+        "connected": {
+            "donors": 3798,
+            "receipts": 10718,
+            "amt": 985307.65
+        },
+        "connectedPartyElite": {
+            "donors": 2401,
+            "receipts": 7890,
+            "amt": 573342.53
+        },
+        "connectedNonPartyElite": {
+            "donors": 1397,
+            "receipts": 2828,
+            "amt": 411965.12
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "unconnected": {
@@ -5147,6 +6975,16 @@
             "donors": 2,
             "receipts": 2,
             "amt": 51
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         },
         "day1": {
             "donors": 1113,
@@ -5294,12 +7132,284 @@
             "amt": 3534903.17
         },
         "unconnectedPartyElite": {
+            "donors": 18339,
+            "receipts": 28816,
+            "amt": 1775890.02
+        },
+        "unconnectedNonPartyElite": {
             "donors": 20885,
             "receipts": 45066,
             "amt": 1759013.15
+        },
+        "connected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     },
     "unconnectedPartyElite": {
+        "oneDollar": {
+            "donors": 2512,
+            "receipts": 2512,
+            "amt": 2512
+        },
+        "oneToTwoHundredDollars": {
+            "donors": 14126,
+            "receipts": 21637,
+            "amt": 394491.33
+        },
+        "twoHundredToOneThousandDollars": {
+            "donors": 1243,
+            "receipts": 3727,
+            "amt": 461729.69
+        },
+        "oneThousandToTwentyEightHundredDollars": {
+            "donors": 264,
+            "receipts": 693,
+            "amt": 349166
+        },
+        "twentyEightHundredDollars": {
+            "donors": 194,
+            "receipts": 247,
+            "amt": 567991
+        },
+        "full2020PrimaryCycle": {
+            "donors": 18339,
+            "receipts": 28816,
+            "amt": 1775890.02
+        },
+        "pre2019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q12019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q22019": {
+            "donors": 5525,
+            "receipts": 7059,
+            "amt": 649044.79
+        },
+        "q32019": {
+            "donors": 13443,
+            "receipts": 19137,
+            "amt": 796393.19
+        },
+        "q42019": {
+            "donors": 1708,
+            "receipts": 2619,
+            "amt": 330402.04
+        },
+        "q12020": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 50
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "day1": {
+            "donors": 601,
+            "receipts": 601,
+            "amt": 102312.2
+        },
+        "week1": {
+            "donors": 1615,
+            "receipts": 1661,
+            "amt": 218423.17
+        },
+        "invisiblePrimary": {
+            "donors": 4661,
+            "receipts": 10477,
+            "amt": 461744.51
+        },
+        "debate1": {
+            "donors": 4043,
+            "receipts": 4605,
+            "amt": 463538.89
+        },
+        "debate2": {
+            "donors": 3082,
+            "receipts": 3739,
+            "amt": 246545.49
+        },
+        "debate3": {
+            "donors": 10311,
+            "receipts": 12217,
+            "amt": 481690.56
+        },
+        "debate4": {
+            "donors": 4417,
+            "receipts": 5787,
+            "amt": 259733.04
+        },
+        "debate5": {
+            "donors": 1480,
+            "receipts": 1928,
+            "amt": 241011.27
+        },
+        "debate6": {
+            "donors": 421,
+            "receipts": 537,
+            "amt": 83318.77
+        },
+        "debate7": {
+            "donors": 3,
+            "receipts": 3,
+            "amt": 52
+        },
+        "inState": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "outOfState": {
+            "donors": 18339,
+            "receipts": 28816,
+            "amt": 1775890.02
+        },
+        "prior": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "loyal": {
+            "donors": 6861,
+            "receipts": 10158,
+            "amt": 985068.86
+        },
+        "donor2016": {
+            "donors": 1956,
+            "receipts": 3286,
+            "amt": 243467.17
+        },
+        "clinton2016": {
+            "donors": 580,
+            "receipts": 985,
+            "amt": 179043.6
+        },
+        "sanders2016": {
+            "donors": 1396,
+            "receipts": 2330,
+            "amt": 53105.07
+        },
+        "obama2012": {
+            "donors": 253,
+            "receipts": 410,
+            "amt": 49748
+        },
+        "traitor": {
+            "donors": 189,
+            "receipts": 320,
+            "amt": 17564.46
+        },
+        "elite": {
+            "donors": 8137,
+            "receipts": 14691,
+            "amt": 1128970.16
+        },
+        "party": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "nationalParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "stateParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "localParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "competitorEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "congressionalEndorsement": {
+            "donors": 387,
+            "receipts": 781,
+            "amt": 76599.2
+        },
+        "senateEndorsement": {
+            "donors": 387,
+            "receipts": 781,
+            "amt": 76599.2
+        },
+        "houseEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnected": {
+            "donors": 18339,
+            "receipts": 28816,
+            "amt": 1775890.02
+        },
+        "unconnectedPartyElite": {
+            "donors": 18339,
+            "receipts": 28816,
+            "amt": 1775890.02
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        }
+    },
+    "unconnectedNonPartyElite": {
         "oneDollar": {
             "donors": 2078,
             "receipts": 2078,
@@ -5359,6 +7469,16 @@
             "donors": 1,
             "receipts": 1,
             "amt": 1
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         },
         "day1": {
             "donors": 512,
@@ -5506,9 +7626,775 @@
             "amt": 1759013.15
         },
         "unconnectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedNonPartyElite": {
             "donors": 20885,
             "receipts": 45066,
             "amt": 1759013.15
+        },
+        "connected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        }
+    },
+    "connected": {
+        "oneDollar": {
+            "donors": 522,
+            "receipts": 522,
+            "amt": 522
+        },
+        "oneToTwoHundredDollars": {
+            "donors": 5146,
+            "receipts": 10623,
+            "amt": 183933.45
+        },
+        "twoHundredToOneThousandDollars": {
+            "donors": 553,
+            "receipts": 2870,
+            "amt": 213548.02
+        },
+        "oneThousandToTwentyEightHundredDollars": {
+            "donors": 152,
+            "receipts": 525,
+            "amt": 210359
+        },
+        "twentyEightHundredDollars": {
+            "donors": 191,
+            "receipts": 288,
+            "amt": 564523
+        },
+        "full2020PrimaryCycle": {
+            "donors": 6564,
+            "receipts": 14828,
+            "amt": 1172885.47
+        },
+        "pre2019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q12019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q22019": {
+            "donors": 4316,
+            "receipts": 6627,
+            "amt": 708392.54
+        },
+        "q32019": {
+            "donors": 3605,
+            "receipts": 6771,
+            "amt": 321757.37
+        },
+        "q42019": {
+            "donors": 721,
+            "receipts": 1430,
+            "amt": 142735.56
+        },
+        "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "day1": {
+            "donors": 502,
+            "receipts": 504,
+            "amt": 170443.49
+        },
+        "week1": {
+            "donors": 1538,
+            "receipts": 1649,
+            "amt": 332130.95
+        },
+        "invisiblePrimary": {
+            "donors": 2511,
+            "receipts": 8264,
+            "amt": 332187.26
+        },
+        "debate1": {
+            "donors": 3645,
+            "receipts": 4620,
+            "amt": 592791.69
+        },
+        "debate2": {
+            "donors": 1867,
+            "receipts": 2823,
+            "amt": 156780.84
+        },
+        "debate3": {
+            "donors": 2549,
+            "receipts": 3674,
+            "amt": 139728.26
+        },
+        "debate4": {
+            "donors": 1661,
+            "receipts": 2338,
+            "amt": 144482.26
+        },
+        "debate5": {
+            "donors": 611,
+            "receipts": 948,
+            "amt": 87712.92
+        },
+        "debate6": {
+            "donors": 332,
+            "receipts": 425,
+            "amt": 51389.5
+        },
+        "debate7": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "inState": {
+            "donors": 5559,
+            "receipts": 11023,
+            "amt": 646313.79
+        },
+        "outOfState": {
+            "donors": 1005,
+            "receipts": 3805,
+            "amt": 526571.68
+        },
+        "prior": {
+            "donors": 1451,
+            "receipts": 5381,
+            "amt": 627813.53
+        },
+        "loyal": {
+            "donors": 3382,
+            "receipts": 5606,
+            "amt": 653738.81
+        },
+        "donor2016": {
+            "donors": 1199,
+            "receipts": 4075,
+            "amt": 253375.54
+        },
+        "clinton2016": {
+            "donors": 497,
+            "receipts": 2060,
+            "amt": 203711.7
+        },
+        "sanders2016": {
+            "donors": 840,
+            "receipts": 2792,
+            "amt": 63509.43
+        },
+        "obama2012": {
+            "donors": 179,
+            "receipts": 601,
+            "amt": 132100
+        },
+        "traitor": {
+            "donors": 24,
+            "receipts": 80,
+            "amt": 5443.46
+        },
+        "elite": {
+            "donors": 4096,
+            "receipts": 11217,
+            "amt": 999420.86
+        },
+        "party": {
+            "donors": 2699,
+            "receipts": 8389,
+            "amt": 587455.74
+        },
+        "nationalParty": {
+            "donors": 2176,
+            "receipts": 7364,
+            "amt": 414202.81
+        },
+        "stateParty": {
+            "donors": 1617,
+            "receipts": 5452,
+            "amt": 429542.73
+        },
+        "localParty": {
+            "donors": 18,
+            "receipts": 67,
+            "amt": 11482
+        },
+        "competitorEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "congressionalEndorsement": {
+            "donors": 2570,
+            "receipts": 7545,
+            "amt": 472812.25
+        },
+        "senateEndorsement": {
+            "donors": 2570,
+            "receipts": 7545,
+            "amt": 472812.25
+        },
+        "houseEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 6564,
+            "receipts": 14828,
+            "amt": 1172885.47
+        },
+        "connectedPartyElite": {
+            "donors": 2699,
+            "receipts": 8389,
+            "amt": 587455.74
+        },
+        "connectedNonPartyElite": {
+            "donors": 3865,
+            "receipts": 6439,
+            "amt": 585429.73
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        }
+    },
+    "connectedPartyElite": {
+        "oneDollar": {
+            "donors": 150,
+            "receipts": 150,
+            "amt": 150
+        },
+        "oneToTwoHundredDollars": {
+            "donors": 2094,
+            "receipts": 5707,
+            "amt": 84542.93
+        },
+        "twoHundredToOneThousandDollars": {
+            "donors": 281,
+            "receipts": 2045,
+            "amt": 110456.81
+        },
+        "oneThousandToTwentyEightHundredDollars": {
+            "donors": 77,
+            "receipts": 326,
+            "amt": 103816
+        },
+        "twentyEightHundredDollars": {
+            "donors": 97,
+            "receipts": 161,
+            "amt": 288490
+        },
+        "full2020PrimaryCycle": {
+            "donors": 2699,
+            "receipts": 8389,
+            "amt": 587455.74
+        },
+        "pre2019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q12019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q22019": {
+            "donors": 1907,
+            "receipts": 3606,
+            "amt": 356762.44
+        },
+        "q32019": {
+            "donors": 1622,
+            "receipts": 3882,
+            "amt": 151213.74
+        },
+        "q42019": {
+            "donors": 409,
+            "receipts": 901,
+            "amt": 79479.56
+        },
+        "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "day1": {
+            "donors": 238,
+            "receipts": 239,
+            "amt": 84382.49
+        },
+        "week1": {
+            "donors": 762,
+            "receipts": 843,
+            "amt": 157723.95
+        },
+        "invisiblePrimary": {
+            "donors": 1382,
+            "receipts": 5690,
+            "amt": 196363.03
+        },
+        "debate1": {
+            "donors": 1606,
+            "receipts": 2348,
+            "amt": 286462.72
+        },
+        "debate2": {
+            "donors": 1014,
+            "receipts": 1794,
+            "amt": 87963.4
+        },
+        "debate3": {
+            "donors": 1181,
+            "receipts": 2055,
+            "amt": 71880.94
+        },
+        "debate4": {
+            "donors": 832,
+            "receipts": 1327,
+            "amt": 63964.26
+        },
+        "debate5": {
+            "donors": 352,
+            "receipts": 601,
+            "amt": 51626.42
+        },
+        "debate6": {
+            "donors": 196,
+            "receipts": 264,
+            "amt": 25558
+        },
+        "debate7": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "inState": {
+            "donors": 1949,
+            "receipts": 5199,
+            "amt": 296255.97
+        },
+        "outOfState": {
+            "donors": 750,
+            "receipts": 3190,
+            "amt": 291199.77
+        },
+        "prior": {
+            "donors": 1063,
+            "receipts": 4479,
+            "amt": 368540.91
+        },
+        "loyal": {
+            "donors": 690,
+            "receipts": 1424,
+            "amt": 199567.5
+        },
+        "donor2016": {
+            "donors": 922,
+            "receipts": 3527,
+            "amt": 220707.34
+        },
+        "clinton2016": {
+            "donors": 453,
+            "receipts": 1964,
+            "amt": 180088.5
+        },
+        "sanders2016": {
+            "donors": 602,
+            "receipts": 2306,
+            "amt": 53877.43
+        },
+        "obama2012": {
+            "donors": 153,
+            "receipts": 566,
+            "amt": 108905
+        },
+        "traitor": {
+            "donors": 11,
+            "receipts": 60,
+            "amt": 1896.46
+        },
+        "elite": {
+            "donors": 2699,
+            "receipts": 8389,
+            "amt": 587455.74
+        },
+        "party": {
+            "donors": 2699,
+            "receipts": 8389,
+            "amt": 587455.74
+        },
+        "nationalParty": {
+            "donors": 2176,
+            "receipts": 7364,
+            "amt": 414202.81
+        },
+        "stateParty": {
+            "donors": 1617,
+            "receipts": 5452,
+            "amt": 429542.73
+        },
+        "localParty": {
+            "donors": 18,
+            "receipts": 67,
+            "amt": 11482
+        },
+        "competitorEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "congressionalEndorsement": {
+            "donors": 1743,
+            "receipts": 5963,
+            "amt": 362464.53
+        },
+        "senateEndorsement": {
+            "donors": 1743,
+            "receipts": 5963,
+            "amt": 362464.53
+        },
+        "houseEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 2699,
+            "receipts": 8389,
+            "amt": 587455.74
+        },
+        "connectedPartyElite": {
+            "donors": 2699,
+            "receipts": 8389,
+            "amt": 587455.74
+        },
+        "connectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        }
+    },
+    "connectedNonPartyElite": {
+        "oneDollar": {
+            "donors": 372,
+            "receipts": 372,
+            "amt": 372
+        },
+        "oneToTwoHundredDollars": {
+            "donors": 3052,
+            "receipts": 4916,
+            "amt": 99390.52
+        },
+        "twoHundredToOneThousandDollars": {
+            "donors": 272,
+            "receipts": 825,
+            "amt": 103091.21
+        },
+        "oneThousandToTwentyEightHundredDollars": {
+            "donors": 75,
+            "receipts": 199,
+            "amt": 106543
+        },
+        "twentyEightHundredDollars": {
+            "donors": 94,
+            "receipts": 127,
+            "amt": 276033
+        },
+        "full2020PrimaryCycle": {
+            "donors": 3865,
+            "receipts": 6439,
+            "amt": 585429.73
+        },
+        "pre2019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q12019": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "q22019": {
+            "donors": 2409,
+            "receipts": 3021,
+            "amt": 351630.1
+        },
+        "q32019": {
+            "donors": 1983,
+            "receipts": 2889,
+            "amt": 170543.63
+        },
+        "q42019": {
+            "donors": 312,
+            "receipts": 529,
+            "amt": 63256
+        },
+        "q12020": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryDay1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "exploratoryWeek1": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "day1": {
+            "donors": 264,
+            "receipts": 265,
+            "amt": 86061
+        },
+        "week1": {
+            "donors": 776,
+            "receipts": 806,
+            "amt": 174407
+        },
+        "invisiblePrimary": {
+            "donors": 1129,
+            "receipts": 2574,
+            "amt": 135824.23
+        },
+        "debate1": {
+            "donors": 2039,
+            "receipts": 2272,
+            "amt": 306328.97
+        },
+        "debate2": {
+            "donors": 853,
+            "receipts": 1029,
+            "amt": 68817.44
+        },
+        "debate3": {
+            "donors": 1368,
+            "receipts": 1619,
+            "amt": 67847.32
+        },
+        "debate4": {
+            "donors": 829,
+            "receipts": 1011,
+            "amt": 80518
+        },
+        "debate5": {
+            "donors": 259,
+            "receipts": 347,
+            "amt": 36086.5
+        },
+        "debate6": {
+            "donors": 136,
+            "receipts": 161,
+            "amt": 25831.5
+        },
+        "debate7": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "inState": {
+            "donors": 3610,
+            "receipts": 5824,
+            "amt": 350057.82
+        },
+        "outOfState": {
+            "donors": 255,
+            "receipts": 615,
+            "amt": 235371.91
+        },
+        "prior": {
+            "donors": 388,
+            "receipts": 902,
+            "amt": 259272.62
+        },
+        "loyal": {
+            "donors": 2692,
+            "receipts": 4182,
+            "amt": 454171.31
+        },
+        "donor2016": {
+            "donors": 277,
+            "receipts": 548,
+            "amt": 32668.2
+        },
+        "clinton2016": {
+            "donors": 44,
+            "receipts": 96,
+            "amt": 23623.2
+        },
+        "sanders2016": {
+            "donors": 238,
+            "receipts": 486,
+            "amt": 9632
+        },
+        "obama2012": {
+            "donors": 26,
+            "receipts": 35,
+            "amt": 23195
+        },
+        "traitor": {
+            "donors": 13,
+            "receipts": 20,
+            "amt": 3547
+        },
+        "elite": {
+            "donors": 1397,
+            "receipts": 2828,
+            "amt": 411965.12
+        },
+        "party": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "nationalParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "stateParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "localParty": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "competitorEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "congressionalEndorsement": {
+            "donors": 827,
+            "receipts": 1582,
+            "amt": 110347.72
+        },
+        "senateEndorsement": {
+            "donors": 827,
+            "receipts": 1582,
+            "amt": 110347.72
+        },
+        "houseEndorsement": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnected": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "unconnectedNonPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connected": {
+            "donors": 3865,
+            "receipts": 6439,
+            "amt": 585429.73
+        },
+        "connectedPartyElite": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
+        },
+        "connectedNonPartyElite": {
+            "donors": 3865,
+            "receipts": 6439,
+            "amt": 585429.73
+        },
+        "selfFinanced": {
+            "donors": 0,
+            "receipts": 0,
+            "amt": 0
         }
     }
 }

@@ -208,6 +208,25 @@
             }
         }
     },
+    "outOfState": {
+        "gallego_house": {
+            "pre": {
+                "donors": 112,
+                "receipts": 279,
+                "amt": 13135.86
+            },
+            "post": {
+                "donors": 108,
+                "receipts": 386,
+                "amt": 5253.2
+            },
+            "all": {
+                "donors": 186,
+                "receipts": 665,
+                "amt": 18389.06
+            }
+        }
+    },
     "unconnected": {
         "gallego_house": {
             "pre": {
@@ -227,7 +246,7 @@
             }
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "gallego_house": {
             "pre": {
                 "donors": 91,
@@ -281,6 +300,25 @@
                 "donors": 5,
                 "receipts": 8,
                 "amt": 914
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "gallego_house": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 31.94
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 5,
+                "amt": 62.5
+            },
+            "all": {
+                "donors": 7,
+                "receipts": 8,
+                "amt": 94.44
             }
         }
     },
@@ -414,6 +452,82 @@
                 "donors": 55,
                 "receipts": 352,
                 "amt": 15461.88
+            }
+        }
+    },
+    "connected": {
+        "gallego_house": {
+            "pre": {
+                "donors": 60,
+                "receipts": 213,
+                "amt": 12414.38
+            },
+            "post": {
+                "donors": 62,
+                "receipts": 246,
+                "amt": 4430.5
+            },
+            "all": {
+                "donors": 98,
+                "receipts": 459,
+                "amt": 16844.88
+            }
+        }
+    },
+    "connectedPartyElite": {
+        "gallego_house": {
+            "pre": {
+                "donors": 56,
+                "receipts": 203,
+                "amt": 3550.38
+            },
+            "post": {
+                "donors": 60,
+                "receipts": 244,
+                "amt": 3425.5
+            },
+            "all": {
+                "donors": 93,
+                "receipts": 447,
+                "amt": 6975.88
+            }
+        }
+    },
+    "inState": {
+        "gallego_house": {
+            "pre": {
+                "donors": 42,
+                "receipts": 100,
+                "amt": 3103.4
+            },
+            "post": {
+                "donors": 50,
+                "receipts": 175,
+                "amt": 2380
+            },
+            "all": {
+                "donors": 78,
+                "receipts": 275,
+                "amt": 5483.4
+            }
+        }
+    },
+    "connectedNonPartyElite": {
+        "gallego_house": {
+            "pre": {
+                "donors": 4,
+                "receipts": 10,
+                "amt": 8864
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 1005
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 12,
+                "amt": 9869
             }
         }
     },

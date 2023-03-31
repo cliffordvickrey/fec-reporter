@@ -634,6 +634,163 @@
             "amt": 6.69
         }
     },
+    "outOfState": {
+        "biden_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 6.69
+        },
+        "booker_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 6.69
+        },
+        "bradford_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 5
+        },
+        "bredesen_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "bullock_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "donnelly_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "engel_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "gillibrand_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "gleiberman_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 5
+        },
+        "haaland_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 5
+        },
+        "harris_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "heitkamp_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "khanna_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 5
+        },
+        "klobuchar_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "lujan_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 5
+        },
+        "mcadams_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "mccaskill_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "nelson_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "nwadike_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 5
+        },
+        "ojeda_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "orourke_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "patrick_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 5
+        },
+        "pelosi_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 5
+        },
+        "pierce_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 5
+        },
+        "pressley_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 5
+        },
+        "rosen_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "sinema_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "spanberger_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "stevens_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 5
+        },
+        "tester_sen": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 6.69
+        },
+        "warren_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 6.69
+        }
+    },
     "unconnected": {
         "biden_pres": {
             "donors": 2,
@@ -789,6 +946,108 @@
             "donors": 2,
             "receipts": 2,
             "amt": 6.69
+        }
+    },
+    "unconnectedPartyElite": {
+        "biden_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "booker_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "bredesen_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "bullock_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "donnelly_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "engel_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "gillibrand_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "harris_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "heitkamp_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "klobuchar_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "mcadams_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "mccaskill_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "nelson_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "ojeda_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "orourke_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "rosen_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "sinema_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "spanberger_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "tester_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
+        },
+        "warren_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1.69
         }
     },
     "unfaithful": {
@@ -1020,7 +1279,7 @@
             "amt": 5
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "biden_pres": {
             "donors": 1,
             "receipts": 1,

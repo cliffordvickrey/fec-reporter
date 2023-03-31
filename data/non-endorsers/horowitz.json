@@ -101,7 +101,41 @@
             "amt": 2700
         }
     },
+    "outOfState": {
+        "joint_trump": {
+            "donors": 1,
+            "receipts": 4,
+            "amt": 6600
+        },
+        "trump_pres": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 2000
+        },
+        "vela_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 2700
+        }
+    },
     "unconnected": {
+        "joint_trump": {
+            "donors": 1,
+            "receipts": 4,
+            "amt": 6600
+        },
+        "trump_pres": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 2000
+        },
+        "vela_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 2700
+        }
+    },
+    "unconnectedPartyElite": {
         "joint_trump": {
             "donors": 1,
             "receipts": 4,

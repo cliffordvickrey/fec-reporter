@@ -372,6 +372,25 @@
             }
         }
     },
+    "weekOneLaunch": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 38,
+                "receipts": 131,
+                "amt": 6050.32
+            },
+            "post": {
+                "donors": 103,
+                "receipts": 586,
+                "amt": 27830.14
+            },
+            "all": {
+                "donors": 103,
+                "receipts": 717,
+                "amt": 33880.46
+            }
+        }
+    },
     "prior": {
         "carolyn_maloney_house": {
             "pre": {
@@ -690,6 +709,131 @@
             }
         }
     },
+    "outOfState": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 65,
+                "receipts": 118,
+                "amt": 7903.5
+            },
+            "post": {
+                "donors": 371,
+                "receipts": 861,
+                "amt": 16179.96
+            },
+            "all": {
+                "donors": 399,
+                "receipts": 979,
+                "amt": 24083.46
+            }
+        }
+    },
+    "connected": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 157,
+                "receipts": 282,
+                "amt": 36362.32
+            },
+            "post": {
+                "donors": 768,
+                "receipts": 1852,
+                "amt": 109334.99
+            },
+            "all": {
+                "donors": 832,
+                "receipts": 2134,
+                "amt": 145697.31
+            }
+        },
+        "carolyn_maloney_house_alt": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "carolyn_maloney_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 12,
+                "receipts": 21,
+                "amt": 15060
+            },
+            "all": {
+                "donors": 12,
+                "receipts": 21,
+                "amt": 15060
+            }
+        }
+    },
+    "connectedPartyElite": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 146,
+                "receipts": 271,
+                "amt": 30452.32
+            },
+            "post": {
+                "donors": 720,
+                "receipts": 1785,
+                "amt": 86054.99
+            },
+            "all": {
+                "donors": 776,
+                "receipts": 2056,
+                "amt": 116507.31
+            }
+        },
+        "carolyn_maloney_house_alt": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "carolyn_maloney_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 11,
+                "receipts": 20,
+                "amt": 15055
+            },
+            "all": {
+                "donors": 11,
+                "receipts": 20,
+                "amt": 15055
+            }
+        }
+    },
     "unconnected": {
         "carolyn_maloney_house": {
             "pre": {
@@ -709,7 +853,7 @@
             }
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "carolyn_maloney_house": {
             "pre": {
                 "donors": 12,
@@ -838,7 +982,7 @@
             }
         }
     },
-    "weekOneLaunch": {
+    "weekOneExploratory": {
         "carolyn_maloney_house": {
             "pre": {
                 "donors": 61,
@@ -854,6 +998,61 @@
                 "donors": 61,
                 "receipts": 459,
                 "amt": 18502.2
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 60
+            },
+            "all": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 60
+            }
+        }
+    },
+    "connectedNonPartyElite": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 11,
+                "receipts": 11,
+                "amt": 5910
+            },
+            "post": {
+                "donors": 48,
+                "receipts": 67,
+                "amt": 23280
+            },
+            "all": {
+                "donors": 56,
+                "receipts": 78,
+                "amt": 29190
+            }
+        },
+        "carolyn_maloney_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5
             }
         }
     },
@@ -877,6 +1076,78 @@
         }
     },
     "dayOneLaunch": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 11,
+                "receipts": 54,
+                "amt": 4305
+            },
+            "post": {
+                "donors": 15,
+                "receipts": 157,
+                "amt": 5981
+            },
+            "all": {
+                "donors": 15,
+                "receipts": 211,
+                "amt": 10286
+            }
+        }
+    },
+    "inState": {
+        "carolyn_maloney_house": {
+            "pre": {
+                "donors": 104,
+                "receipts": 177,
+                "amt": 31321.32
+            },
+            "post": {
+                "donors": 464,
+                "receipts": 1093,
+                "amt": 94486.65
+            },
+            "all": {
+                "donors": 510,
+                "receipts": 1270,
+                "amt": 125807.97
+            }
+        },
+        "carolyn_maloney_house_alt": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "carolyn_maloney_leadership": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 12,
+                "receipts": 21,
+                "amt": 15060
+            },
+            "all": {
+                "donors": 12,
+                "receipts": 21,
+                "amt": 15060
+            }
+        }
+    },
+    "dayOneExploratory": {
         "carolyn_maloney_house": {
             "pre": {
                 "donors": 11,

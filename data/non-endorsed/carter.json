@@ -971,6 +971,168 @@
             "amt": 177.97
         }
     },
+    "outOfState": {
+        "barbara_lee_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "cortez_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "doug_jones_sen": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "ellison_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "feinstein_sen": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "gabbard_pres": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "gravel_pres": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "haaland_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "harris_sen": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "heinrich_sen": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "heitkamp_sen": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "hirono_sen": {
+            "donors": 2,
+            "receipts": 22,
+            "amt": 201.97
+        },
+        "honda_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "lieu_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "matsui_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "mccollum_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "nadler_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "omar_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "omar_leadership": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "orourke_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "orourke_sen": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "porter_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "schiff_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "schumer_sen": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "sinema_sen": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "takano_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "tester_sen": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "tlaib_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "udall_sen": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "warren_sen": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "waters_house": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        },
+        "yang_pres": {
+            "donors": 1,
+            "receipts": 20,
+            "amt": 177.97
+        }
+    },
     "unconnected": {
         "barbara_lee_house": {
             "donors": 1,
@@ -1133,7 +1295,7 @@
             "amt": 177.97
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "barbara_lee_house": {
             "donors": 1,
             "receipts": 20,
@@ -1296,6 +1458,13 @@
         }
     },
     "loyal": {
+        "hirono_sen": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 24
+        }
+    },
+    "unconnectedPartyElite": {
         "hirono_sen": {
             "donors": 1,
             "receipts": 2,

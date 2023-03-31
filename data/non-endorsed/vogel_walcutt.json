@@ -1441,6 +1441,128 @@
             "amt": 128
         }
     },
+    "outOfState": {
+        "booker_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 11
+        },
+        "booker_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "buttigieg_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 21
+        },
+        "castro_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "chris_carney_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 20
+        },
+        "cortez_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "cortez_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "doug_jones_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 20
+        },
+        "gillibrand_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 100
+        },
+        "gravel_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 20
+        },
+        "harris_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "heitkamp_sen": {
+            "donors": 2,
+            "receipts": 4,
+            "amt": 400
+        },
+        "hoyer_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "klobuchar_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "malinowski_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "mccaskill_sen": {
+            "donors": 1,
+            "receipts": 3,
+            "amt": 375
+        },
+        "moulton_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 2500
+        },
+        "phillips_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "sanders_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "schiff_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "warren_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 11
+        },
+        "wexton_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "williamson_pres": {
+            "donors": 1,
+            "receipts": 3,
+            "amt": 375
+        },
+        "yang_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 101
+        }
+    },
     "unconnected": {
         "booker_pres": {
             "donors": 2,
@@ -1551,6 +1673,88 @@
             "donors": 1,
             "receipts": 1,
             "amt": 10
+        },
+        "williamson_pres": {
+            "donors": 1,
+            "receipts": 3,
+            "amt": 375
+        },
+        "yang_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 101
+        }
+    },
+    "unconnectedPartyElite": {
+        "booker_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 11
+        },
+        "booker_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "castro_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "cortez_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "cortez_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "gillibrand_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 100
+        },
+        "heitkamp_sen": {
+            "donors": 1,
+            "receipts": 3,
+            "amt": 375
+        },
+        "hoyer_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "klobuchar_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "mccaskill_sen": {
+            "donors": 1,
+            "receipts": 3,
+            "amt": 375
+        },
+        "moulton_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 2500
+        },
+        "phillips_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "sanders_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "warren_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 11
         },
         "williamson_pres": {
             "donors": 1,
@@ -2034,6 +2238,739 @@
             "amt": 10
         }
     },
+    "inState": {
+        "barber_house": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 50
+        },
+        "biden_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 50
+        },
+        "buttigieg_pres": {
+            "donors": 7,
+            "receipts": 11,
+            "amt": 119
+        },
+        "castro_pres": {
+            "donors": 3,
+            "receipts": 4,
+            "amt": 78
+        },
+        "cortez_house": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 51
+        },
+        "crist_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "cummings_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "demings_house": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 75
+        },
+        "demings_house_alt": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 75
+        },
+        "doug_jones_sen": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "feingold_sen": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 51
+        },
+        "gabbard_pres": {
+            "donors": 3,
+            "receipts": 8,
+            "amt": 127
+        },
+        "gillibrand_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 100
+        },
+        "gravel_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 27
+        },
+        "grayson_house": {
+            "donors": 2,
+            "receipts": 7,
+            "amt": 100
+        },
+        "grayson_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 25
+        },
+        "harris_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 3
+        },
+        "hoyer_leadership": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "jayapal_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "joint_trump": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 75
+        },
+        "khanna_house": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 50
+        },
+        "klobuchar_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 25
+        },
+        "lamb_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "masto_sen": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "nelson_sen": {
+            "donors": 5,
+            "receipts": 10,
+            "amt": 68
+        },
+        "omar_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "orourke_pres": {
+            "donors": 3,
+            "receipts": 7,
+            "amt": 63
+        },
+        "pat_murphy_sen": {
+            "donors": 2,
+            "receipts": 7,
+            "amt": 100
+        },
+        "pelosi_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "porter_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "sanders_pres": {
+            "donors": 8,
+            "receipts": 13,
+            "amt": 214
+        },
+        "sanders_sen": {
+            "donors": 4,
+            "receipts": 5,
+            "amt": 62
+        },
+        "schiff_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "soto_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 25
+        },
+        "stephanie_murphy_house": {
+            "donors": 5,
+            "receipts": 5,
+            "amt": 227
+        },
+        "steyer_leadership_alt": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 6
+        },
+        "steyer_pres": {
+            "donors": 3,
+            "receipts": 8,
+            "amt": 66
+        },
+        "tester_sen": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 100
+        },
+        "tlaib_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "trump_pres": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 100
+        },
+        "warren_pres": {
+            "donors": 4,
+            "receipts": 4,
+            "amt": 105
+        },
+        "waters_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "williamson_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 20
+        },
+        "yang_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 27
+        }
+    },
+    "connected": {
+        "barber_house": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 50
+        },
+        "biden_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 50
+        },
+        "buttigieg_pres": {
+            "donors": 7,
+            "receipts": 11,
+            "amt": 119
+        },
+        "castro_pres": {
+            "donors": 3,
+            "receipts": 4,
+            "amt": 78
+        },
+        "cortez_house": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 51
+        },
+        "crist_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "cummings_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "demings_house": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 75
+        },
+        "demings_house_alt": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 75
+        },
+        "doug_jones_sen": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "feingold_sen": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 51
+        },
+        "gabbard_pres": {
+            "donors": 3,
+            "receipts": 8,
+            "amt": 127
+        },
+        "gillibrand_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 100
+        },
+        "gravel_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 27
+        },
+        "grayson_house": {
+            "donors": 2,
+            "receipts": 7,
+            "amt": 100
+        },
+        "grayson_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 25
+        },
+        "harris_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 3
+        },
+        "hoyer_leadership": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "jayapal_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "joint_trump": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 75
+        },
+        "khanna_house": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 50
+        },
+        "klobuchar_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 25
+        },
+        "lamb_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "masto_sen": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "nelson_sen": {
+            "donors": 5,
+            "receipts": 10,
+            "amt": 68
+        },
+        "omar_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "orourke_pres": {
+            "donors": 3,
+            "receipts": 7,
+            "amt": 63
+        },
+        "pat_murphy_sen": {
+            "donors": 2,
+            "receipts": 7,
+            "amt": 100
+        },
+        "pelosi_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "porter_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "sanders_pres": {
+            "donors": 8,
+            "receipts": 13,
+            "amt": 214
+        },
+        "sanders_sen": {
+            "donors": 4,
+            "receipts": 5,
+            "amt": 62
+        },
+        "schiff_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "soto_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 25
+        },
+        "stephanie_murphy_house": {
+            "donors": 5,
+            "receipts": 5,
+            "amt": 227
+        },
+        "steyer_leadership_alt": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 6
+        },
+        "steyer_pres": {
+            "donors": 3,
+            "receipts": 8,
+            "amt": 66
+        },
+        "tester_sen": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 100
+        },
+        "tlaib_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "trump_pres": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 100
+        },
+        "warren_pres": {
+            "donors": 4,
+            "receipts": 4,
+            "amt": 105
+        },
+        "waters_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "williamson_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 20
+        },
+        "yang_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 27
+        }
+    },
+    "connectedPartyElite": {
+        "barber_house": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 50
+        },
+        "biden_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 50
+        },
+        "buttigieg_pres": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 75
+        },
+        "castro_pres": {
+            "donors": 2,
+            "receipts": 3,
+            "amt": 75
+        },
+        "cortez_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 50
+        },
+        "crist_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "cummings_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "demings_house": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 75
+        },
+        "demings_house_alt": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 75
+        },
+        "doug_jones_sen": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "feingold_sen": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 51
+        },
+        "gabbard_pres": {
+            "donors": 2,
+            "receipts": 7,
+            "amt": 100
+        },
+        "grayson_house": {
+            "donors": 2,
+            "receipts": 7,
+            "amt": 100
+        },
+        "grayson_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 25
+        },
+        "hoyer_leadership": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "jayapal_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "joint_trump": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "khanna_house": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 50
+        },
+        "klobuchar_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 25
+        },
+        "lamb_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "masto_sen": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "nelson_sen": {
+            "donors": 3,
+            "receipts": 8,
+            "amt": 57
+        },
+        "orourke_pres": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "pat_murphy_sen": {
+            "donors": 2,
+            "receipts": 7,
+            "amt": 100
+        },
+        "pelosi_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "porter_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "sanders_pres": {
+            "donors": 4,
+            "receipts": 9,
+            "amt": 151
+        },
+        "sanders_sen": {
+            "donors": 2,
+            "receipts": 3,
+            "amt": 51
+        },
+        "schiff_house": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "soto_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 25
+        },
+        "stephanie_murphy_house": {
+            "donors": 3,
+            "receipts": 3,
+            "amt": 27
+        },
+        "steyer_leadership_alt": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 6
+        },
+        "steyer_pres": {
+            "donors": 2,
+            "receipts": 7,
+            "amt": 56
+        },
+        "tester_sen": {
+            "donors": 2,
+            "receipts": 6,
+            "amt": 100
+        },
+        "trump_pres": {
+            "donors": 1,
+            "receipts": 5,
+            "amt": 50
+        },
+        "warren_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 75
+        }
+    },
+    "connectedNonPartyElite": {
+        "buttigieg_pres": {
+            "donors": 5,
+            "receipts": 5,
+            "amt": 44
+        },
+        "castro_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 3
+        },
+        "cortez_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "gabbard_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 27
+        },
+        "gillibrand_leadership": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 100
+        },
+        "gravel_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 27
+        },
+        "harris_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 3
+        },
+        "joint_trump": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 25
+        },
+        "nelson_sen": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 11
+        },
+        "omar_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "orourke_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 13
+        },
+        "sanders_pres": {
+            "donors": 4,
+            "receipts": 4,
+            "amt": 63
+        },
+        "sanders_sen": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 11
+        },
+        "stephanie_murphy_house": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 200
+        },
+        "steyer_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "tlaib_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "trump_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 50
+        },
+        "warren_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 30
+        },
+        "waters_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "williamson_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 20
+        },
+        "yang_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 27
+        }
+    },
     "sanders2016": {
         "barber_house": {
             "donors": 1,
@@ -2355,7 +3292,7 @@
             "amt": 100
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "buttigieg_pres": {
             "donors": 2,
             "receipts": 2,

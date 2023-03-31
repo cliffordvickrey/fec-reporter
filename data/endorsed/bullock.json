@@ -1375,6 +1375,178 @@
             }
         }
     },
+    "outOfState": {
+        "joint_baldwin_and_berkley_and_heitkamp_and_hirono_and_kaine_and_mccaskill_and_nelson_and_sherrod_brown_and_tester": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 765
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 11,
+                "amt": 2650
+            },
+            "all": {
+                "donors": 7,
+                "receipts": 14,
+                "amt": 3415
+            }
+        },
+        "joint_baldwin_and_casey_and_nelson_and_tester": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 4,
+                "amt": 1750
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 4,
+                "amt": 1750
+            }
+        },
+        "joint_donnelly_and_heitkamp_and_manchin_and_mccaskill_and_nelson_and_tester": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 5600
+            },
+            "post": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 3300
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 8900
+            }
+        },
+        "joint_heitkamp_and_tester": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 2851
+            },
+            "post": {
+                "donors": 7,
+                "receipts": 15,
+                "amt": 6416
+            },
+            "all": {
+                "donors": 8,
+                "receipts": 18,
+                "amt": 9267
+            }
+        },
+        "joint_mccaskill_and_tester": {
+            "pre": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 6300
+            },
+            "post": {
+                "donors": 6,
+                "receipts": 6,
+                "amt": 3977
+            },
+            "all": {
+                "donors": 7,
+                "receipts": 10,
+                "amt": 10277
+            }
+        },
+        "joint_mccaskill_and_tester_alt": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 450
+            },
+            "post": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 4165
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 6,
+                "amt": 4615
+            }
+        },
+        "joint_nelson_and_tester": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "joint_stabenow_and_tester_and_whitehouse": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            }
+        },
+        "tester_leadership": {
+            "pre": {
+                "donors": 6,
+                "receipts": 7,
+                "amt": 5650
+            },
+            "post": {
+                "donors": 11,
+                "receipts": 15,
+                "amt": 13087
+            },
+            "all": {
+                "donors": 14,
+                "receipts": 22,
+                "amt": 18737
+            }
+        },
+        "tester_sen": {
+            "pre": {
+                "donors": 1344,
+                "receipts": 1853,
+                "amt": 179338.96
+            },
+            "post": {
+                "donors": 3732,
+                "receipts": 10471,
+                "amt": 427347.29
+            },
+            "all": {
+                "donors": 4272,
+                "receipts": 12324,
+                "amt": 606686.25
+            }
+        }
+    },
     "unconnected": {
         "joint_baldwin_and_berkley_and_heitkamp_and_hirono_and_kaine_and_mccaskill_and_nelson_and_sherrod_brown_and_tester": {
             "pre": {
@@ -1530,7 +1702,7 @@
             }
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "joint_baldwin_and_berkley_and_heitkamp_and_hirono_and_kaine_and_mccaskill_and_nelson_and_sherrod_brown_and_tester": {
             "pre": {
                 "donors": 3,
@@ -2876,6 +3048,301 @@
             }
         }
     },
+    "connected": {
+        "joint_baldwin_and_casey_and_nelson_and_tester": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            }
+        },
+        "joint_donnelly_and_heitkamp_and_manchin_and_mccaskill_and_nelson_and_tester": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 5600
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 5600
+            }
+        },
+        "joint_heitkamp_and_tester": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "joint_mccaskill_and_tester": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 27
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 2827
+            }
+        },
+        "joint_mccaskill_and_tester_alt": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "joint_nelson_and_tester": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "tester_leadership": {
+            "pre": {
+                "donors": 6,
+                "receipts": 6,
+                "amt": 10900
+            },
+            "post": {
+                "donors": 9,
+                "receipts": 16,
+                "amt": 10147
+            },
+            "all": {
+                "donors": 11,
+                "receipts": 22,
+                "amt": 21047
+            }
+        },
+        "tester_sen": {
+            "pre": {
+                "donors": 1373,
+                "receipts": 1847,
+                "amt": 205952.27
+            },
+            "post": {
+                "donors": 1976,
+                "receipts": 5698,
+                "amt": 266859.98
+            },
+            "all": {
+                "donors": 2570,
+                "receipts": 7545,
+                "amt": 472812.25
+            }
+        }
+    },
+    "connectedPartyElite": {
+        "joint_baldwin_and_casey_and_nelson_and_tester": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            }
+        },
+        "joint_donnelly_and_heitkamp_and_manchin_and_mccaskill_and_nelson_and_tester": {
+            "pre": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 5600
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 2,
+                "amt": 5600
+            }
+        },
+        "joint_heitkamp_and_tester": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "joint_mccaskill_and_tester": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 27
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 2827
+            }
+        },
+        "joint_mccaskill_and_tester_alt": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "joint_nelson_and_tester": {
+            "pre": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "all": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            }
+        },
+        "tester_leadership": {
+            "pre": {
+                "donors": 5,
+                "receipts": 5,
+                "amt": 8100
+            },
+            "post": {
+                "donors": 8,
+                "receipts": 14,
+                "amt": 9147
+            },
+            "all": {
+                "donors": 9,
+                "receipts": 19,
+                "amt": 17247
+            }
+        },
+        "tester_sen": {
+            "pre": {
+                "donors": 958,
+                "receipts": 1372,
+                "amt": 157197.07
+            },
+            "post": {
+                "donors": 1382,
+                "receipts": 4591,
+                "amt": 205267.46
+            },
+            "all": {
+                "donors": 1743,
+                "receipts": 5963,
+                "amt": 362464.53
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "tester_sen": {
+            "pre": {
+                "donors": 130,
+                "receipts": 154,
+                "amt": 26098
+            },
+            "post": {
+                "donors": 312,
+                "receipts": 627,
+                "amt": 50501.2
+            },
+            "all": {
+                "donors": 387,
+                "receipts": 781,
+                "amt": 76599.2
+            }
+        }
+    },
     "loyal": {
         "joint_baldwin_and_berkley_and_heitkamp_and_hirono_and_kaine_and_mccaskill_and_nelson_and_sherrod_brown_and_tester": {
             "pre": {
@@ -3033,6 +3500,42 @@
             }
         }
     },
+    "connectedNonPartyElite": {
+        "tester_leadership": {
+            "pre": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 2800
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 2,
+                "amt": 1000
+            },
+            "all": {
+                "donors": 2,
+                "receipts": 3,
+                "amt": 3800
+            }
+        },
+        "tester_sen": {
+            "pre": {
+                "donors": 415,
+                "receipts": 475,
+                "amt": 48755.2
+            },
+            "post": {
+                "donors": 594,
+                "receipts": 1107,
+                "amt": 61592.52
+            },
+            "all": {
+                "donors": 827,
+                "receipts": 1582,
+                "amt": 110347.72
+            }
+        }
+    },
     "traitor": {
         "tester_sen": {
             "pre": {
@@ -3049,6 +3552,42 @@
                 "donors": 35,
                 "receipts": 122,
                 "amt": 3882.93
+            }
+        }
+    },
+    "inState": {
+        "tester_leadership": {
+            "pre": {
+                "donors": 3,
+                "receipts": 3,
+                "amt": 7100
+            },
+            "post": {
+                "donors": 4,
+                "receipts": 9,
+                "amt": 4210
+            },
+            "all": {
+                "donors": 5,
+                "receipts": 12,
+                "amt": 11310
+            }
+        },
+        "tester_sen": {
+            "pre": {
+                "donors": 1077,
+                "receipts": 1345,
+                "amt": 127082.01
+            },
+            "post": {
+                "donors": 1602,
+                "receipts": 3988,
+                "amt": 199944.07
+            },
+            "all": {
+                "donors": 2099,
+                "receipts": 5333,
+                "amt": 327026.08
             }
         }
     }

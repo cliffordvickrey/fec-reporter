@@ -101,6 +101,23 @@
             "amt": 10
         }
     },
+    "outOfState": {
+        "doug_jones_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "harris_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        },
+        "yang_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        }
+    },
     "unconnected": {
         "doug_jones_sen": {
             "donors": 1,
@@ -118,7 +135,7 @@
             "amt": 10
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "doug_jones_sen": {
             "donors": 1,
             "receipts": 1,
@@ -130,6 +147,27 @@
             "amt": 10
         },
         "yang_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        }
+    },
+    "inState": {
+        "harris_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        }
+    },
+    "connected": {
+        "harris_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 10
+        }
+    },
+    "connectedNonPartyElite": {
+        "harris_pres": {
             "donors": 1,
             "receipts": 1,
             "amt": 10

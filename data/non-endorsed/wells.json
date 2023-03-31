@@ -109,7 +109,51 @@
             "amt": 1
         }
     },
+    "outOfState": {
+        "buttigieg_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "patrick_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "steyer_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 11
+        },
+        "yang_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        }
+    },
     "unconnected": {
+        "buttigieg_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "patrick_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        },
+        "steyer_pres": {
+            "donors": 2,
+            "receipts": 2,
+            "amt": 11
+        },
+        "yang_pres": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 1
+        }
+    },
+    "unconnectedPartyElite": {
         "buttigieg_pres": {
             "donors": 1,
             "receipts": 1,

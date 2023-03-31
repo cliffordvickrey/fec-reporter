@@ -36,6 +36,12 @@ final class CandidateGrid extends AbstractGrid
         $this[] = $col;
 
         $col = new GridColumn();
+        $col->id = 'exploratoryDate';
+        $col->title = 'Exploratory Committee Date';
+        $col->format = new GridColumnFormat(GridColumnFormat::FORMAT_DATE);
+        $this[] = $col;
+
+        $col = new GridColumn();
         $col->id = 'fecFilingDate';
         $col->title = 'FEC Filing Date';
         $col->format = new GridColumnFormat(GridColumnFormat::FORMAT_DATE);

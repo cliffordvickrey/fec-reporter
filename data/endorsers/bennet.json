@@ -214,26 +214,26 @@
     "weekOneLaunch": {
         "golden_house": {
             "pre": {
-                "donors": 201,
-                "receipts": 460,
-                "amt": 38669.39
+                "donors": 291,
+                "receipts": 609,
+                "amt": 51034.64
             },
             "post": {
-                "donors": 49,
-                "receipts": 138,
-                "amt": 12950.94
+                "donors": 74,
+                "receipts": 183,
+                "amt": 26325.98
             },
             "all": {
-                "donors": 231,
-                "receipts": 598,
-                "amt": 51620.33
+                "donors": 337,
+                "receipts": 792,
+                "amt": 77360.62
             }
         },
         "hickenlooper_leadership": {
             "pre": {
-                "donors": 19,
-                "receipts": 19,
-                "amt": 48580
+                "donors": 27,
+                "receipts": 28,
+                "amt": 52030
             },
             "post": {
                 "donors": 0,
@@ -241,16 +241,16 @@
                 "amt": 0
             },
             "all": {
-                "donors": 19,
-                "receipts": 19,
-                "amt": 48580
+                "donors": 27,
+                "receipts": 28,
+                "amt": 52030
             }
         },
         "hickenlooper_pres": {
             "pre": {
-                "donors": 382,
-                "receipts": 722,
-                "amt": 70854.67
+                "donors": 521,
+                "receipts": 930,
+                "amt": 98089.55
             },
             "post": {
                 "donors": 0,
@@ -258,9 +258,9 @@
                 "amt": 0
             },
             "all": {
-                "donors": 382,
-                "receipts": 722,
-                "amt": 70854.67
+                "donors": 521,
+                "receipts": 930,
+                "amt": 98089.55
             }
         }
     },
@@ -423,6 +423,59 @@
             }
         }
     },
+    "outOfState": {
+        "golden_house": {
+            "pre": {
+                "donors": 1493,
+                "receipts": 3207,
+                "amt": 231556.58
+            },
+            "post": {
+                "donors": 364,
+                "receipts": 1090,
+                "amt": 77662.46
+            },
+            "all": {
+                "donors": 1696,
+                "receipts": 4297,
+                "amt": 309219.04
+            }
+        },
+        "hickenlooper_leadership": {
+            "pre": {
+                "donors": 27,
+                "receipts": 28,
+                "amt": 33545
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 5000
+            },
+            "all": {
+                "donors": 28,
+                "receipts": 29,
+                "amt": 38545
+            }
+        },
+        "hickenlooper_pres": {
+            "pre": {
+                "donors": 1549,
+                "receipts": 2258,
+                "amt": 156244.56
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1549,
+                "receipts": 2258,
+                "amt": 156244.56
+            }
+        }
+    },
     "unconnected": {
         "golden_house": {
             "pre": {
@@ -473,6 +526,59 @@
                 "donors": 1443,
                 "receipts": 2048,
                 "amt": 99988.97
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "golden_house": {
+            "pre": {
+                "donors": 142,
+                "receipts": 259,
+                "amt": 39740.93
+            },
+            "post": {
+                "donors": 35,
+                "receipts": 76,
+                "amt": 13318.44
+            },
+            "all": {
+                "donors": 165,
+                "receipts": 335,
+                "amt": 53059.37
+            }
+        },
+        "hickenlooper_leadership": {
+            "pre": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 5135
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 4,
+                "receipts": 4,
+                "amt": 5135
+            }
+        },
+        "hickenlooper_pres": {
+            "pre": {
+                "donors": 589,
+                "receipts": 726,
+                "amt": 47517.6
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 589,
+                "receipts": 726,
+                "amt": 47517.6
             }
         }
     },
@@ -847,7 +953,7 @@
             }
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "golden_house": {
             "pre": {
                 "donors": 1069,
@@ -897,6 +1003,59 @@
                 "donors": 854,
                 "receipts": 1322,
                 "amt": 52471.37
+            }
+        }
+    },
+    "dayOneLaunch": {
+        "golden_house": {
+            "pre": {
+                "donors": 58,
+                "receipts": 94,
+                "amt": 12618.58
+            },
+            "post": {
+                "donors": 12,
+                "receipts": 21,
+                "amt": 7103.59
+            },
+            "all": {
+                "donors": 66,
+                "receipts": 115,
+                "amt": 19722.17
+            }
+        },
+        "hickenlooper_leadership": {
+            "pre": {
+                "donors": 9,
+                "receipts": 9,
+                "amt": 12100
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 9,
+                "receipts": 9,
+                "amt": 12100
+            }
+        },
+        "hickenlooper_pres": {
+            "pre": {
+                "donors": 133,
+                "receipts": 239,
+                "amt": 29837.1
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 133,
+                "receipts": 239,
+                "amt": 29837.1
             }
         }
     },
@@ -1095,6 +1254,112 @@
             }
         }
     },
+    "connected": {
+        "golden_house": {
+            "pre": {
+                "donors": 417,
+                "receipts": 1000,
+                "amt": 71174.67
+            },
+            "post": {
+                "donors": 76,
+                "receipts": 212,
+                "amt": 22691.46
+            },
+            "all": {
+                "donors": 452,
+                "receipts": 1212,
+                "amt": 93866.13
+            }
+        },
+        "hickenlooper_leadership": {
+            "pre": {
+                "donors": 113,
+                "receipts": 131,
+                "amt": 196369
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "all": {
+                "donors": 114,
+                "receipts": 132,
+                "amt": 196619
+            }
+        },
+        "hickenlooper_pres": {
+            "pre": {
+                "donors": 1598,
+                "receipts": 2931,
+                "amt": 427817.33
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1598,
+                "receipts": 2931,
+                "amt": 427817.33
+            }
+        }
+    },
+    "connectedPartyElite": {
+        "golden_house": {
+            "pre": {
+                "donors": 398,
+                "receipts": 980,
+                "amt": 71008.16
+            },
+            "post": {
+                "donors": 72,
+                "receipts": 208,
+                "amt": 22599.46
+            },
+            "all": {
+                "donors": 429,
+                "receipts": 1188,
+                "amt": 93607.62
+            }
+        },
+        "hickenlooper_leadership": {
+            "pre": {
+                "donors": 73,
+                "receipts": 87,
+                "amt": 115394
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "all": {
+                "donors": 74,
+                "receipts": 88,
+                "amt": 115644
+            }
+        },
+        "hickenlooper_pres": {
+            "pre": {
+                "donors": 932,
+                "receipts": 1878,
+                "amt": 244048.69
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 932,
+                "receipts": 1878,
+                "amt": 244048.69
+            }
+        }
+    },
     "priorLeadershipPac": {
         "golden_house": {
             "pre": {
@@ -1148,29 +1413,29 @@
             }
         }
     },
-    "dayOneLaunch": {
+    "connectedNonPartyElite": {
         "golden_house": {
             "pre": {
-                "donors": 44,
-                "receipts": 125,
-                "amt": 4311.39
+                "donors": 19,
+                "receipts": 20,
+                "amt": 166.51
             },
             "post": {
-                "donors": 16,
-                "receipts": 49,
-                "amt": 1293.72
+                "donors": 4,
+                "receipts": 4,
+                "amt": 92
             },
             "all": {
-                "donors": 49,
-                "receipts": 174,
-                "amt": 5605.11
+                "donors": 23,
+                "receipts": 24,
+                "amt": 258.51
             }
         },
         "hickenlooper_leadership": {
             "pre": {
-                "donors": 6,
-                "receipts": 6,
-                "amt": 18600
+                "donors": 40,
+                "receipts": 44,
+                "amt": 80975
             },
             "post": {
                 "donors": 0,
@@ -1178,16 +1443,16 @@
                 "amt": 0
             },
             "all": {
-                "donors": 6,
-                "receipts": 6,
-                "amt": 18600
+                "donors": 40,
+                "receipts": 44,
+                "amt": 80975
             }
         },
         "hickenlooper_pres": {
             "pre": {
-                "donors": 75,
-                "receipts": 134,
-                "amt": 10484.58
+                "donors": 666,
+                "receipts": 1053,
+                "amt": 183768.64
             },
             "post": {
                 "donors": 0,
@@ -1195,9 +1460,9 @@
                 "amt": 0
             },
             "all": {
-                "donors": 75,
-                "receipts": 134,
-                "amt": 10484.58
+                "donors": 666,
+                "receipts": 1053,
+                "amt": 183768.64
             }
         }
     },
@@ -1234,6 +1499,59 @@
                 "donors": 15,
                 "receipts": 18,
                 "amt": 27400
+            }
+        }
+    },
+    "inState": {
+        "golden_house": {
+            "pre": {
+                "donors": 135,
+                "receipts": 200,
+                "amt": 1866.18
+            },
+            "post": {
+                "donors": 31,
+                "receipts": 50,
+                "amt": 6067.99
+            },
+            "all": {
+                "donors": 161,
+                "receipts": 250,
+                "amt": 7934.17
+            }
+        },
+        "hickenlooper_leadership": {
+            "pre": {
+                "donors": 100,
+                "receipts": 118,
+                "amt": 174044
+            },
+            "post": {
+                "donors": 1,
+                "receipts": 1,
+                "amt": 250
+            },
+            "all": {
+                "donors": 101,
+                "receipts": 119,
+                "amt": 174294
+            }
+        },
+        "hickenlooper_pres": {
+            "pre": {
+                "donors": 1492,
+                "receipts": 2721,
+                "amt": 371561.74
+            },
+            "post": {
+                "donors": 0,
+                "receipts": 0,
+                "amt": 0
+            },
+            "all": {
+                "donors": 1492,
+                "receipts": 2721,
+                "amt": 371561.74
             }
         }
     }

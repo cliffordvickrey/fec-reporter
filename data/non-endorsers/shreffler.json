@@ -126,6 +126,33 @@
             "amt": 15
         }
     },
+    "outOfState": {
+        "feingold_sen": {
+            "donors": 1,
+            "receipts": 2,
+            "amt": 75
+        },
+        "grayson_house": {
+            "donors": 1,
+            "receipts": 3,
+            "amt": 3
+        },
+        "sean_maloney_house": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 35
+        },
+        "warren_pres": {
+            "donors": 1,
+            "receipts": 9,
+            "amt": 197.5
+        },
+        "warren_sen": {
+            "donors": 1,
+            "receipts": 1,
+            "amt": 15
+        }
+    },
     "unconnected": {
         "feingold_sen": {
             "donors": 1,
@@ -153,7 +180,7 @@
             "amt": 15
         }
     },
-    "unconnectedPartyElite": {
+    "unconnectedNonPartyElite": {
         "feingold_sen": {
             "donors": 1,
             "receipts": 2,

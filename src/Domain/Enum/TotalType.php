@@ -12,8 +12,12 @@ use function strtolower;
 final class TotalType extends AbstractEnum
 {
     public const TYPE_ALL = 'all';
+    public const TYPE_DAY_ONE_EXPLORATORY = 'dayOneExploratory';
+    public const TYPE_WEEK_ONE_EXPLORATORY = 'weekOneExploratory';
     public const TYPE_DAY_ONE_LAUNCH = 'dayOneLaunch';
     public const TYPE_WEEK_ONE_LAUNCH = 'weekOneLaunch';
+    public const TYPE_IN_STATE = 'inState';
+    public const TYPE_OUT_OF_STATE = 'outOfState';
     public const TYPE_FIRST_TIME = 'firstTime';
     public const TYPE_PRIOR = 'prior';
     public const TYPE_PRIOR_CAMPAIGN = 'priorCampaign';
@@ -37,12 +41,20 @@ final class TotalType extends AbstractEnum
     public const TYPE_ELITE_PAC = 'elitePac';
     public const TYPE_UNCONNECTED = 'unconnected';
     public const TYPE_UNCONNECTED_PARTY_ELITE = 'unconnectedPartyElite';
+    public const TYPE_UNCONNECTED_NON_PARTY_ELITE = 'unconnectedNonPartyElite';
+    public const TYPE_CONNECTED = 'connected';
+    public const TYPE_CONNECTED_PARTY_ELITE = 'connectedPartyElite';
+    public const TYPE_CONNECTED_NON_PARTY_ELITE = 'connectedNonPartyElite';
 
     /** @var array<non-empty-string, non-empty-string> */
     private static array $blurbs = [
         self::TYPE_ALL => 'All donors who gave before 4/25/2020',
+        self::TYPE_DAY_ONE_EXPLORATORY => 'Donors who contributed on day 1 of exploratory committee',
+        self::TYPE_WEEK_ONE_EXPLORATORY => 'Donors who contributed on week 1 of exploratory committee',
         self::TYPE_DAY_ONE_LAUNCH => 'Donors who contributed on day 1',
         self::TYPE_WEEK_ONE_LAUNCH => 'Donors who contributed in week 1',
+        self::TYPE_IN_STATE => 'Donors from the same state as the candidate',
+        self::TYPE_OUT_OF_STATE => 'Donors from a different state than the candidate',
         self::TYPE_FIRST_TIME => 'Donors who only gave to presidential campaign committee and made no contributions to'
             . ' any other committee in 2020 or any other election',
         self::TYPE_PRIOR => 'Donors who gave to one of the candidate\'s other campaign committees or their previous'
@@ -78,7 +90,12 @@ final class TotalType extends AbstractEnum
             . ' Party in 2020 or before',
         self::TYPE_ELITE_PAC => 'Gave to candidate campaign committee in 2020 and PAC in 2020 or before',
         self::TYPE_UNCONNECTED => 'Out-of-state, non-prior donors',
-        self::TYPE_UNCONNECTED_PARTY_ELITE => 'Out-of-state, non-prior donors who are party elites'
+        self::TYPE_UNCONNECTED_PARTY_ELITE => 'Out-of-state, non-prior donors who are party elites',
+        self::TYPE_UNCONNECTED_NON_PARTY_ELITE => 'Out-of-state, non-prior donors who are not party elites',
+        self::TYPE_CONNECTED => 'In-state or prior donors',
+        self::TYPE_CONNECTED_PARTY_ELITE => 'In-state or prior donors who are party elites',
+        self::TYPE_CONNECTED_NON_PARTY_ELITE => 'In-state or prior donors who are not party elites'
+
     ];
 
     /**
@@ -108,8 +125,12 @@ final class TotalType extends AbstractEnum
     {
         return [
             self::TYPE_ALL => 'Primary Donors',
+            self::TYPE_DAY_ONE_EXPLORATORY => 'Day 1 Exploratory Launch Donors',
+            self::TYPE_WEEK_ONE_EXPLORATORY => 'Week 1 Exploratory Launch Donors',
             self::TYPE_DAY_ONE_LAUNCH => 'Day 1 Launch Donors',
             self::TYPE_WEEK_ONE_LAUNCH => 'Week 1 Launch Donors',
+            self::TYPE_IN_STATE => 'In State Donors',
+            self::TYPE_OUT_OF_STATE => 'Out of State Donors',
             self::TYPE_FIRST_TIME => 'First-Time Donors',
             self::TYPE_PRIOR => 'Prior Donors',
             self::TYPE_PRIOR_CAMPAIGN => 'Prior Campaign Donors',
@@ -132,7 +153,11 @@ final class TotalType extends AbstractEnum
             self::TYPE_ELITE_PARTY => 'Elite Party Donors',
             self::TYPE_ELITE_PAC => 'Elite PAC Donors',
             self::TYPE_UNCONNECTED => 'Unconnected Donors',
-            self::TYPE_UNCONNECTED_PARTY_ELITE => 'Unconnected Party Elites'
+            self::TYPE_UNCONNECTED_PARTY_ELITE => 'Unconnected Party Elites',
+            self::TYPE_UNCONNECTED_NON_PARTY_ELITE => 'Unconnected Non-Party Elites',
+            self::TYPE_CONNECTED => 'Connected Donors',
+            self::TYPE_CONNECTED_PARTY_ELITE => 'Connected Party Elites',
+            self::TYPE_CONNECTED_NON_PARTY_ELITE => 'Connected Non-Party Elites'
         ];
     }
 }

@@ -20,6 +20,8 @@ final class SubTotalType extends AbstractEnum
     public const SUB_TYPE_Q3_2019 = 'q32019';
     public const SUB_TYPE_Q4_2019 = 'q42019';
     public const SUB_TYPE_Q1_2020 = 'q12020';
+    public const SUB_TYPE_EXPLORATORY_DAY1 = 'exploratoryDay1';
+    public const SUB_TYPE_EXPLORATORY_WEEK1 = 'exploratoryWeek1';
     public const SUB_TYPE_DAY1 = 'day1';
     public const SUB_TYPE_WEEK1 = 'week1';
     public const SUB_TYPE_INVISIBLE_PRIMARY = 'invisiblePrimary';
@@ -50,6 +52,11 @@ final class SubTotalType extends AbstractEnum
     public const SUB_TYPE_HOUSE_ENDORSEMENT = 'houseEndorsement';
     public const SUB_TYPE_UNCONNECTED = 'unconnected';
     public const SUB_TYPE_UNCONNECTED_PARTY_ELITE = 'unconnectedPartyElite';
+    public const SUB_TYPE_UNCONNECTED_NON_PARTY_ELITE = 'unconnectedNonPartyElite';
+    public const SUB_TYPE_CONNECTED = 'connected';
+    public const SUB_TYPE_CONNECTED_PARTY_ELITE = 'connectedPartyElite';
+    public const SUB_TYPE_CONNECTED_NON_PARTY_ELITE = 'connectedNonPartyElite';
+    public const SUB_TYPE_SELF_FINANCED = 'selfFinanced';
 
     /**
      * @return array<string, string>
@@ -69,6 +76,8 @@ final class SubTotalType extends AbstractEnum
             self::SUB_TYPE_Q3_2019 => '2019 Quarter 3 (July 1 - September 30)',
             self::SUB_TYPE_Q4_2019 => '2019 Quarter 4 (October 1 - December 31)',
             self::SUB_TYPE_Q1_2020 => '2020 Quarter 1 (January 1 - March 31)',
+            self::SUB_TYPE_EXPLORATORY_DAY1 => 'Day 1 Exploratory Committee',
+            self::SUB_TYPE_EXPLORATORY_WEEK1 => 'Week 1 Exploratory Committee',
             self::SUB_TYPE_DAY1 => 'Day 1',
             self::SUB_TYPE_WEEK1 => 'Week 1',
             self::SUB_TYPE_INVISIBLE_PRIMARY => 'Invisible Primary (January 1, 2019 - January 31, 2020)',
@@ -100,7 +109,12 @@ final class SubTotalType extends AbstractEnum
             self::SUB_TYPE_SENATE_ENDORSEMENT => 'Senate Endorsement Donors (Donors who gave to Senate endorser)',
             self::SUB_TYPE_HOUSE_ENDORSEMENT => 'House Endorsement Donors (Donors who gave to House endorser)',
             self::SUB_TYPE_UNCONNECTED => 'Unconnected Donors',
-            self::SUB_TYPE_UNCONNECTED_PARTY_ELITE => 'Unconnected Donors (party elites)'
+            self::SUB_TYPE_UNCONNECTED_PARTY_ELITE => 'Unconnected Donors (party elites)',
+            self::SUB_TYPE_UNCONNECTED_NON_PARTY_ELITE => 'Unconnected Donors (non-party elites)',
+            self::SUB_TYPE_CONNECTED => 'Connected Donors',
+            self::SUB_TYPE_CONNECTED_PARTY_ELITE => 'Connected Donors (party elites)',
+            self::SUB_TYPE_CONNECTED_NON_PARTY_ELITE => 'Connected Donors (non-party elites)',
+            self::SUB_TYPE_SELF_FINANCED => 'Self-financed'
         ];
     }
 }

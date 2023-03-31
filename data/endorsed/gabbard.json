@@ -132,6 +132,25 @@
             }
         }
     },
+    "outOfState": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 12915,
+                "receipts": 30961,
+                "amt": 476216.25
+            },
+            "post": {
+                "donors": 5382,
+                "receipts": 30449,
+                "amt": 607934.51
+            },
+            "all": {
+                "donors": 13807,
+                "receipts": 61410,
+                "amt": 1084150.76
+            }
+        }
+    },
     "unconnected": {
         "gravel_pres": {
             "pre": {
@@ -148,6 +167,25 @@
                 "donors": 11994,
                 "receipts": 46104,
                 "amt": 791615.2
+            }
+        }
+    },
+    "unconnectedPartyElite": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 9766,
+                "receipts": 19948,
+                "amt": 291313.05
+            },
+            "post": {
+                "donors": 3597,
+                "receipts": 17151,
+                "amt": 342682.6
+            },
+            "all": {
+                "donors": 10432,
+                "receipts": 37099,
+                "amt": 633995.65
             }
         }
     },
@@ -265,7 +303,45 @@
             }
         }
     },
-    "unconnectedPartyElite": {
+    "connected": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 1853,
+                "receipts": 7321,
+                "amt": 129442.44
+            },
+            "post": {
+                "donors": 1073,
+                "receipts": 8681,
+                "amt": 179647.87
+            },
+            "all": {
+                "donors": 1932,
+                "receipts": 16002,
+                "amt": 309090.31
+            }
+        }
+    },
+    "connectedPartyElite": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 645,
+                "receipts": 2748,
+                "amt": 49497.9
+            },
+            "post": {
+                "donors": 386,
+                "receipts": 3117,
+                "amt": 56539.06
+            },
+            "all": {
+                "donors": 668,
+                "receipts": 5865,
+                "amt": 106036.96
+            }
+        }
+    },
+    "unconnectedNonPartyElite": {
         "gravel_pres": {
             "pre": {
                 "donors": 1408,
@@ -284,22 +360,60 @@
             }
         }
     },
+    "connectedNonPartyElite": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 1208,
+                "receipts": 4573,
+                "amt": 79944.54
+            },
+            "post": {
+                "donors": 687,
+                "receipts": 5564,
+                "amt": 123108.81
+            },
+            "all": {
+                "donors": 1264,
+                "receipts": 10137,
+                "amt": 203053.35
+            }
+        }
+    },
+    "dayOneLaunch": {
+        "gravel_pres": {
+            "pre": {
+                "donors": 158,
+                "receipts": 810,
+                "amt": 16242.08
+            },
+            "post": {
+                "donors": 79,
+                "receipts": 775,
+                "amt": 15122.83
+            },
+            "all": {
+                "donors": 158,
+                "receipts": 1585,
+                "amt": 31364.91
+            }
+        }
+    },
     "weekOneLaunch": {
         "gravel_pres": {
             "pre": {
-                "donors": 153,
-                "receipts": 1216,
-                "amt": 26880.54
+                "donors": 516,
+                "receipts": 3009,
+                "amt": 68853.7
             },
             "post": {
-                "donors": 102,
-                "receipts": 1350,
-                "amt": 33273.36
+                "donors": 305,
+                "receipts": 3252,
+                "amt": 71562.65
             },
             "all": {
-                "donors": 153,
-                "receipts": 2566,
-                "amt": 60153.9
+                "donors": 516,
+                "receipts": 6261,
+                "amt": 140416.35
             }
         }
     },
@@ -341,22 +455,22 @@
             }
         }
     },
-    "dayOneLaunch": {
+    "inState": {
         "gravel_pres": {
             "pre": {
-                "donors": 26,
-                "receipts": 188,
-                "amt": 3738.7
+                "donors": 112,
+                "receipts": 289,
+                "amt": 7441.55
             },
             "post": {
-                "donors": 15,
-                "receipts": 198,
-                "amt": 4599.04
+                "donors": 55,
+                "receipts": 407,
+                "amt": 9113.2
             },
             "all": {
-                "donors": 26,
-                "receipts": 386,
-                "amt": 8337.74
+                "donors": 119,
+                "receipts": 696,
+                "amt": 16554.75
             }
         }
     }
